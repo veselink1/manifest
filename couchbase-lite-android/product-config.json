@@ -1,9 +1,9 @@
 {
     "product": "couchbase-lite-android",
     "manifests": {
-        "couchbase-lite-android/hydrogen.xml": {
-            "release": "2.8.0",
-            "release_name": "Couchbase Lite Android - Hydrogen 2.8.0",
+        "couchbase-lite-android/lithium.xml": {
+            "release": "3.0.0",
+            "release_name": "Couchbase Lite Android - Lithium 3.0.0",
             "production": true,
             "interval": 60,
             "restricted": false,
@@ -11,6 +11,19 @@
             "keep_git": true,
             "trigger_blackduck": true,
             "do-build": true,
+            "module_projects": [ "couchbase-lite-java-ee-root" ],
+            "jenkins_job": "couchbase-lite-android"
+        },
+        "couchbase-lite-android/hydrogen.xml": {
+            "release": "2.8.0",
+            "release_name": "Couchbase Lite Android - Hydrogen 2.8.0",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-java-ee-root" ],
             "jenkins_job": "couchbase-lite-android"
         },
