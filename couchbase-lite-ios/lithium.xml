@@ -12,7 +12,7 @@
   <remote name="google" fetch="git://github.com/google/"/>
   <remote name="ARMmbed" fetch="git://github.com/ARMmbed"/>
 
-  <default remote="couchbase" revision="release/hydrogen"/>
+  <default remote="couchbase" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repositories               -->
@@ -58,6 +58,6 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts"/>
   <project name="build">
-    <annotation name="VERSION" value="2.8.0" keep="true"/>
+    <annotation name="VERSION" value="3.0.0" keep="true"/>
   </project>
 </manifest>
