@@ -1,11 +1,26 @@
 {
     "product": "couchbase-lite-net",
     "manifests": {
+        "couchbase-lite-net/lithium.xml": {
+            "release": "3.0.0",
+            "release_name": "Couchbase Lite Net - Lithium",
+            "production": true,
+            "interval": 120,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "do-build": true,
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
+        },
         "couchbase-lite-net/hydrogen.xml": {
             "release": "2.8.0",
             "release_name": "Couchbase Lite Net - Hydrogen",
             "production": true,
-            "interval": 90,
+            "interval": 1440,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
