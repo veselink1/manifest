@@ -9,7 +9,7 @@
   <remote name="leetal" fetch="git://github.com/leetal/"/>
   <remote name="google" fetch="git://github.com/google/"/>
 
-  <default remote="couchbase" revision="release/hydrogen"/>
+  <default remote="couchbase" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
@@ -42,7 +42,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="tlm" revision="2d46e032cf08727e8e5fab67d05c4f1b051989e4"/>
   <project name="build" path="cbbuild" revision="2e9d89d03b360f2d9f9c9ddbdc8fa532d41ab3d9">
-    <annotation name="VERSION" value="2.8.0" keep="true"/>
+    <annotation name="VERSION" value="3.0.0" keep="true"/>
     <copyfile src="scripts/jenkins/lite-core/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
 </manifest>
