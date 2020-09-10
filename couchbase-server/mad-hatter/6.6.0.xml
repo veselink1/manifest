@@ -12,7 +12,7 @@
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="backup,notdefault,enterprise" revision="b6b64713fbe98198ef7ad999c0e12a65dea66851"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft" revision="3d2709aaf73ada8a1d0a0d68bb32450409710e91"/>
   <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise" revision="46dbb7c6edac7dfef017ae889d7a5b7536ce904d"/>
-  <project name="cbgt" revision="29d749500b81696f4ce96b50ce51bf70a60869ca" path="goproj/src/github.com/couchbase/cbgt"/>
+  <project name="cbgt" revision="6.6.0" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="31ba0584a81d5b293cedfb236109ab95036aa395"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
   <project name="couchbase-cli" groups="kv" revision="40550e655f6a930f16662ecf2562d8b8183c25bb"/>
