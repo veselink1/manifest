@@ -49,11 +49,6 @@
   <project name="mbed-crypto" remote="couchbasedeps" revision="6572da5ba51abf56b3f0cc554fa3efec8f847a24" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/mbedtls/crypto"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Couchbase-owned mobile testkit                     -->
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mobile-testkit" remote="couchbaselabs-priv" groups="notdefault"/>
-
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts"/>
