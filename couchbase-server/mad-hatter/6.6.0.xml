@@ -12,7 +12,7 @@
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="backup,notdefault,enterprise" revision="b6b64713fbe98198ef7ad999c0e12a65dea66851"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft" revision="3d2709aaf73ada8a1d0a0d68bb32450409710e91"/>
   <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise" revision="46dbb7c6edac7dfef017ae889d7a5b7536ce904d"/>
-  <project name="cbgt" revision="6.6.0" path="goproj/src/github.com/couchbase/cbgt"/>
+  <project name="cbgt" revision="4c8c151c3bbbabc16d77089ad2d68d84ee906489" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="31ba0584a81d5b293cedfb236109ab95036aa395"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
   <project name="couchbase-cli" groups="kv" revision="40550e655f6a930f16662ecf2562d8b8183c25bb"/>
@@ -28,9 +28,9 @@
   <project name="nitro" revision="1cc0c3058bef77ef4b87d623e1024b0cd048d015" path="goproj/src/github.com/couchbase/nitro"/>
   <project name="indexing" revision="4bdee328520edb9cc0ad01ce18cc7aa7d572cb66" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma" revision="cb03e68c9e25b444951b324951dca6fffed0cef9" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="eventing" revision="mad-hatter" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
+  <project name="eventing" revision="e0bd3a4c66f3f8362dfacc59bcdab391119e2912" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="ad008ec000b426bdf11dcac245c936b65a0e0214" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="kv_engine" groups="kv" revision="b08424f8204e279ed15323e2507f7bb1236aa260"/>
+  <project name="kv_engine" groups="kv" revision="6.6.0"/>
   <!-- libcouchbase is tag 2.10.6 + one build-script change for MB-37768 -->
   <project name="libcouchbase" revision="a77874d1379bd1896b8a507b9d70420fa918a5f8" groups="notdefault,enterprise"/>
   <project name="magma" revision="c8e91e0af8b46d0a0e026d23ebbfab4048f670b6" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
