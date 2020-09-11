@@ -16,8 +16,8 @@
   <project name="cbft" remote="abhinavdangeti" revision="temp"/>
   <project name="cbft" remote="abhinavdangeti" revision="temp" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="cbgt"/>
-  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
+  <project name="cbgt" remote="abhinavdangeti" revision="temp"/>
+  <project name="cbgt" remote="abhinavdangeti" revision="temp" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
   <project name="couchbase-cli" groups="kv"/>
@@ -167,7 +167,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="0.0.0"     keep="true"/>
+    <annotation name="VERSION" value="7.0.0"     keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
