@@ -37,7 +37,7 @@
   <project name="ns_server" revision="mad-hatter"/>
   <project name="phosphor" groups="kv" revision="53ca1eeae7bd3deea5b7bf48b3d4188b47e530d1"/>
   <project name="platform" groups="kv" revision="mad-hatter"/>
-  <project name="product-texts" groups="kv" revision="74c19969e8ef1b5309077a03885d00e273378f6c"/>
+  <project name="product-texts" groups="kv" revision="9a27722a1a4c9aede65b95c38f42a33235d242e0"/>
   <project name="query-ee" revision="mad-hatter" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="query" revision="mad-hatter" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="mad-hatter"/>
