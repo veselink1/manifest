@@ -55,7 +55,7 @@
             "start_build": 4927,
             "interval": 60,
             "restricted": true,
-            "approval_ticket": "MB-41489"
+            "approval_ticket": "MB-41603"
         },
         "couchbase-server/mad-hatter/6.5.0.xml": {
             "release": "mad-hatter",

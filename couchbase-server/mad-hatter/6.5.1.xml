@@ -30,7 +30,7 @@
   <project name="plasma" revision="f7ed5f6aff5c9077e223b685883ab5318a6c8893" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="104dc876579adc97ebc688074155f4d69b6b8ee7" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="0642262623b651cffbd074f8fb7827dff29d60e4" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="kv_engine" groups="kv" revision="6.5.1"/>
+  <project name="kv_engine" groups="kv" revision="166a75af402715e34381221f83eec2a9ae7dfb32"/>
   <!-- libcouchbase is tag 2.10.6 + one build-script change for MB-37768 -->
   <project name="libcouchbase" revision="a77874d1379bd1896b8a507b9d70420fa918a5f8" groups="notdefault,enterprise"/>
   <project name="magma" revision="c8e91e0af8b46d0a0e026d23ebbfab4048f670b6" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
@@ -84,7 +84,7 @@
   <project name="godbc" revision="b2aaaa21900ab3e95d37d38fb5a0f320426cbe56" path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json" revision="d47ffbbc4863b0020bb85c4e181d4044ea184d40" path="godeps/src/github.com/couchbase/go_json"/>
   <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="ef2e028c01fdb60c46da4067d2e83745b8d54120"/>
-  <project name="n1fty" revision="354d5201a478ff4fe1edeee420efa7f5083fdff9" path="godeps/src/github.com/couchbase/n1fty"/>
+  <project name="n1fty" revision="6.5.1" path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve" remote="blevesearch" revision="9e60a140980fb321259f7a1aa68ad269c8d08be4" path="godeps/src/github.com/blevesearch/bleve"/>
