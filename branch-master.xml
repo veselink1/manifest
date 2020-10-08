@@ -14,10 +14,8 @@
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
   <project name="cbft"/>
-  <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="cbgt"/>
-  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli" groups="kv"/>
   <project name="couchdb"/>
@@ -80,8 +78,8 @@
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="refs/tags/v2.1.5"                         path="godeps/src/github.com/couchbase/gocb/v2"/>
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/gopkg.in/couchbase/gocb.v1"/>
-  <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7" groups="n1fty"/>
-  <project name="gocbcore"       revision="refs/tags/v9.0.6"                         path="godeps/src/github.com/couchbase/gocbcore/v9" groups="cbgt,query"/>
+  <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
+  <project name="gocbcore"       revision="refs/tags/v9.0.6"                         path="godeps/src/github.com/couchbase/gocbcore/v9"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/github.com/couchbaselabs/gocbconnstr"/>
@@ -93,16 +91,10 @@
   <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
-  <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
   <project name="logstats"                                                           path="godeps/src/github.com/couchbase/logstats"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="e42e7143c87e72f8046d32898f117a27c0db1d4d" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="bleve-mapping-ui" remote="blevesearch" revision="7987f3c80047347b1e2c3a5fafae8da56daf97d7" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
-  <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="mmap-go"          remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
-  <project name="segment"          remote="blevesearch" revision="762005e7a34fd909a84586299f1dd457371d36ee" path="godeps/src/github.com/blevesearch/segment"/>
-  <project name="snowballstem"     remote="blevesearch" revision="26b06a2c243d4f8ca5db3486f94409dd5b2a7467" path="godeps/src/github.com/blevesearch/snowballstem"/>
 
   <!-- Go support libraries - third-party -->
   <project name="uuid"           remote="couchbasedeps" revision="dec09d789f3dba190787f8b4454c7d3c936fed9e" path="godeps/src/github.com/google/uuid"/>
