@@ -158,7 +158,7 @@
   <project name="googletest" remote="couchbasedeps" revision="f397fa5ec6365329b2e82eb2d8c03a7897bbefb5" groups="kv"/>
   <project name="gsl-lite" remote="couchbasedeps" revision="57542c7e7ced375346e9ac55dad85b942cfad556" path="third_party/gsl-lite" groups="kv"/>
   <project name="spdlog" remote="couchbasedeps" revision="20967a170429d0d37e09a485bc3cf5b153554924" path="third_party/spdlog" groups="kv"/>
-  <project name="HdrHistogram_c" remote="couchbasedeps" revision="bc8aef24ea57884464027f841c1ad7436a42c615" path="third_party/HdrHistogram_c" groups="kv"/>
+  <project name="HdrHistogram_c" remote="couchbasedeps" revision="42148d72f34d6865b2a6706c106cd72ee68216a5" path="third_party/HdrHistogram_c" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build" path="cbbuild" groups="notdefault,build" revision="5716bf0df2d36db8ff45c6508a328a92b9457cbf">
