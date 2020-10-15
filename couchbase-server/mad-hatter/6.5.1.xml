@@ -82,7 +82,7 @@
   <project name="mossScope" path="godeps/src/github.com/couchbase/mossScope" revision="aa48ddbc0e832bc68dde56c4b69e30c5cb3983eb"/>
   <project name="ghistogram" path="godeps/src/github.com/couchbase/ghistogram" revision="d910dd063dd68fb4d2a1ba344440f834ebb4ef62"/>
   <project name="godbc" revision="b2aaaa21900ab3e95d37d38fb5a0f320426cbe56" path="godeps/src/github.com/couchbase/godbc"/>
-  <project name="go_json" revision="d47ffbbc4863b0020bb85c4e181d4044ea184d40" path="godeps/src/github.com/couchbase/go_json"/>
+  <project name="go_json" revision="4c4f4bce798d2a27db148c72d77fd57245fd4a94" path="godeps/src/github.com/couchbase/go_json"/>
   <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="ef2e028c01fdb60c46da4067d2e83745b8d54120"/>
   <project name="n1fty" revision="6.5.1" path="godeps/src/github.com/couchbase/n1fty"/>
 
