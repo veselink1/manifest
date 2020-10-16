@@ -46,7 +46,7 @@
             "parent": "couchbase-server/mad-hatter.xml",
             "interval": 60,
             "restricted": true,
-            "approval_ticket": "MB-41023"
+            "approval_ticket": "MB-42126"
         },
         "couchbase-server/mad-hatter/6.5.1.xml": {
             "release": "mad-hatter",
