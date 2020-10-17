@@ -26,7 +26,7 @@
   <project name="forestdb" revision="cb-master" groups="backup,kv"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
-  <project name="go-couchbase" path="goproj/src/github.com/couchbase/gocouchbase" />
+  <project name="go-couchbase" path="goproj/src/github.com/couchbase/go-couchbase" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
