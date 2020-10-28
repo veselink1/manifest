@@ -67,9 +67,9 @@
   <project name="gocbcore-transactions"  remote="couchbaselabs-priv"                 path="goproj/src/github.com/couchbaselabs/gocbcore-transactions" groups="notdefault,enterprise"/>
   <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty"/>
   <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json"/>
-  <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached"/>
-  <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth"/>
-  <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase"/>
+  <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup"/>
+  <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth" groups="backup"/>
+  <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
 
   <project name="cbflag"                                                             path="godeps/src/github.com/couchbase/cbflag"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
@@ -77,10 +77,10 @@
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
-  <project name="gocb"           revision="refs/tags/v2.1.5"                         path="godeps/src/github.com/couchbase/gocb/v2"/>
+  <project name="gocb"           revision="refs/tags/v2.1.5"                         path="godeps/src/github.com/couchbase/gocb/v2" groups="backup"/>
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/gopkg.in/couchbase/gocb.v1"/>
   <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
-  <project name="gocbcore"       revision="refs/tags/v9.0.6"                         path="godeps/src/github.com/couchbase/gocbcore/v9"/>
+  <project name="gocbcore"       revision="refs/tags/v9.0.6"                         path="godeps/src/github.com/couchbase/gocbcore/v9" groups="backup"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/github.com/couchbaselabs/gocbconnstr"/>
