@@ -97,6 +97,7 @@
   <project name="logstats" path="godeps/src/github.com/couchbase/logstats"/>
 
   <project name="vellum" remote="toy" path="godeps/src/github.com/couchbase/vellum" revision="691d102536e3056574fa9e63b55fb98d8a1447a4"/>
+  <project name="zap" remote="toy" path="godeps/src/github.com/blevesearch/zap"/>
   <!-- Go support libraries - Bleve-supported -->
   <project name="mmap-go" remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
 
