@@ -48,6 +48,15 @@
             "restricted": true,
             "approval_ticket": "MB-42126"
         },
+        "couchbase-server/mad-hatter/6.5.2.xml": {
+            "release": "mad-hatter",
+            "release_name": "Mad-Hatter 6.5.2",
+            "parent": "couchbase-server/mad-hatter.xml",
+            "start_build": 6600,
+            "interval": 720,
+            "restricted": true,
+            "approval_ticket": "MB-42583"
+        },
         "couchbase-server/mad-hatter/6.5.1.xml": {
             "release": "mad-hatter",
             "release_name": "Mad-Hatter 6.5.1-MP7",
