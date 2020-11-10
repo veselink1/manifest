@@ -51,13 +51,13 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned mobile testkit                     -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mobile-testkit" remote="couchbaselabs-priv" groups="notdefault"/>
+  <project name="mobile-testkit" remote="couchbaselabs-priv" groups="notdefault" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts"/>
-  <project name="build">
+  <project name="product-texts" revision="master"/>
+  <project name="build" revision="master">
     <annotation name="VERSION" value="2.8.0" keep="true"/>
   </project>
 </manifest>
