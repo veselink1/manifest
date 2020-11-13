@@ -5,7 +5,7 @@
              "release": "3.0.0",
              "release_name": "Couchbase Lite Core - Lithium",
              "production": true,
-             "interval": 240,
+             "interval": 90,
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
@@ -18,7 +18,7 @@
             "release": "2.8.0",
             "release_name": "Couchbase Lite Core - Hydrogen",
             "production": true,
-            "interval": 90,
+            "interval": 240,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
@@ -28,7 +28,7 @@
             ]
         },
         "couchbase-lite-core/mercury.xml": {
-            "release": "2.7.1",
+            "release": "2.7.2",
             "release_name": "Couchbase Lite Core - Mercury",
             "production": true,
             "interval": 90,
