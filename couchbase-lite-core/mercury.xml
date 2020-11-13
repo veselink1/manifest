@@ -42,7 +42,7 @@
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="tlm" revision="2d46e032cf08727e8e5fab67d05c4f1b051989e4"/>
-  <project name="build" path="cbbuild" revision="2e9d89d03b360f2d9f9c9ddbdc8fa532d41ab3d9">
+  <project name="build" path="cbbuild" revision="878f0d6525a52327acef120647f01c11d014902f">
     <annotation keep="true" name="VERSION" value="2.7.2"/>
     <copyfile dest="CMakeLists.txt" src="scripts/jenkins/lite-core/CMakeLists.txt"/>
   </project>
