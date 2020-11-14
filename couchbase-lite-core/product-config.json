@@ -36,7 +36,7 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true,
-            "do_build": false,
+            "do-build": false,
             "module_projects": [
                 "couchbase-lite-core"
             ]
@@ -49,7 +49,7 @@
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
-             "do_build": false,
+             "do-build": false,
              "module_projects": [
                  "couchbase-lite-core"
              ]
@@ -62,7 +62,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do_build": false,
+            "do-build": false,
             "module_projects": [
                 "couchbase-lite-core"
             ]
