@@ -97,7 +97,7 @@
 
   <!-- Go support libraries - third-party -->
   <project name="uuid" remote="couchbasedeps" revision="dec09d789f3dba190787f8b4454c7d3c936fed9e" path="godeps/src/github.com/google/uuid" groups="backup"/>
-  <project name="protobuf" remote="couchbasedeps" revision="ddf22928ea3c56eb4292a0adbbf5001b1e8e7d0d" path="godeps/src/github.com/golang/protobuf"/>
+  <project name="protobuf" remote="couchbasedeps" revision="84668698ea25b64748563aa20726db66a6b8d299" path="godeps/src/github.com/golang/protobuf"/>
   <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
   <project name="gojson" remote="couchbasedeps" revision="af16e0e771e2ed110f2785564ae33931de8829e4" path="godeps/src/github.com/dustin/gojson"/>
   <project name="mux" remote="couchbasedeps" revision="043ee6597c29786140136a5747b6a886364f5282" path="godeps/src/github.com/gorilla/mux"/>
@@ -122,7 +122,7 @@
   <project name="text" remote="couchbasedeps" revision="88f656faf3f37f690df1a32515b479415e1a6769" path="godeps/src/golang.org/x/text" groups="backup"/>
   <project name="golang-tools" remote="couchbasedeps" revision="a28dfb48e06b2296b66678872c2cb638f0304f20" path="godeps/src/golang.org/x/tools"/>
   <project name="crypto" remote="couchbasedeps" revision="bd6f299fb381e4c3393d1c4b1f0b94f5e77650c8" path="godeps/src/golang.org/x/crypto" groups="backup"/>
-  <project name="net" remote="couchbasedeps" revision="44b7c21cbf19450f38b337eb6b6fe4f6496fb5b3" path="godeps/src/golang.org/x/net" groups="backup"/>
+  <project name="net" remote="couchbasedeps" revision="d8887717615a059821345a5c23649351b52a1c0b" path="godeps/src/golang.org/x/net" groups="backup"/>
   <project name="sys" remote="couchbasedeps" revision="12a6c2dcc1e4cb348b57847c73987099e261714b" path="godeps/src/golang.org/x/sys" groups="backup"/>
   <project name="minify" remote="couchbasedeps" revision="ede45cc53f43891267b1fe7c689db9c76d4ce0fb" path="godeps/src/github.com/tdewolff/minify"/>
   <project name="buffer" remote="couchbasedeps" revision="43cef5ba7b6ce99cc410632dad46cf1c6c97026e" path="godeps/src/github.com/tdewolff/buffer"/>
@@ -149,7 +149,7 @@
   <project name="pierrec-xxHash" remote="couchbasedeps" revision="a0006b13c722f7f12368c00a3d3c2ae8a999a0c6" path="godeps/src/github.com/pierrec/xxHash"/>
   <project name="zstd" remote="couchbasedeps" revision="aebefd9fcb99f22cd691ef778a12ed68f0e6a1ab" path="godeps/src/github.com/DataDog/zstd"/>
   <project name="opentracing-go" remote="couchbasedeps" revision="1949ddbfd147afd4d964a9f00b24eb291e0e7c38" path="godeps/src/github.com/opentracing/opentracing-go" groups="backup"/>
-  <project name="grpc-go" remote="couchbasedeps" revision="refs/tags/v1.17.0" path="godeps/src/google.golang.org/grpc"/>
+  <project name="grpc-go" remote="couchbasedeps" revision="refs/tags/v1.24.0" path="godeps/src/google.golang.org/grpc"/>
   <project name="participle" remote="couchbasedeps" revision="bf8340a459bd383e5eb7d44a9a1b3af23b6cf8cd" path="godeps/src/github.com/alecthomas/participle"/>
   <project name="go-genproto" remote="couchbasedeps" revision="2b5a72b8730b0b16380010cfe5286c42108d88e7" path="godeps/src/google.golang.org/genproto"/>
   <project name="golang-pkg-pcre" remote="couchbasedeps" revision="48bb82a8b8ceea98f4e97825b43870f6ba1970d6" path="godeps/src/github.com/glenn-brown/golang-pkg-pcre"/>
