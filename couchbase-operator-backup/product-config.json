@@ -1,15 +1,26 @@
 {
     "product": "couchbase-operator-backup",
     "manifests": {
-        "couchbase-operator-backup/master.xml": {
+        "couchbase-operator-backup/6.5.1.xml": {
             "release": "6.5.1",
-            "release_name": "Couchbase Operator Backup 6.5.1 - master",
+            "release_name": "Couchbase Operator Backup 6.5.1",
             "production": true,
-            "interval": 60,
+            "interval": 120,
             "restricted": false,
             "start_build": 100,
             "keep_git": true,
             "jenkins_job": "couchbase-k8s-microservice-build"
         }
+    },
+    "couchbase-operator-backup/6.6.0.xml": {
+        "release": "6.6.0",
+        "release_name": "Couchbase Operator Backup 6.6.0",
+        "production": true,
+        "interval": 120,
+        "restricted": false,
+        "start_build": 100,
+        "keep_git": true,
+        "jenkins_job": "couchbase-k8s-microservice-build"
     }
+}
 }
