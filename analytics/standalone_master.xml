@@ -10,7 +10,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
   <!-- Apache AsterixDB -->
-  <project name="asterixdb" path="cbas/asterixdb"/>
+  <project name="asterixdb" revision="cheshire-cat" path="cbas/asterixdb"/>
 
   <!-- Couchsterix Extensions -->
   <project name="cbas-core" path="cbas" remote="couchbase-priv"/>
