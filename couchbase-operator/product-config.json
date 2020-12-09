@@ -12,7 +12,7 @@
             "jenkins_job": "couchbase-k8s-microservice-build",
             "keep_git": true
         },
-        "couchbase-operator/master.xml": {
+        "couchbase-operator/2.1.x.xml": {
             "release": "2.1.0",
             "release_name": "Couchbase Operator 2.1.0",
             "production": true,
