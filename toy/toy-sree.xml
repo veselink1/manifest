@@ -7,7 +7,7 @@
   <remote name="blevesearch" fetch="git://github.com/blevesearch/"/>
 
   <default remote="couchbase" revision="master"/>
-  <default remote="toy" fetch="git://github.com/sreekanth-cb/" />
+  <remote name="toy" fetch="git://github.com/sreekanth-cb/" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="backup,notdefault,enterprise" revision="mad-hatter"/>
