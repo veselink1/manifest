@@ -25,6 +25,21 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true,
+            "do-build": false,
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
+        },
+        "couchbase-lite-net/2.8.0/2.8.2.1.xml": {
+            "release": "2.8.2.1",
+            "release_name": "Couchbase Lite Net - 2.8.0 MP1",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
             "do-build": true,
             "module_projects": [
                 "couchbase-lite-net-ee",
