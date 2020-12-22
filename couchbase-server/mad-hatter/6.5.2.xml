@@ -24,10 +24,10 @@
   <project name="forestdb" revision="5836cfc682e9d90036b8fc780d6a28b033e6b34c" groups="backup,kv"/>
   <project name="geocouch" revision="92def13f6b049553da1aa1488ce0bde6b7d0f459"/>
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="73401bdcb718bbacab843b40ae443a531dc133d8"/>
-  <project name="gometa" revision="563cdf343321e2025b73852bcf454860a4880300" path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="nitro" revision="4fc6475fb3352618cdf93fead56271bb29d15571" path="goproj/src/github.com/couchbase/nitro"/>
+  <project name="gometa" revision="6.5.2" path="goproj/src/github.com/couchbase/gometa"/>
+  <project name="nitro" revision="6.5.2" path="goproj/src/github.com/couchbase/nitro"/>
   <project name="indexing" revision="7fc841317177cc5483481dcde2f700074cbb1d3f" path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="plasma" revision="f7ed5f6aff5c9077e223b685883ab5318a6c8893" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="plasma" revision="6.5.2" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="104dc876579adc97ebc688074155f4d69b6b8ee7" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="0642262623b651cffbd074f8fb7827dff29d60e4" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv" revision="6.5.2"/>
