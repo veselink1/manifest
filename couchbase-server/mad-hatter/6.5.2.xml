@@ -16,7 +16,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="31ba0584a81d5b293cedfb236109ab95036aa395"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
   <project name="couchbase-cli" groups="kv" revision="16221facdc82e4416cdd7832589e00e0450a97b3"/>
-  <project name="couchdb" revision="f47945baa733653fb0ab268d8f11c62104f6689f"/>
+  <project name="couchdb" revision="6.5.2"/>
   <project name="couchstore" revision="1671a4be4dc978014102d51d705becd2fe3dc8db" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="ef4f6c1ae8133a14ff865278e1c0ec8205b698d5"/>
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
@@ -26,7 +26,7 @@
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="73401bdcb718bbacab843b40ae443a531dc133d8"/>
   <project name="gometa" revision="6.5.2" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro" revision="6.5.2" path="goproj/src/github.com/couchbase/nitro"/>
-  <project name="indexing" revision="7fc841317177cc5483481dcde2f700074cbb1d3f" path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing" revision="6.5.2" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma" revision="6.5.2" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="104dc876579adc97ebc688074155f4d69b6b8ee7" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="0642262623b651cffbd074f8fb7827dff29d60e4" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
