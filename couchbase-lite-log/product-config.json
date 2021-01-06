@@ -15,7 +15,7 @@
              ]
          },
         "couchbase-lite-log/hydrogen.xml": {
-            "release": "2.8.0",
+            "release": "2.8.3",
             "release_name": "Couchbase Lite Log - Hydrogen",
             "production": true,
             "interval": 90,
