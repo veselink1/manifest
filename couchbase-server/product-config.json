@@ -100,7 +100,7 @@
             "branch": "alice-6.0.4",
             "release": "alice",
             "release_name": "Alice 6.0.4-MP2",
-            "parent": "couchbase-server/alice/6.0.4.xml",
+            "parent": "couchbase-server/alice.xml",
             "production": true,
             "start_build": 2800,
             "interval": 90,
