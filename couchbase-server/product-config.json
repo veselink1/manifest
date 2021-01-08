@@ -14,7 +14,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": false,
-            "interval": 60,
+            "interval": 120,
             "keep_git": true
         },
         "couchbase-server/development/magma-preview.xml": {
