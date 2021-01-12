@@ -65,7 +65,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="gocbcore-transactions"  remote="couchbaselabs-priv" revision="98caf20de5e8e5607c980c605139ffb9f7d7881c"                path="goproj/src/github.com/couchbaselabs/gocbcore-transactions" groups="notdefault,enterprise"/>
+  <project name="gocbcore-transactions"  remote="couchbaselabs-priv" revision="a25fc5bbbf4da8017e229cf9583cd22b3e30e449"                path="goproj/src/github.com/couchbaselabs/gocbcore-transactions" groups="notdefault,enterprise"/>
   <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty"/>
   <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json"/>
   <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup"/>
