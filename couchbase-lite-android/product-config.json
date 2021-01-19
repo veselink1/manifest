@@ -15,8 +15,8 @@
             "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/hydrogen.xml": {
-            "release": "2.8.1",
-            "release_name": "Couchbase Lite Android - Hydrogen 2.8.1",
+            "release": "2.8.4",
+            "release_name": "Couchbase Lite Android - Hydrogen 2.8.4",
             "production": true,
             "interval": 1440,
             "restricted": false,
@@ -24,7 +24,7 @@
             "keep_git": true,
             "trigger_blackduck": true,
             "do-build": false,
-            "module_projects": [ "product-texts", "couchbase-lite-java-ee-root", "couchbase-lite-java-common", "couchbase-lite-java-ce", "couchbase-lite-core-EE", "couchbase-lite-core" ],
+            "module_projects": [ "couchbase-lite-java-ee-root" ],
             "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/mercury/2.7.1.2.xml": {
