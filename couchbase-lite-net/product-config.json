@@ -17,7 +17,7 @@
             ]
         },
         "couchbase-lite-net/hydrogen.xml": {
-            "release": "2.8.3",
+            "release": "2.8.4",
             "release_name": "Couchbase Lite Net - Hydrogen",
             "production": true,
             "interval": 1440,
@@ -25,7 +25,7 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true,
-            "do-build": false,
+            "do-build": true,
             "module_projects": [
                 "couchbase-lite-net-ee",
                 "couchbase-lite-net"
@@ -40,7 +40,7 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": false,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [
                 "couchbase-lite-net-ee",
                 "couchbase-lite-net"
