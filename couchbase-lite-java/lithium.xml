@@ -10,7 +10,10 @@
   <remote name="ARMmbed" fetch="git://github.com/ARMmbed"/>
   <remote name="leetal" fetch="git://github.com/leetal"/>
 
-  <!-- Before release, pin couchbase-lite-java-ee-root, core and core-EE to release branches -->
+  <!--
+   Before release, pin couchbase-lite-java-ee-root, core and core-EE to release branches
+   and add them to module_projects in product-config.
+   -->
   <default remote="couchbase" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
