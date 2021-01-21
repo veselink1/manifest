@@ -10,7 +10,7 @@
   <remote name="ARMmbed" fetch="git://github.com/ARMmbed"/>
   <remote name="leetal" fetch="git://github.com/leetal"/>
 
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="release/hydrogen"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
@@ -32,18 +32,19 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language common repository    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="java/release/hydrogen"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="0000000000000000000000000000000000000000"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language Community Edition    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="java/release/hydrogen"/>
+  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="0000000000000000000000000000000000000000"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="release/hydrogen"/>
-  <project name="couchbase-lite-core" path="cbl-java/core" revision="release/hydrogen"/>
+  <project name="couchbase-lite-core" path="cbl-java/core"/>
+  <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE"/>
+
   <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
