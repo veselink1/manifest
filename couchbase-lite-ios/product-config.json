@@ -17,8 +17,8 @@
             ]
         },
         "couchbase-lite-ios/hydrogen.xml": {
-            "release": "2.8.1",
-            "release_name": "Couchbase Lite iOS - Hydrogen 2.8.1",
+            "release": "2.8.4",
+            "release_name": "Couchbase Lite iOS - Hydrogen 2.8.4",
             "production": true,
             "interval": 1440,
             "restricted": false,
@@ -26,6 +26,21 @@
             "keep_git": true,
             "trigger_blackduck": true,
             "do-build": true,
+            "module_projects": [
+                "couchbase-lite-ios-ee",
+                "couchbase-lite-ios"
+            ]
+        },
+        "couchbase-lite-ios/hydrogen/2.8.1.xml": {
+            "release": "2.8.1",
+            "release_name": "Couchbase Lite iOS - Hydrogen 2.8.1",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": false,
+            "do-build": false,
             "module_projects": [
                 "couchbase-lite-ios-ee",
                 "couchbase-lite-ios"
@@ -40,7 +55,7 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": false,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [
                 "couchbase-lite-ios-ee",
                 "couchbase-lite-ios"
