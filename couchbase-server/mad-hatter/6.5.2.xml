@@ -52,7 +52,7 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt"/>
   </project>
   <!-- Analytics additions -->
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="6.5.1"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="6.5.2"/>
   <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics" revision="6.5.1"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics" revision="6.5.1"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="6938f549fde15cb7fb825420509ebf528cbb9925"/>
