@@ -37,6 +37,7 @@
   <project name="libcouchbase" revision="daf4619d6e8d68f386a5d276777ba123536fc397"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server"/>
+  <project name="chronicle" path="ns_server/deps/chronicle"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
@@ -55,17 +56,17 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
   </project>
   <!-- Analytics additions -->
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="cheshire-cat" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" revision="cheshire-cat" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-ui" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
+  <project name="cbas-ui" groups="notdefault,enterprise,analytics"/>
   <!-- Mobile -->
   <project name="mobile-service" path="goproj/src/github.com/couchbase/mobile-service"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="gocbcore-transactions"  remote="couchbaselabs-priv"                 path="goproj/src/github.com/couchbaselabs/gocbcore-transactions" groups="notdefault,enterprise"/>
+  <project name="gocbcore-transactions"  remote="couchbaselabs-priv" revision="7190f71c93dda37cd5466d6f18487669c90a39eb"                path="goproj/src/github.com/couchbaselabs/gocbcore-transactions" groups="notdefault,enterprise"/>
   <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty"/>
   <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json"/>
   <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup"/>
@@ -150,7 +151,7 @@
   <project name="zstd"            remote="couchbasedeps" revision="aebefd9fcb99f22cd691ef778a12ed68f0e6a1ab" path="godeps/src/github.com/DataDog/zstd"/>
   <project name="opentracing-go"  remote="couchbasedeps" revision="1949ddbfd147afd4d964a9f00b24eb291e0e7c38" path="godeps/src/github.com/opentracing/opentracing-go"/>
   <project name="grpc-go"         remote="couchbasedeps" revision="refs/tags/v1.17.0" path="godeps/src/google.golang.org/grpc"/>
-  <project name="participle"      remote="couchbasedeps" revision="bf8340a459bd383e5eb7d44a9a1b3af23b6cf8cd" path="godeps/src/github.com/alecthomas/participle"/>
+  <project name="participle"      remote="couchbasedeps" revision="d638c6e1953ed899e05a34da3935146790c60e46" path="godeps/src/github.com/alecthomas/participle"/>
   <project name="go-genproto"     remote="couchbasedeps" revision="2b5a72b8730b0b16380010cfe5286c42108d88e7" path="godeps/src/google.golang.org/genproto"/>
   <project name="golang-pkg-pcre" remote="couchbasedeps" revision="48bb82a8b8ceea98f4e97825b43870f6ba1970d6" path="godeps/src/github.com/glenn-brown/golang-pkg-pcre"/>
   <project name="jsonparser"      remote="couchbasedeps" revision="bf1c66bbce23153d89b23f8960071a680dbef54b" path="godeps/src/github.com/buger/jsonparser"/>
