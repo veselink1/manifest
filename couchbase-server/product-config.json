@@ -91,7 +91,7 @@
             "production": true,
             "start_build": 3300,
             "trigger_blackduck": true,
-            "interval": 240,
+            "interval": 1440,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-43894"
