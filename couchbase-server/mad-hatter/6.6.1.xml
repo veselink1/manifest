@@ -10,9 +10,9 @@
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="backup,notdefault,enterprise" revision="4335b9e589ce8f4121931602d9db4a895b26556d"/>
-  <project name="cbft" path="goproj/src/github.com/couchbase/cbft" revision="5483b38786958648c80c6886ef834fbbbf2d8d43"/>
+  <project name="cbft" path="goproj/src/github.com/couchbase/cbft" revision="6.6.1"/>
   <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise" revision="46dbb7c6edac7dfef017ae889d7a5b7536ce904d"/>
-  <project name="cbgt" revision="b6013cbce0ea3c9740ef121dca190f894bb8ce7b" path="goproj/src/github.com/couchbase/cbgt"/>
+  <project name="cbgt" revision="6.6.1" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="31ba0584a81d5b293cedfb236109ab95036aa395"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
   <project name="couchbase-cli" groups="kv" revision="72d90c1d0fe7b7e399f56aaf5e6c54fd5080db1c"/>
@@ -26,7 +26,7 @@
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="59f278ae324801f0076d309b0c34792a3a9cc9c1"/>
   <project name="gometa" revision="54d271aa26c1f5126d4f0eb32a241a6512cc7545" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro" revision="1cc0c3058bef77ef4b87d623e1024b0cd048d015" path="goproj/src/github.com/couchbase/nitro"/>
-  <project name="indexing" revision="bc72f9ec19bbab4f1d20213c3b168fb921fa37df" path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing" revision="6.6.1" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma" revision="faf787adbafa9b3176805f433d9158167e456871" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="4148765cc7cfdd070902634e3f1c2f0330fa1802" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="0d436f862419f019eb616b39661564a59df21c95" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
