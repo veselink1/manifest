@@ -3,7 +3,7 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase" fetch="git://github.com/couchbase" review="review.couchbase.org"/>
 
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="cheshire-cat"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Main source: Supported by Couchbase Analytics team -->
@@ -21,7 +21,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="build" remote="couchbase">
+  <project name="build" revision="master" remote="couchbase">
     <annotation name="VERSION" value="1.0.0" keep="true"/>
   </project>
 </manifest>
