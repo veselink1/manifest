@@ -51,9 +51,9 @@
             "release_name": "Mad-Hatter 6.5.2",
             "parent": "couchbase-server/mad-hatter.xml",
             "start_build": 6600,
-            "interval": 120,
+            "interval": 1440,
             "restricted": true,
-            "approval_ticket": "MB-42583"
+            "approval_ticket": "MB-43894"
         },
         "couchbase-server/mad-hatter/6.5.1.xml": {
             "release": "mad-hatter",
