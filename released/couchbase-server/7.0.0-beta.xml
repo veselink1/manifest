@@ -20,12 +20,12 @@
   <project name="build" path="cbbuild" revision="f59f85699481383e714e51b16e54100c1e8b1c19" upstream="master" groups="notdefault,build">
     <annotation name="RELEASE" value="cheshire-cat" />
     <annotation name="PRODUCT" value="couchbase-server" />
-    <annotation name="BLD_NUM" value="4554" />
+    <annotation name="BLD_NUM" value="4602" />
     <annotation name="VERSION" value="7.0.0" />
   </project>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" revision="aa0549644388c08550ffc5ecba55978d193259f3" upstream="master" groups="notdefault,enterprise,analytics" />
   <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="50587501b76f04a8ca79b775169efc3037d08075" upstream="cheshire-cat" groups="notdefault,enterprise,analytics" />
-  <project name="cbas-ui" revision="a21557daa994b5a4202a0f6428eba4801c48e36b" upstream="master" groups="notdefault,enterprise,analytics" />
+  <project name="cbas-ui" revision="3f15ef11c8aad8a4808b15ec0123dac454ab6102" upstream="master" groups="notdefault,enterprise,analytics" />
   <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" revision="0eaf917092a2a0063989e9a08b4a7ac3abf09e1e" upstream="master" groups="backup" />
   <project name="cbbs" remote="couchbase-priv" revision="384f6327fe0e90220ae2df810b4825bc4479b57f" upstream="master" groups="backup,notdefault,enterprise" />
   <project name="cbflag" path="godeps/src/github.com/couchbase/cbflag" revision="3393038a55d7deca3628df6b01322f50fbed039c" upstream="master" />
