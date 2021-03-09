@@ -15,8 +15,8 @@
             "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/hydrogen.xml": {
-            "release": "2.8.4",
-            "release_name": "Couchbase Lite Android - Hydrogen 2.8.4",
+            "release": "2.8.5",
+            "release_name": "Couchbase Lite Android - Hydrogen 2.8.5",
             "production": true,
             "interval": 1440,
             "restricted": false,
