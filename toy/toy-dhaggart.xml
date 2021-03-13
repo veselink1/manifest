@@ -128,7 +128,7 @@
   <project groups="kv" name="platform" revision="c8352fec9ed87a02ad470163a92681db0649542f" upstream="master" />
   <project groups="kv" name="product-texts" revision="32a9b254081ddf9385df54b1b32d4bb057731a16" upstream="master" />
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="ddf22928ea3c56eb4292a0adbbf5001b1e8e7d0d" />
-  <project name="query" path="goproj/src/github.com/couchbase/query" revision="MB-44835_4492" upstream="dhaggart" />
+  <project name="query" path="goproj/src/github.com/couchbase/query" revision="MB-44835_4492" remote="dhaggart" />
   <project groups="notdefault,enterprise" name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" revision="cd33602525cd11e3496cfef4b29305bbd7babcd9" upstream="master" />
   <project name="query-ui" revision="b438df5e56a5223bf4bd6bc6337e48ce12f23019" upstream="master" />
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" upstream="master" />
