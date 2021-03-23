@@ -6,9 +6,9 @@
   <default remote="couchbase" revision="master"/>
 
   <project name="couchbase-service-broker" remote="couchbaselabs-priv"/>
-  <project name="service-broker" path="couchbase-service-broker/service-broker" revision="refs/tags/0.0.7"/>
+  <project name="service-broker" path="couchbase-service-broker/service-broker" revision="refs/tags/0.0.9"/>
 
   <project name="build" path="cbbuild" revision="8ba9841f5fd3b60f22203be47bc6e81f7b9b6b2e">
-    <annotation name="VERSION" value="1.0.0" keep="true"/>
+    <annotation name="VERSION" value="1.1.0" keep="true"/>
   </project>
 </manifest>
