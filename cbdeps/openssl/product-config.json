@@ -1,8 +1,8 @@
 {
     "manifests": {
         "cbdeps/openssl/master.xml": {
-            "release": "1.1.1j",
-            "release_name": "openssl 1.1.1j",
+            "release": "1.1.1k",
+            "release_name": "openssl 1.1.1k",
             "production": true,
             "restricted": false,
             "start_build": 1,
