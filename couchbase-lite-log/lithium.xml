@@ -27,7 +27,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="fleece" remote="couchbaselabs" revision="df1d2f27d2ef9db12d4dce8b4e849f823c84678c" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbaselabs" revision="3fab9906b5dea00236e464fb52d00b594f3b0157" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="peg" remote="snej" revision="5722a4b087e58d5cc93ed13fc18e2530948498c1" path="couchbase-mobile-tools/vendor/peg"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="e78208c0df9c5e0c2a84317aada9d0c8f07338e4" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
