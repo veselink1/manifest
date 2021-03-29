@@ -1,0 +1,16 @@
+{
+    "product": "couchbase-operator-logging",
+    "manifests": {
+        "couchbase-operator-logging/master.xml": {
+            "release": "1.0.0",
+            "release_name": "Couchbase Operator Logging 1.0.0 - master",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 100,
+            "trigger_blackduck": true,
+            "jenkins_job": "couchbase-k8s-microservice-build",
+            "keep_git": true
+        }
+    }
+}
