@@ -1,9 +1,9 @@
 {
-    "product": "couchbase-operator-logging",
+    "product": "couchbase-fluent-bit",
     "manifests": {
-        "couchbase-operator-logging/master.xml": {
+        "couchbase-fluent-bit/master.xml": {
             "release": "1.0.0",
-            "release_name": "Couchbase Operator Logging 1.0.0 - master",
+            "release_name": "Couchbase Fluent Bit 1.0.0 - master",
             "production": true,
             "interval": 90,
             "restricted": false,
