@@ -46,7 +46,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" path="cbl-java/core" revision="d4d710b96e41c67e3b65aa7bcbdaae5b1bae4590"/>
+  <project name="couchbase-lite-core" path="cbl-java/core" revision="bef6353ffd11c8bbb3336bbdfdc2666cdd8a8e96"/>
   <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="ae77e3c1eb940cecd5267e1e54c38eccf6033cad"/>
 
   <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
