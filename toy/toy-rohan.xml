@@ -34,7 +34,7 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv" /> 
-  <project name="libcouchbase" revision="daf4619d6e8d68f386a5d276777ba123536fc397"/>
+   <project name="libcouchbase"/> 
   <project name="magma" revision="99814cf0c3c55117c99dea28990d9c5b7023ad8a" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server"/>
   <project name="chronicle" path="ns_server/deps/chronicle"/>
