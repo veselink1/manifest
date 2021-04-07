@@ -33,7 +33,7 @@
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="3523ee0a850f079845a96b89224944e9cfa99700" groups="kv,bsl"/>
   <project name="libcouchbase" revision="465188d3b1a85902e918a553d8ec71aeb903018a"/>
-  <project name="magma" revision="130a862eac9810eb9fc0d99e381a9d9a820c0090" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
+  <project name="magma" revision="99814cf0c3c55117c99dea28990d9c5b7023ad8a" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" groups="bsl"/>
   <project name="chronicle" path="ns_server/deps/chronicle"/>
   <project name="phosphor" groups="kv"/>
