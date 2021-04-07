@@ -4,6 +4,7 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
+  <remote name="rohansuri"   fetch="git://github.com/rohansuri/" revision="revert-blockitr-on-stack" review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
 
   <default remote="couchbase" revision="master" />
@@ -33,7 +34,7 @@
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="3523ee0a850f079845a96b89224944e9cfa99700" groups="kv,bsl"/>
   <project name="libcouchbase" revision="465188d3b1a85902e918a553d8ec71aeb903018a"/>
-  <project name="magma" revision="99814cf0c3c55117c99dea28990d9c5b7023ad8a" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
+  <project name="magma" remote="rohansuri" groups="notdefault,enterprise,kv_ee"  />
   <project name="ns_server" groups="bsl"/>
   <project name="chronicle" path="ns_server/deps/chronicle"/>
   <project name="phosphor" groups="kv"/>
