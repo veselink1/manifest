@@ -32,8 +32,8 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
 
-  <project name="kv_engine" revision="3523ee0a850f079845a96b89224944e9cfa99700" groups="kv,bsl"/>
 
+  <project name="kv_engine" revision="13be2fd1ecf76495fb4d90dc648acf6da885a38e" groups="kv,bsl"/>
  <!-- ON stack oriented block itr -->
   <projects name="magma" revision="1fde4df850b5e0e3c930698f1dfcdc91fd7882db" remote="couchbase-priv" groups="notdefault,enterprise,kv_ee"  />
 

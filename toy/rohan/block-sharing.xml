@@ -32,7 +32,7 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
 
-  <project name="kv_engine" revision="3523ee0a850f079845a96b89224944e9cfa99700" groups="kv,bsl"/>
+  <project name="kv_engine" revision="13be2fd1ecf76495fb4d90dc648acf6da885a38e" groups="kv,bsl"/>
 
  <!-- ON block sharing -->
   <projects name="magma" revision="cbd1fb55e41d612afa32ded73cb611a1a0b9fbd2" remote="couchbase-priv" groups="notdefault,enterprise,kv_ee"  />
