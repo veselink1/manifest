@@ -35,7 +35,7 @@
 
   <project name="kv_engine" revision="13be2fd1ecf76495fb4d90dc648acf6da885a38e" groups="kv,bsl"/>
  <!-- ON stack oriented block itr -->
-  <projects name="magma" revision="1fde4df850b5e0e3c930698f1dfcdc91fd7882db" remote="couchbase-priv" groups="notdefault,enterprise,kv_ee"  />
+  <project name="magma" revision="1fde4df850b5e0e3c930698f1dfcdc91fd7882db" remote="couchbase-priv" groups="notdefault,enterprise,kv_ee"  />
 
   <project name="libcouchbase" revision="465188d3b1a85902e918a553d8ec71aeb903018a"/>
   <project name="ns_server" groups="bsl"/>
