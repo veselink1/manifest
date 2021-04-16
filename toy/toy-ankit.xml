@@ -9,14 +9,14 @@
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
+  <project name="backup" revision="cheshire-cat" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
   <project name="cbft"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
-  <project name="couchbase-cli" groups="kv"/>
+  <project name="couchbase-cli" revision="cheshire-cat" groups="kv"/>
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
@@ -31,8 +31,8 @@
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="kv_engine" revision="77f8735707b8d5798cd4402ce782bf93f09dcbb0" groups="kv,bsl"/>
-  <project name="libcouchbase" revision="465188d3b1a85902e918a553d8ec71aeb903018a"/>
+  <project name="kv_engine" groups="kv,bsl"/>
+  <project name="libcouchbase" revision="refs/tags/3.1.1"/>
   <project name="magma" revision="cheshire-cat" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" groups="bsl"/>
   <project name="chronicle" path="ns_server/deps/chronicle"/>
