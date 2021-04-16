@@ -4,7 +4,7 @@
             "release": "master",
             "release_name": "Branch Master",
             "production": true,
-            "interval": 1440,
+            "interval": 240,
             "keep_git": true
         },
         "couchbase-server/cheshire-cat.xml": {
