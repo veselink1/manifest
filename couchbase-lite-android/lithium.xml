@@ -36,12 +36,12 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language common repository    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="a5b9b0b195a0ee7b6274cdb69415f3cfaa9be2a7"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="a2024561e91cc993c5072f78923c14dbcf17c7c7"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language Community Edition    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="8340ed84a616e04f2b71ebaf57dd0c89b528c529"/>
+  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="3ec4f847c722e982112a1ab9212ff09552bc65ec"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
