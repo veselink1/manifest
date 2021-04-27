@@ -161,6 +161,7 @@
             "production": true,
             "start_build": 4700,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-35058"
@@ -173,6 +174,7 @@
             "production": true,
             "start_build": 4300,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-36435"
@@ -185,6 +187,7 @@
             "production": true,
             "start_build": 4300,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-34207"
@@ -197,6 +200,7 @@
             "production": true,
             "start_build": 4041,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-31456"
@@ -209,6 +213,7 @@
             "production": true,
             "start_build": 3734,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-31434"
@@ -221,6 +226,7 @@
             "production": true,
             "start_build": 3200,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-30651"
@@ -233,6 +239,7 @@
             "production": true,
             "start_build": 2960,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-29253"
@@ -244,6 +251,7 @@
             "production": true,
             "start_build": 6200,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-33096"
@@ -256,6 +264,7 @@
             "production": true,
             "start_build": 6032,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-30619"
@@ -268,6 +277,7 @@
             "production": true,
             "start_build": 5700,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-33400"
@@ -280,6 +290,7 @@
             "production": true,
             "start_build": 5554,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-29354"
@@ -292,6 +303,7 @@
             "production": true,
             "start_build": 3405,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-25648"
@@ -304,6 +316,7 @@
             "production": true,
             "start_build": 5000,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-27705"
