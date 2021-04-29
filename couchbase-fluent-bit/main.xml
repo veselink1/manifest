@@ -14,5 +14,6 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" revision="8ba9841f5fd3b60f22203be47bc6e81f7b9b6b2e">
     <annotation name="VERSION" value="1.0.2" keep="true"/>
+    <annotation name="GOVERSION" value="1.16.3" keep="true"/>
   </project>
 </manifest>

@@ -30,7 +30,8 @@
             "interval": 1440,
             "restricted": false,
             "start_build": 100,
-            "trigger_blackduck": true,
+            "do-build": false,
+            "trigger_blackduck": false,
             "keep_git": true
         },
         "couchbase-operator/1.2.x.xml": {
@@ -39,6 +40,7 @@
             "production": true,
             "interval": 1440,
             "restricted": false,
+            "do-build": false,
             "start_build": 500,
             "keep_git": true
         },
@@ -49,6 +51,7 @@
             "interval": 1440,
             "restricted": false,
             "start_build": 500,
+            "do-build": false,
             "keep_git": true
         },
         "couchbase-operator/1.0.0.xml": {
@@ -58,6 +61,7 @@
             "interval": 1440,
             "restricted": false,
             "start_build": 100,
+            "do-build": false,
             "keep_git": true
         },
         "couchbase-operator/beta2.xml": {
@@ -67,6 +71,7 @@
             "interval": 1440,
             "restricted": false,
             "start_build": 100,
+            "do-build": false,
             "keep_git": true
         }
     }
