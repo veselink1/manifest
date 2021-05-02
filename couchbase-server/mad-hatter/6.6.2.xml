@@ -52,8 +52,8 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt"/>
   </project>
   <!-- Analytics additions -->
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="5d865145da97f9ba9f9ff72ad5ea78530a96f11e"/>
-  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics" revision="3ea8ef15a2aa47fd3d6e87cb19acd5254efa9252"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="6.6.2"/>
+  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics" revision="mad-hatter"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics" revision="1de34db4ed226e982addc884995ea6ce936e84ff"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="872fa1d04d223cffb8dc2d2734cda73c4dd755bb"/>
   <project name="cbas-ui" groups="analytics" revision="389cc746433f2dd7839f320cb2abab6f622ae7ca"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
