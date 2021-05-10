@@ -2,8 +2,8 @@
     "product": "couchbase-operator-backup",
     "manifests": {
         "couchbase-operator-backup/master.xml": {
-            "release": "1.0.0",
-            "release_name": "Couchbase Operator Backup 1.0.0",
+            "release": "1.1.0",
+            "release_name": "Couchbase Operator Backup 1.1.0",
             "production": true,
             "interval": 120,
             "restricted": false,
