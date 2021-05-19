@@ -2,6 +2,17 @@
     "product": "couchbase-operator-backup",
     "manifests": {
         "couchbase-operator-backup/master.xml": {
+            "release": "1.2.0",
+            "release_name": "Couchbase Operator Backup 1.2.0",
+            "production": true,
+            "interval": 120,
+            "restricted": false,
+            "start_build": 100,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "jenkins_job": "couchbase-k8s-microservice-build"
+        },
+        "couchbase-operator-backup/1.1.x.xml": {
             "release": "1.1.0",
             "release_name": "Couchbase Operator Backup 1.1.0",
             "production": true,
