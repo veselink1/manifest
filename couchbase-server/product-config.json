@@ -4,7 +4,7 @@
             "release": "master",
             "release_name": "Branch Master",
             "production": true,
-            "interval": 240,
+            "interval": 720,
             "keep_git": true
         },
         "couchbase-server/cheshire-cat.xml": {
@@ -12,7 +12,17 @@
             "release_name": "Cheshire-Cat (mainline)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 1000,
+            "start_build": 5800,
+            "trigger_blackduck": false,
+            "interval": 720,
+            "keep_git": true
+        },
+        "couchbase-server/cheshire-cat/7.0.0.xml": {
+            "release": "cheshire-cat",
+            "release_name": "Cheshire-Cat (7.0.0)",
+            "parent": "couchbase-server/cheshire-cat.xml",
+            "production": true,
+            "start_build": 5202,
             "trigger_blackduck": true,
             "interval": 120,
             "keep_git": true
