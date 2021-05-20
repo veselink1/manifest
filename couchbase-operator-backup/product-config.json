@@ -9,7 +9,7 @@
             "restricted": false,
             "start_build": 100,
             "keep_git": true,
-            "trigger_blackduck": true,
+            "trigger_blackduck": false,
             "jenkins_job": "couchbase-k8s-microservice-build"
         },
         "couchbase-operator-backup/1.1.x.xml": {
@@ -20,7 +20,7 @@
             "restricted": false,
             "start_build": 100,
             "keep_git": true,
-            "trigger_blackduck": true,
+            "trigger_blackduck": false,
             "jenkins_job": "couchbase-k8s-microservice-build"
         }
     }
