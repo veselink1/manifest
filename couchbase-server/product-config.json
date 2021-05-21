@@ -25,7 +25,9 @@
             "start_build": 5202,
             "trigger_blackduck": true,
             "interval": 120,
-            "keep_git": true
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-44894"
         },
         "couchbase-server/mad-hatter.xml": {
             "release": "mad-hatter",
