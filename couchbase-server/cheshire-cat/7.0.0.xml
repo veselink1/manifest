@@ -55,7 +55,7 @@
   </project>
   <!-- Analytics additions -->
   <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="7.0.0" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" revision="cheshire-cat" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" revision="7.0.0" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" revision="cheshire-cat" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="notdefault,enterprise,analytics"/>
