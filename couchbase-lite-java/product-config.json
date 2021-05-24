@@ -14,19 +14,6 @@
             "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
             "jenkins_job": "couchbase-lite-java"
         },
-        "couchbase-lite-java/pre-merge.xml": {
-            "release": "toy",
-            "release_name": "Couchbase Lite Java - TOY",
-            "production": true,
-            "interval": 60,
-            "restricted": false,
-            "start_build": 1,
-            "keep_git": true,
-            "trigger_blackduck": true,
-            "do-build": false,
-            "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core-EE", "couchbase-lite-core", "product-texts" ],
-            "jenkins_job": "couchbase-lite-java"
-        },
         "couchbase-lite-java/hydrogen.xml": {
             "release": "2.8.4",
             "release_name": "Couchbase Lite Java - Hydrogen 2.8.4",
