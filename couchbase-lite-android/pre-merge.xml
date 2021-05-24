@@ -11,8 +11,9 @@
   <remote name="leetal" fetch="git://github.com/leetal"/>
 
   <!--
-   Before release, pin couchbase-lite-java-ee-root, core and core-EE to release branches
-   and add them to module_projects in product-config.
+    Toy build to verify core changes:
+    Depend explicitly on the canonical pre-merge-to-master branch of Core
+    (be sure to add both core projects to module_projects in product-config)
    -->
   <default remote="couchbase" revision="master"/>
 
@@ -36,18 +37,18 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language common repository    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="043d14e471c756ae0692d6b5dd8ad2fef75d2e23"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="4ef053f5faa75bc6cb72b23ee6a42147e555a142"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language Community Edition    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="7d99487b1f3d7723fa7c7ea16504685295a168a1"/>
+  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="f0d80bfa7a5fb627f5d05ef0ba3aa20641f5ca00"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" path="cbl-java/core" revision="bb1bf0bd677e1ab1ff2713ea7f9e2195ab059cec"/>
-  <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="ae77e3c1eb940cecd5267e1e54c38eccf6033cad"/>
+  <project name="couchbase-lite-core" path="cbl-java/core" revision="pre-merge"/>
+  <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="pre-merge"/>
 
   <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
 
