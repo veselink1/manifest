@@ -2,8 +2,19 @@
     "product": "couchbase-operator",
     "manifests": {
         "couchbase-operator/master.xml": {
-            "release": "2.2.0",
-            "release_name": "Couchbase Operator 2.2.0 - master",
+            "release": "2.3.0",
+            "release_name": "Couchbase Operator 2.3.0 - master",
+            "production": true,
+            "interval": 120,
+            "restricted": false,
+            "start_build": 100,
+            "trigger_blackduck": false,
+            "jenkins_job": "couchbase-k8s-microservice-build",
+            "keep_git": true
+        },
+        "couchbase-operator/2.2.x.xml": {
+            "release": "2.2.1",
+            "release_name": "Couchbase Operator 2.2.1",
             "production": true,
             "interval": 120,
             "restricted": false,
@@ -16,10 +27,10 @@
             "release": "2.1.0",
             "release_name": "Couchbase Operator 2.1.0",
             "production": true,
-            "interval": 120,
+            "interval": 1440,
             "restricted": false,
             "start_build": 100,
-            "trigger_blackduck": true,
+            "trigger_blackduck": false,
             "jenkins_job": "couchbase-k8s-microservice-build",
             "keep_git": true
         },
