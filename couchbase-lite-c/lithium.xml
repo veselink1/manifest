@@ -16,7 +16,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
   <!-- Change to master after extended PR validation is done -->
-  <project name="couchbase-lite-c" revision="dev" />
+  <project name="couchbase-lite-c" revision="dev" remote="couchbaselabs" />
   <!-- No EE repo yet -->
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
