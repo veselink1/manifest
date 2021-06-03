@@ -45,7 +45,7 @@
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <project name="tlm" revision="cheshire-cat" groups="kv">
+  <project name="tlm" revision="3f29ae3986c20a54f466a4da3012b8ed3f4a615f" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
