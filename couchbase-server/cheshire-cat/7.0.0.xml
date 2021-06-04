@@ -27,10 +27,10 @@
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="cheshire-cat" groups="bsl"/>
   <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="ec44fba8dd138139dd4e8b960b088faf54ea0e2b"/>
   <project name="nitro" path="goproj/src/github.com/couchbase/nitro" revision="89c78ce461c1e1d24e34b5027618104aeb8ecf01"/>
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" groups="bsl" revision="53f1d16baceea3c699b9059b6b5058129297fb7c"/>
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
   <project name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise" revision="cheshire-cat"/>
-  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise" revision="8688df7216122d3d96060c179b44bc1912f6ba59"/>
-  <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="333fb1ea956689b6d49f1c6e185375575861b075"/>
+  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
+  <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="cheshire-cat" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.1.4"/>
   <project name="magma" revision="cheshire-cat" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
