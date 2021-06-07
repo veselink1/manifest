@@ -58,7 +58,7 @@
   <project name="asterixdb" revision="7.0.0" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" revision="cheshire-cat" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" revision="6309b1b8805de1839cb2744672f5c56c77efc7da" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-ui" groups="notdefault,enterprise,analytics" revision="b7cb28cefffda877215bbf857153423703dce75e"/>
+  <project name="cbas-ui" groups="notdefault,enterprise,analytics" revision="563d979312439f18d0ee645522349142ab540281"/>
   <!-- Mobile -->
   <project name="mobile-service" path="goproj/src/github.com/couchbase/mobile-service" revision="4672fde0390f115a25f4f4bfe9d1511836de47a7"/>
 
