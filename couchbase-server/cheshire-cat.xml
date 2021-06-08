@@ -17,7 +17,7 @@
   <project name="cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli" revision="cheshire-cat" groups="kv"/>
-  <project name="couchdb"/>
+  <project name="couchdb" revision="cheshire-cat"/>
   <project name="couchstore" revision="cheshire-cat" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
@@ -25,12 +25,12 @@
   <project name="forestdb" revision="cb-master" groups="backup"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" revision="cheshire-cat" groups="bsl"/>
-  <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" revision="cheshire-cat" />
-  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
+  <project name="gometa" revision="cheshire-cat" path="goproj/src/github.com/couchbase/gometa"/>
+  <project name="nitro" revision="cheshire-cat" path="goproj/src/github.com/couchbase/nitro" revision="cheshire-cat" />
+  <project name="indexing" revision="cheshire-cat" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
   <project name="plasma" revision="cheshire-cat" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
-  <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="eventing" revision="cheshire-cat" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
+  <project name="eventing-ee" revision="cheshire-cat" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="cheshire-cat" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.1.4"/>
   <project name="magma" revision="cheshire-cat" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
@@ -90,7 +90,7 @@
   <project name="mossScope"                                                          path="godeps/src/github.com/couchbase/mossScope"/>
   <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
-  <project name="logstats"                                                           path="godeps/src/github.com/couchbase/logstats"/>
+  <project name="logstats"       revision="cheshire-cat"                             path="godeps/src/github.com/couchbase/logstats"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="mmap-go"          remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
