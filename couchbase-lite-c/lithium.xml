@@ -16,13 +16,14 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
   <!-- Change to master after extended PR validation is done -->
-  <project name="couchbase-lite-c" revision="dev" remote="couchbaselabs"/>
-  <!-- No EE repo yet -->
+  <project name="couchbase-lite-c" revision="dev" remote="couchbaselabs" />
+  <project name="couchbase-lite-c-ee" revision="dev" remote="couchbase-priv" groups="notdefault,enterprise" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core" revision="29a64e1a1ad024401684fa57d35fe8857396123b" path="couchbase-lite-c/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core-EE" revision="8972cfdfd664839e2b2b7eab0c6408c07d254e32" path="couchbase-lite-c-ee/couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault, enterprise" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->

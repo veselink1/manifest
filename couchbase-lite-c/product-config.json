@@ -11,7 +11,8 @@
              "keep_git": true,
              "trigger_blackduck": false,
              "module_projects": [
-                 "couchbase-lite-c"
+                 "couchbase-lite-c",
+                 "couchbase-lite-c-ee"
              ]
          }
     }
