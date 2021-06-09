@@ -8,7 +8,7 @@
 
   <default remote="couchbase" revision="master" />
 
-  <remote="abhinavdangeti" fetch="git://github.com/abhinavdangeti/" />
+  <remote name="abhinavdangeti" fetch="git://github.com/abhinavdangeti/" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" revision="cheshire-cat" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
