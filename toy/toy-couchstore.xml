@@ -7,7 +7,8 @@
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
 
   <default remote="couchbase" revision="master" />
-  <default remote="abhinavdangeti" fetch="git://github.com/abhinavdangeti/" />
+
+  <remote="abhinavdangeti" fetch="git://github.com/abhinavdangeti/" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" revision="cheshire-cat" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
