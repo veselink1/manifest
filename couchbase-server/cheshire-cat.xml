@@ -39,7 +39,7 @@
   <project name="phosphor" groups="kv"/>
   <project name="platform" revision="cheshire-cat" groups="kv"/>
   <project name="product-texts" groups="kv"/>
-  <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="query-ee" revision="cheshire-cat" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="query" revision="cheshire-cat" path="goproj/src/github.com/couchbase/query" groups="bsl"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
@@ -65,10 +65,10 @@
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
   <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty"/>
-  <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json"/>
-  <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup"/>
+  <project name="go_json"        revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/go_json"/>
+  <project name="gomemcached"    revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/gomemcached" groups="backup"/>
   <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth" groups="backup"/>
-  <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
+  <project name="go-couchbase"   revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
 
   <project name="cbflag"                                                             path="godeps/src/github.com/couchbase/cbflag"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
@@ -89,7 +89,7 @@
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss"/>
   <project name="mossScope"                                                          path="godeps/src/github.com/couchbase/mossScope"/>
   <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
-  <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
+  <project name="godbc"          revision="cheshire-cat"                             path="godeps/src/github.com/couchbase/godbc"/>
   <project name="logstats"       revision="cheshire-cat"                             path="godeps/src/github.com/couchbase/logstats"/>
 
   <!-- Go support libraries - Bleve-supported -->
