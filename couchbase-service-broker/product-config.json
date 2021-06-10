@@ -2,8 +2,8 @@
     "product": "couchbase-service-broker",
     "manifests": {
         "couchbase-service-broker/master.xml": {
-            "release": "1.1.0",
-            "release_name": "Couchbase Service Broker 1.1.0 - master",
+            "release": "1.1.1",
+            "release_name": "Couchbase Service Broker 1.1.1 - master",
             "production": true,
             "interval": 1440,
             "restricted": false,
