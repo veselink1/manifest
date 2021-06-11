@@ -64,7 +64,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" revision="bd4439ac7c683786419349f427316b6ffd77ce9c"/>
+  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" revision="162bc62ae83c93dad1a6ee979f173f0f42e6992a"/>
   <project name="go_json" path="goproj/src/github.com/couchbase/go_json" revision="1d2f74e0ecac20f0cc62ff1ac660bcb4d1fefaaf"/>
   <project name="gomemcached" path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="4201f50df22f08f75a0491451fa6507387d41304"/>
   <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="0eaf917092a2a0063989e9a08b4a7ac3abf09e1e"/>
