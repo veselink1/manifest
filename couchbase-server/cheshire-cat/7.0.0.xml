@@ -34,7 +34,7 @@
   <project name="kv_engine" revision="cheshire-cat" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.1.4"/>
   <project name="magma" revision="cheshire-cat" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
-  <project name="ns_server" revision="cheshire-cat" groups="bsl"/>
+  <project name="ns_server" revision="d36dd393ea110d71e9ba5d196f271b03b91e9547" groups="bsl"/>
   <project name="chronicle" revision="4bf6127965530489ab94b752485e2da17a5a33f0" path="ns_server/deps/chronicle"/>
   <project name="phosphor" groups="kv" revision="f2a5566bc48a2d944acb82d80b8104ed7b8bb191"/>
   <project name="platform" revision="cheshire-cat" groups="kv"/>
