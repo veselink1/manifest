@@ -22,7 +22,7 @@
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
-  <project name="forestdb" revision="cb-master" groups="backup"/>
+  <project name="forestdb" revision="43c6128f1b54fcc92bbbfaf7d6061d1a024c7050" groups="backup"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" revision="cheshire-cat" groups="bsl"/>
   <project name="gometa" revision="cheshire-cat" path="goproj/src/github.com/couchbase/gometa"/>
@@ -42,7 +42,7 @@
   <project name="query-ee" revision="cheshire-cat" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="query" revision="cheshire-cat" path="goproj/src/github.com/couchbase/query" groups="bsl"/>
   <project name="query-ui"/>
-  <project name="sigar" groups="kv"/>
+  <project name="sigar" groups="kv" revision="aa56bc7b92311e7db76ba4f0ae9da75ebebc0df1"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
   <project name="tlm" revision="cheshire-cat" groups="kv">
