@@ -15,9 +15,8 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <!-- Change to master after extended PR validation is done -->
-  <project name="couchbase-lite-c" revision="dev" remote="couchbaselabs"/>
-  <project name="couchbase-lite-c-ee" revision="dev" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="couchbase-lite-c" remote="couchbaselabs"/>
+  <project name="couchbase-lite-c-ee" revision="main" remote="couchbase-priv" groups="notdefault,enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
