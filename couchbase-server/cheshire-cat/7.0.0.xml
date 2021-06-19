@@ -44,7 +44,7 @@
   <project name="query-ui" revision="b9bbd59dc14b36e74be5d5c365f4c5ff069ee74f"/>
   <project name="sigar" groups="kv" revision="aa56bc7b92311e7db76ba4f0ae9da75ebebc0df1"/>
   <project name="subjson" groups="kv" revision="d02afad5c89a853a89329d52b8b6dcc20143c628"/>
-  <project name="testrunner"/>
+  <project name="testrunner" revision="cheshire-cat"/>
   <project name="tlm" revision="3f29ae3986c20a54f466a4da3012b8ed3f4a615f" groups="kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
     <copyfile src="Makefile" dest="Makefile"/>
