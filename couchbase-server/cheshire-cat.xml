@@ -67,7 +67,7 @@
   <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty"/>
   <project name="go_json"        revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/go_json"/>
   <project name="gomemcached"    revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/gomemcached" groups="backup"/>
-  <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth" groups="backup"/>
+  <project name="cbauth"         revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/cbauth" groups="backup"/>
   <project name="go-couchbase"   revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
 
   <project name="cbflag"                                                             path="godeps/src/github.com/couchbase/cbflag"/>
