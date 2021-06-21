@@ -12,9 +12,9 @@
   <project name="backup" revision="cheshire-cat" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" revision="cheshire-cat" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft"/>
+  <project name="cbft" revision="cheshire-cat"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="cbgt"/>
+  <project name="cbgt" revision="cheshire-cat"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli" revision="cheshire-cat" groups="kv"/>
   <project name="couchdb" revision="cheshire-cat"/>
@@ -64,7 +64,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty"/>
+  <project name="n1fty"          revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/n1fty"/>
   <project name="go_json"        revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/go_json"/>
   <project name="gomemcached"    revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/gomemcached" groups="backup"/>
   <project name="cbauth"         revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/cbauth" groups="backup"/>
