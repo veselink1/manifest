@@ -36,7 +36,7 @@
   <project name="magma" revision="cheshire-cat" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" revision="cheshire-cat" groups="bsl"/>
   <project name="chronicle" path="ns_server/deps/chronicle"/>
-  <project name="phosphor" groups="kv"/>
+  <project name="phosphor" revision="f2a5566bc48a2d944acb82d80b8104ed7b8bb191" groups="kv"/>
   <project name="platform" revision="cheshire-cat" groups="kv"/>
   <project name="product-texts" groups="kv"/>
   <project name="query-ee" revision="cheshire-cat" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
