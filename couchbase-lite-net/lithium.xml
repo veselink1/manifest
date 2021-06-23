@@ -23,15 +23,15 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="8972cfdfd664839e2b2b7eab0c6408c07d254e32" path="couchbase-lite-net-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-core" revision="c13e7c92679173615eb567856f9182c938fecae4" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="29abceb2f62428d58c23948117f82fe5ad4d7b09" path="couchbase-lite-net-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-core" revision="cd2a0c0917ba57c5ec3b68a560743cc4213690c5" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="BLIP-Cpp" remote="couchbaselabs" revision="8bbba50dcb3d023eb07df0f0649389e7c8c003a9" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbaselabs" revision="ce0f773f6f1801d61616927efd4ef79dfb311dbc" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbaselabs" revision="a68a551a74821fc991068d5cd05895770764e9dd" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
 
