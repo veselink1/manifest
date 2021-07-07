@@ -15,7 +15,7 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-c" remote="couchbaselabs"/>
+  <project name="couchbase-lite-c" remote="couchbase"/>
   <project name="couchbase-lite-c-ee" revision="main" remote="couchbase-priv" groups="notdefault,enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
