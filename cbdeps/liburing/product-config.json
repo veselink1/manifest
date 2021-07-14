@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "cbdeps/liburing/master.xml": {
+            "release": "0.6",
+            "release_name": "liburing 0.6",
+            "production": true,
+            "restricted": false,
+            "start_build": 1,
+            "jenkins_server": "server.jenkins.couchbase.com",
+            "jenkins_job": "no-op-build",
+            "do-build": false,
+            "keep_git": true
+        }
+    }
+}
