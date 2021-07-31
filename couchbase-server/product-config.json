@@ -29,15 +29,15 @@
         },
         "couchbase-server/cheshire-cat/7.0.0.xml": {
             "release": "cheshire-cat",
-            "release_name": "Cheshire-Cat (7.0.0)",
+            "release_name": "Cheshire-Cat 7.0.0-MP1",
             "parent": "couchbase-server/cheshire-cat.xml",
             "production": true,
             "start_build": 5202,
             "trigger_blackduck": false,
-            "interval": 113,
+            "interval": 443,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-44894"
+            "approval_ticket": "MB-47469"
         },
         "couchbase-server/mad-hatter.xml": {
             "release": "mad-hatter",
