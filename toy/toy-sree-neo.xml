@@ -10,14 +10,14 @@
   <remote name="toy" fetch="git://github.com/sreekanth-cb/" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" revision="cheshire-cat" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
+  <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
   <project name="cbft"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
-  <project name="couchbase-cli" revision="cheshire-cat" groups="kv"/>
+  <project name="couchbase-cli" groups="kv"/>
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
@@ -33,13 +33,13 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv,bsl"/>
-  <project name="libcouchbase" revision="refs/tags/3.1.2"/>
-  <project name="magma" revision="cheshire-cat" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
+  <project name="libcouchbase" revision="refs/tags/3.1.4"/>
+  <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" groups="bsl"/>
   <project name="chronicle" path="ns_server/deps/chronicle"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
-  <project name="product-texts" groups="kv"/>
+  <project name="product-texts"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl"/>
   <project name="query-ui"/>
@@ -54,10 +54,11 @@
     <copyfile src="dot-clang-tidy" dest=".clang-tidy" />
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
   </project>
+  <project name="udf-api"     path="goproj/src/github.com/couchbase/udf-api"/>
   <!-- Analytics additions -->
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="cheshire-cat" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" revision="cheshire-cat" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
-  <project name="analytics-dcp-client" revision="cheshire-cat" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="notdefault,enterprise,analytics"/>
   <!-- Mobile -->
@@ -95,7 +96,7 @@
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="mmap-go"          remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
-  <project name="bleve" remote="toy" revision="a93109d0933b236bf1575652476c265f6c6d7f40" path="godeps/src/github.com/blevesearch/bleve"/> 
+  <project name="bleve" remote="toy"  path="godeps/src/github.com/blevesearch/bleve"/>
 
   <!-- Go support libraries - third-party -->
   <project name="uuid"           remote="couchbasedeps" revision="dec09d789f3dba190787f8b4454c7d3c936fed9e" path="godeps/src/github.com/google/uuid"/>
@@ -159,16 +160,16 @@
   <!-- C/C++ support libraries -->
   <project name="benchmark"      remote="couchbasedeps" revision="refs/tags/v1.5.1" path="third_party/google-benchmark" groups="kv"/>
   <project name="googletest"     remote="couchbasedeps" revision="refs/tags/release-1.10.0" path="third_party/googletest" groups="kv"/>
-  <project name="gsl-lite"       remote="couchbasedeps" revision="refs/tags/v0.34.0" path="third_party/gsl-lite" groups="kv"/>
-  <project name="spdlog"         remote="couchbasedeps" revision="v1.1.0-couchbase" path="third_party/spdlog"   groups="kv"/>
+  <project name="gsl-lite"       remote="couchbasedeps" revision="refs/tags/v0.38.1" path="third_party/gsl-lite" groups="kv"/>
+  <project name="spdlog"         remote="couchbasedeps" revision="refs/tags/v1.8.5" path="third_party/spdlog"   groups="kv"/>
   <project name="HdrHistogram_c" remote="couchbasedeps" revision="42148d72f34d6865b2a6706c106cd72ee68216a5" path="third_party/HdrHistogram_c" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="7.0.0"     keep="true"/>
+    <annotation name="VERSION" value="7.1.0"     keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server" keep="true"/>
-    <annotation name="BSL_VERSION" value="Cheshire-Cat" keep="true"/>
-    <annotation name="BSL_CHANGE_DATE" value="April 1, 2025" keep="true"/>
+    <annotation name="BSL_VERSION" value="Neo" keep="true"/>
+    <annotation name="BSL_CHANGE_DATE" value="July 1, 2025" keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
