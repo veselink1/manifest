@@ -41,13 +41,22 @@
         },
         "couchbase-server/mad-hatter.xml": {
             "release": "mad-hatter",
-            "release_name": "Mad-Hatter (6.6.3)",
+            "release_name": "Mad-Hatter 6.6.4",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 9700,
+            "start_build": 9900,
             "trigger_blackduck": true,
-            "interval": 739,
+            "interval": 443,
             "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-47673"
+        },
+        "couchbase-server/mad-hatter/6.6.3.xml": {
+            "release": "mad-hatter",
+            "release_name": "Mad-Hatter 6.6.3",
+            "parent": "couchbase-server/mad-hatter.xml",
+            "interval": 1443,
+            "trigger_blackduck": false,
             "restricted": true,
             "approval_ticket": "MB-45582"
         },
@@ -55,7 +64,7 @@
             "release": "mad-hatter",
             "release_name": "Mad-Hatter 6.6.2-MP3",
             "parent": "couchbase-server/mad-hatter.xml",
-            "interval": 443,
+            "interval": 1843,
             "trigger_blackduck": false,
             "restricted": true,
             "approval_ticket": "MB-47627"
@@ -64,7 +73,7 @@
             "release": "mad-hatter",
             "release_name": "Mad-Hatter 6.6.1-MP2",
             "parent": "couchbase-server/mad-hatter.xml",
-            "interval": 1440,
+            "interval": 1640,
             "trigger_blackduck": false,
             "restricted": true,
             "approval_ticket": "MB-44188"
@@ -73,7 +82,7 @@
             "release": "mad-hatter",
             "release_name": "Mad-Hatter 6.6.0-MP4",
             "parent": "couchbase-server/mad-hatter.xml",
-            "interval": 1440,
+            "interval": 1740,
             "restricted": true,
             "approval_ticket": "MB-42126"
         },
