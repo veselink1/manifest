@@ -72,7 +72,7 @@
             "interval": 1443,
             "trigger_blackduck": false,
             "restricted": true,
-            "approval_ticket": "MB-45582"
+            "approval_ticket": "MB-43894"
         },
         "couchbase-server/mad-hatter/6.6.2.xml": {
             "release": "mad-hatter",
