@@ -4,6 +4,7 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org" />
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/" review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org" />
+  <remote fetch="ssh://review.couchbase.org:29418/" name="gerrit" />
   
   <default remote="couchbase" revision="master" />
   
@@ -143,7 +144,7 @@
   <project name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="12a6c2dcc1e4cb348b57847c73987099e261714b" />
   <project name="testrunner" revision="34d302ff4a33a23bac38d57254538f9e9df5fcc4" upstream="master" dest-branch="master" />
   <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="88f656faf3f37f690df1a32515b479415e1a6769" />
-  <project name="tlm" revision="42267b85c128e2234f445ab39ce2fdecc9ae9dd2" upstream="master" dest-branch="master" groups="kv">
+  <project name="tlm" remote="gerrit" revision="refs/changes/05/155805/15" upstream="master" dest-branch="master" groups="kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile" />
     <copyfile src="Makefile" dest="Makefile" />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
