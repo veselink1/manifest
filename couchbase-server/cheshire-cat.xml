@@ -168,7 +168,7 @@
     <annotation name="BSL_VERSION" value="7.0" keep="true"/>
     <annotation name="BSL_CHANGE_DATE" value="July 1, 2025" keep="true"/>
   </project>
-  <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
+  <project name="voltron"  revision="cheshire-cat"  remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
   <project name="product-metadata" groups="notdefault,packaging" />
 </manifest>
