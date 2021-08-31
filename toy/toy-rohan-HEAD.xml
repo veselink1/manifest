@@ -34,7 +34,7 @@
 
   <project name="kv_engine" revision="a0a0aca94b9d29f91ef4f0100c5946b52495167a" groups="kv,bsl"/>
 
-  <project name="magma" revision="21e8a9a3028040cb733c5419aef6aee124cef957" remote="couchbase-priv" groups="notdefault,enterprise,kv_ee"  />
+  <project name="magma" revision="bcd76ad854e5d39526147b59ff22f863481336e4" remote="couchbase-priv" groups="notdefault,enterprise,kv_ee"  />
 
   <project name="libcouchbase" revision="465188d3b1a85902e918a553d8ec71aeb903018a"/>
   <project name="ns_server" groups="bsl"/>
