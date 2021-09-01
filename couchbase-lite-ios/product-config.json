@@ -1,6 +1,21 @@
 {
     "product": "couchbase-lite-ios",
     "manifests": {
+        "couchbase-lite-ios/helium.xml": {
+            "release": "3.1.0",
+            "release_name": "Couchbase Lite iOS - Helium 3.1.0",
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "do-build": true,
+            "module_projects": [
+                "couchbase-lite-ios-ee",
+                "couchbase-lite-ios"
+            ]
+        },
         "couchbase-lite-ios/lithium.xml": {
             "release": "3.0.0",
             "release_name": "Couchbase Lite iOS - Lithium 3.0.0",
