@@ -20,7 +20,7 @@
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" groups="notdefault" revision="fa5df77677945a629aeb82aeaa3d43218df2a88d">
-    <annotation name="VERSION" value="3.0.0" keep="true"/>
+    <annotation name="VERSION" value="3.1.0" keep="true"/>
   </project>
  
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -31,7 +31,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java" revision="android/release/lithium" />
+  <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language common repository    -->
@@ -46,8 +46,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" path="cbl-java/core"  revision="release/lithium" />
-  <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="release/lithium" />
+  <project name="couchbase-lite-core" path="cbl-java/core" revision="a6ef508892c27c64b8819100a9b7c6d84b483e24" />
+  <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="a6ef508892c27c64b8819100a9b7c6d84b483e24" />
 
   <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
 

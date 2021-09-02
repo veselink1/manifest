@@ -1,9 +1,9 @@
 {
     "product": "couchbase-lite-android",
     "manifests": {
-        "couchbase-lite-android/lithium.xml": {
-            "release": "3.0.0",
-            "release_name": "Couchbase Lite Android - Lithium 3.0.0",
+        "couchbase-lite-android/helium.xml": {
+            "release": "3.1.0",
+            "release_name": "Couchbase Lite Android - Helium 3.1.0 pre-release",
             "production": true,
             "interval": 60,
             "restricted": false,
@@ -27,6 +27,19 @@
             "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core-EE", "couchbase-lite-core", "product-texts" ],
             "jenkins_job": "couchbase-lite-android"
         },
+        "couchbase-lite-android/lithium.xml": {
+            "release": "3.0.0",
+            "release_name": "Couchbase Lite Android - Lithium 3.0.0",
+            "production": true,
+            "interval": 40320,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "do-build": true,
+            "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core-EE", "couchbase-lite-core", "product-texts" ],
+            "jenkins_job": "couchbase-lite-android"
+        },
         "couchbase-lite-android/hydrogen/2.8.7.xml": {
             "release": "2.8.7",
             "release_name": "Couchbase Lite Android - Hydrogen 2.8.7",
@@ -36,19 +49,6 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true,
-            "do-build": false,
-            "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core", "couchbase-lite-core-EE", "product-texts" ],
-            "jenkins_job": "couchbase-lite-android"
-        },
-        "couchbase-lite-android/hydrogen/candidate-2.8.6.xml": {
-            "release": "2.8.6",
-            "release_name": "Couchbase Lite Android - 2.8.6 Candidate",
-            "production": true,
-            "interval": 40320,
-            "restricted": false,
-            "start_build": 1,
-            "keep_git": true,
-            "trigger_blackduck": false,
             "do-build": false,
             "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core", "couchbase-lite-core-EE", "product-texts" ],
             "jenkins_job": "couchbase-lite-android"

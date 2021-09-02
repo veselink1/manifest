@@ -1,9 +1,9 @@
 {
     "product": "couchbase-lite-java",
     "manifests": {
-        "couchbase-lite-java/lithium.xml": {
-            "release": "3.0.0",
-            "release_name": "Couchbase Lite Java - Lithium 3.0.0",
+        "couchbase-lite-java/helium.xml": {
+            "release": "3.1.0",
+            "release_name": "Couchbase Lite Java - Helium 3.1.0 pre-release",
             "production": true,
             "interval": 60,
             "restricted": false,
@@ -27,6 +27,19 @@
             "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core-EE", "couchbase-lite-core", "product-texts" ],
             "jenkins_job": "couchbase-lite-java"
         },
+        "couchbase-lite-java/lithium.xml": {
+            "release": "3.0.0",
+            "release_name": "Couchbase Lite Java - Lithium 3.0.0",
+            "production": true,
+            "interval": 40320,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "do-build": true,
+            "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core-EE", "couchbase-lite-core", "product-texts" ],
+            "jenkins_job": "couchbase-lite-java"
+        },
         "couchbase-lite-java/hydrogen.xml": {
             "release": "2.8.4",
             "release_name": "Couchbase Lite Java - Hydrogen 2.8.4",
@@ -37,7 +50,7 @@
             "keep_git": true,
             "trigger_blackduck": true,
             "do-build": true,
-            "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core", "couchbase-lite-core-EE", "product-texts" ],
+            "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core-EE", "couchbase-lite-core", "product-texts" ],
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/mercury.xml": {
