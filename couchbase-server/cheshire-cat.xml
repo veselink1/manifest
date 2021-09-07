@@ -15,7 +15,7 @@
   <project name="cbft" revision="cheshire-cat" groups="bsl"/>
   <project name="cbftx" remote="couchbase-priv" revision="cheshire-cat" groups="notdefault,enterprise"/>
   <project name="cbgt" revision="cheshire-cat" groups="bsl"/>
-  <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" groups="bsl"/>
+  <project name="cbsummary" revision="d65738f74dad4d052812caced063da1a95db8567" path="goproj/src/github.com/couchbase/cbsummary" groups="bsl"/>
   <project name="couchbase-cli" revision="cheshire-cat" groups="kv"/>
   <project name="couchdb" revision="cheshire-cat"/>
   <project name="couchstore" revision="cheshire-cat" groups="kv"/>
@@ -23,7 +23,7 @@
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
   <project name="forestdb" revision="43c6128f1b54fcc92bbbfaf7d6061d1a024c7050" groups="backup"/>
-  <project name="geocouch"/>
+  <project name="geocouch" revision="3e8040787139e3c67766ce50398860c185737b8a"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" revision="cheshire-cat" groups="bsl"/>
   <project name="gometa" revision="cheshire-cat" path="goproj/src/github.com/couchbase/gometa" groups="bsl"/>
   <project name="nitro" revision="cheshire-cat" path="goproj/src/github.com/couchbase/nitro"/>
@@ -41,7 +41,7 @@
   <project name="product-texts" groups="kv"/>
   <project name="query-ee" revision="cheshire-cat" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="query" revision="cheshire-cat" path="goproj/src/github.com/couchbase/query" groups="bsl"/>
-  <project name="query-ui"/>
+  <project name="query-ui" revision="b76d6c3817649fac999b047a0a59c9ec6107495b"/>
   <project name="sigar" groups="kv" revision="aa56bc7b92311e7db76ba4f0ae9da75ebebc0df1"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner" revision="cheshire-cat"/>
