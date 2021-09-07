@@ -19,7 +19,7 @@
   <project name="couchbase-cli" revision="cheshire-cat" groups="kv"/>
   <project name="couchdb" revision="cheshire-cat"/>
   <project name="couchstore" revision="cheshire-cat" groups="kv"/>
-  <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
+  <project name="docloader" revision="57492c80834575f4199cff5fff94cb4f4c7c6af6" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
   <project name="forestdb" revision="43c6128f1b54fcc92bbbfaf7d6061d1a024c7050" groups="backup"/>
@@ -60,7 +60,7 @@
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" revision="cheshire-cat" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" revision="cheshire-cat" groups="notdefault,enterprise,analytics,bsl"/>
   <!-- Mobile -->
-  <project name="mobile-service" path="goproj/src/github.com/couchbase/mobile-service"/>
+  <project name="mobile-service" revision="57b35666b27b658543f19b0de9b58404f22ec39f" path="goproj/src/github.com/couchbase/mobile-service"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
