@@ -11,7 +11,7 @@
   <remote name="google" fetch="git://github.com/google/"/>
   <remote name="ARMmbed" fetch="git://github.com/ARMmbed"/>
 
-  <default remote="couchbase" revision="release/lithium"/>
+  <default remote="couchbase" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
@@ -53,7 +53,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="tlm" revision="2d46e032cf08727e8e5fab67d05c4f1b051989e4"/>
   <project name="build" path="cbbuild" revision="a8ba0a9d6058381edc320648cafaf696a611908c">
-    <annotation name="VERSION" value="3.0.0" keep="true"/>
+    <annotation name="VERSION" value="3.1.0" keep="true"/>
   </project>
 
   # Want these explicitly master, regardless of the default

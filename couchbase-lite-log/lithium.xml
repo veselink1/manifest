@@ -9,7 +9,7 @@
   <remote name="leetal" fetch="git://github.com/leetal/"/>
   <remote name="google" fetch="git://github.com/google/"/>
 
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="release/lithium"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
