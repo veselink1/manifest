@@ -41,7 +41,7 @@
   <project name="product-texts" groups="kv"/>
   <project name="query-ee" revision="cheshire-cat" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="query" revision="cheshire-cat" path="goproj/src/github.com/couchbase/query" groups="bsl"/>
-  <project name="query-ui" revision="b76d6c3817649fac999b047a0a59c9ec6107495b"/>
+  <project name="query-ui" revision="cheshire-cat"/>
   <project name="sigar" groups="kv" revision="aa56bc7b92311e7db76ba4f0ae9da75ebebc0df1"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner" revision="cheshire-cat"/>
