@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"/>
+  <remote name="couchbaselabspriv" fetch="ssh://git@github.com/couchbaselabs/"/>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
 
-  <default remote="couchbaselabs" revision="master"/>
+  <default remote="couchbaselabspriv" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
