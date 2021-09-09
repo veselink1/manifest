@@ -1,7 +1,6 @@
 {
-    "product": "couchbase-observability-stack-cluster-monitor",
     "manifests": {
-        "couchbase-observability-stack/couchbase-cluster-monitor/master.xml": {
+        "couchbase-cluster-monitor/master.xml": {
             "release": "1.0.0",
             "release_name": "Couchbase Observability Stack (Cluster Monitor component) 1.0.0",
             "production": true,
