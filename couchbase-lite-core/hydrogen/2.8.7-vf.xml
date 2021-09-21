@@ -14,7 +14,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="fix/cbl-2357_database_delete_logging" />
+  <project name="couchbase-lite-core" revision="fix/cbl-2357_database_delete_logging"/>
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault,enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
