@@ -14,7 +14,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": true,
-            "interval": 245,
+            "interval": 125,
             "keep_git": true
         },
         "couchbase-server/cheshire-cat.xml": {
@@ -36,7 +36,7 @@
             "production": true,
             "start_build": 6100,
             "trigger_blackduck": false,
-            "interval": 443,
+            "interval": 1443,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-47469"
@@ -48,7 +48,7 @@
             "production": true,
             "start_build": 5202,
             "trigger_blackduck": false,
-            "interval": 443,
+            "interval": 1443,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-100"
