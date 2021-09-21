@@ -72,7 +72,7 @@
 
   <project name="cbflag"                                                             path="godeps/src/github.com/couchbase/cbflag" groups="bsl"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
-  <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog" groups="bsl"/>
+  <project name="clog"           revision="refs/tags/v0.1.0"                         path="godeps/src/github.com/couchbase/clog" groups="bsl"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb" groups="bsl"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance" groups="bsl"/>
