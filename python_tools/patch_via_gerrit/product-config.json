@@ -9,7 +9,7 @@
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "python-tool-build",
             "do-build": false,
-            "keep_git": false
+            "keep_git": true
         }
     }
 }
