@@ -31,6 +31,21 @@
                 "couchbase-lite-net"
             ]
         },
+        "couchbase-lite-net/hydrogen/2.8.7-vf.xml": {
+            "release": "2.8.7",
+            "release_name": "Couchbase Lite Net - 2.8.7 VF",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": false,
+            "do-build": false,
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
+        },
         "couchbase-lite-net/hydrogen.xml": {
             "release": "2.8.6",
             "release_name": "Couchbase Lite Net - Hydrogen",
