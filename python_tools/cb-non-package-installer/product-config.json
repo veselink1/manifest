@@ -9,7 +9,7 @@
             "interval": 480,
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "python-tool-build",
-            "platforms": [ "linux" ],
+            "platforms": [ "linux", "linux:aarch64" ],
             "do-build": true,
             "keep_git": false
         }
