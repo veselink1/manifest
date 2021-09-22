@@ -9,14 +9,14 @@
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" revision="cheshire-cat" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
+  <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
   <project name="cbft"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
-  <project name="couchbase-cli" revision="cheshire-cat" groups="kv"/>
+  <project name="couchbase-cli" groups="kv"/>
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
@@ -33,12 +33,12 @@
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.2.1"/>
-  <project name="magma" revision="cheshire-cat" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
+  <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" groups="bsl"/>
   <project name="chronicle" path="ns_server/deps/chronicle"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
-  <project name="product-texts" groups="kv"/>
+  <project name="product-texts"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl"/>
   <project name="query-ui"/>
@@ -53,14 +53,13 @@
     <copyfile src="dot-clang-tidy" dest=".clang-tidy" />
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
   </project>
+  <project name="udf-api"     path="goproj/src/github.com/couchbase/udf-api"/>
   <!-- Analytics additions -->
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="cheshire-cat" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" revision="cheshire-cat" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
-  <project name="analytics-dcp-client" revision="cheshire-cat" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="notdefault,enterprise,analytics"/>
-  <!-- Mobile -->
-  <project name="mobile-service" path="goproj/src/github.com/couchbase/mobile-service"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
@@ -116,7 +115,7 @@
   <project name="goleveldb"      remote="couchbasedeps" revision="fa5b5c78794bc5c18f330361059f871ae8c2b9d6" path="godeps/src/github.com/syndtr/goleveldb"/>
   <project name="gosnappy"       remote="couchbasedeps" revision="156a073208e131d7d2e212cb749feae7c339e846" path="godeps/src/github.com/syndtr/gosnappy"/>
   <project name="bitset"         remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4" path="godeps/src/github.com/willf/bitset"/>
-  <project name="text"           remote="couchbasedeps" revision="88f656faf3f37f690df1a32515b479415e1a6769" path="godeps/src/golang.org/x/text"/>
+  <project name="text"           remote="couchbasedeps" revision="refs/tags/v0.3.4" path="godeps/src/golang.org/x/text"/>
   <project name="golang-tools"   remote="couchbasedeps" revision="a28dfb48e06b2296b66678872c2cb638f0304f20" path="godeps/src/golang.org/x/tools"/>
   <project name="crypto"         remote="couchbasedeps" revision="bd6f299fb381e4c3393d1c4b1f0b94f5e77650c8" path="godeps/src/golang.org/x/crypto"/>
   <project name="net"            remote="couchbasedeps" revision="44b7c21cbf19450f38b337eb6b6fe4f6496fb5b3" path="godeps/src/golang.org/x/net"/>
@@ -155,18 +154,15 @@
   <project name="jsonschema"      remote="couchbasedeps" revision="137f44a49015e5060a447c331aa37de6e0f50267" path="godeps/src/github.com/santhosh-tekuri/jsonschema"/>
 
   <!-- C/C++ support libraries -->
-  <project name="benchmark"      remote="couchbasedeps" revision="refs/tags/v1.5.1" path="third_party/google-benchmark" groups="kv"/>
-  <project name="googletest"     remote="couchbasedeps" revision="refs/tags/release-1.10.0" path="third_party/googletest" groups="kv"/>
-  <project name="gsl-lite"       remote="couchbasedeps" revision="refs/tags/v0.34.0" path="third_party/gsl-lite" groups="kv"/>
-  <project name="spdlog"         remote="couchbasedeps" revision="v1.1.0-couchbase" path="third_party/spdlog"   groups="kv"/>
-  <project name="HdrHistogram_c" remote="couchbasedeps" revision="42148d72f34d6865b2a6706c106cd72ee68216a5" path="third_party/HdrHistogram_c" groups="kv"/>
+  <project name="gsl-lite"       remote="couchbasedeps" revision="refs/tags/v0.38.1" path="third_party/gsl-lite" groups="kv"/>
+  <project name="HdrHistogram_c" remote="couchbasedeps" revision="caed837aa163421a637222157b3f6353b4ca831a" path="third_party/HdrHistogram_c" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="7.0.0"     keep="true"/>
+    <annotation name="VERSION" value="7.1.0"     keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server" keep="true"/>
-    <annotation name="BSL_VERSION" value="Cheshire-Cat" keep="true"/>
-    <annotation name="BSL_CHANGE_DATE" value="April 1, 2025" keep="true"/>
+    <annotation name="BSL_VERSION" value="Neo" keep="true"/>
+    <annotation name="BSL_CHANGE_DATE" value="July 1, 2025" keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
