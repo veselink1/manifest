@@ -70,7 +70,6 @@
   <project name="cbauth"         revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/cbauth" groups="backup,bsl"/>
   <project name="go-couchbase"   revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
 
-  <project name="cbflag"                                                             path="godeps/src/github.com/couchbase/cbflag" groups="bsl"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
   <project name="clog"           revision="refs/tags/v0.1.0"                         path="godeps/src/github.com/couchbase/clog" groups="bsl"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>

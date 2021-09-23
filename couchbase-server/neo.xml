@@ -70,7 +70,6 @@
   <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
   <project name="goutils"                                                            path="goproj/src/github.com/couchbase/goutils"/>
 
-  <project name="cbflag"                                                             path="godeps/src/github.com/couchbase/cbflag"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
