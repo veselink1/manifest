@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This exists only for testing patch_via_gerrit. It should never be built. -->
+  <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
+
+  <default remote="couchbase" revision="master" />
+
+  <project name="geocouch" revision="3e8040787139e3c67766ce50398860c185737b8a"/>
+  <project name="tlm" revision="cheshire-cat" groups="kv"/>
+
+</manifest>
