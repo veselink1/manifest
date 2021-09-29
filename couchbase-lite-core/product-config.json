@@ -1,5 +1,4 @@
 {
-    "product": "couchbase-lite-core",
     "manifests": {
          "couchbase-lite-core/helium.xml": {
              "release": "3.1.0",

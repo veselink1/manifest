@@ -1,5 +1,4 @@
 {
-    "product": "couchbase-lite-java",
     "manifests": {
         "couchbase-lite-java/helium.xml": {
             "release": "3.1.0",

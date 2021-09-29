@@ -1,5 +1,4 @@
 {
-    "product": "couchbase-fluent-bit",
     "manifests": {
         "couchbase-fluent-bit/main.xml": {
             "release": "1.1.1",

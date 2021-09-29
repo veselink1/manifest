@@ -1,5 +1,4 @@
 {
-    "product": "couchbase-exporter",
     "manifests": {
         "couchbase-exporter/master.xml": {
             "release": "1.0.6",

@@ -1,5 +1,4 @@
 {
-    "product": "couchbase-lite-log",
     "manifests": {
         "couchbase-lite-log/helium.xml": {
              "release": "3.1.0",

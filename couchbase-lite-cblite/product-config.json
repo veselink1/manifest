@@ -1,5 +1,4 @@
 {
-    "product": "couchbase-lite-cblite",
     "manifests": {
         "couchbase-lite-cblite/helium.xml": {
              "release": "3.1.0",

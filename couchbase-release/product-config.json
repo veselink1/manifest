@@ -1,5 +1,4 @@
 {
-    "product": "couchbase-release",
     "manifests": {
         "couchbase-operator/master.xml": {
             "release": "1.0",

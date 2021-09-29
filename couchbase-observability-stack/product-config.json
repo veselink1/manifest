@@ -1,5 +1,4 @@
 {
-    "product": "couchbase-observability-stack",
     "manifests": {
         "couchbase-observability-stack/master.xml": {
             "release": "1.0.0",

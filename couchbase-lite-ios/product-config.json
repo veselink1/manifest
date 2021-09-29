@@ -1,5 +1,4 @@
 {
-    "product": "couchbase-lite-ios",
     "manifests": {
         "couchbase-lite-ios/helium.xml": {
             "release": "3.1.0",
