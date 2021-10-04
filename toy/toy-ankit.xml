@@ -32,7 +32,7 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv,bsl"/>
-  <project name="libcouchbase" revision="refs/tags/3.2.0"/>
+  <project name="libcouchbase" revision="refs/tags/3.2.2"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" groups="bsl"/>
   <project name="chronicle" path="ns_server/deps/chronicle"/>
@@ -70,7 +70,6 @@
   <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
   <project name="goutils"                                                            path="goproj/src/github.com/couchbase/goutils"/>
 
-  <project name="cbflag"                                                             path="godeps/src/github.com/couchbase/cbflag"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
