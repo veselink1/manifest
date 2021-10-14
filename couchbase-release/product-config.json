@@ -5,6 +5,7 @@
             "release_name": "Couchbase Release 1.0 - master",
             "production": true,
             "interval": 10000,
+            "do-build": false,
             "restricted": false,
             "start_build": 6,
             "keep_git": true
