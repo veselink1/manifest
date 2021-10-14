@@ -28,7 +28,7 @@
         },
         "couchbase-lite-android/lithium.xml": {
             "release": "3.0.0",
-            "release_name": "Couchbase Lite Android - Lithium 3.0.0",
+            "release_name": "Couchbase Lite Android - Lithium 3.0.0 Beta 2",
             "production": true,
             "interval": 40320,
             "restricted": false,

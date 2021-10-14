@@ -28,7 +28,7 @@
         },
         "couchbase-lite-java/lithium.xml": {
             "release": "3.0.0",
-            "release_name": "Couchbase Lite Java - Lithium 3.0.0",
+            "release_name": "Couchbase Lite Java - Lithium 3.0.0 Beta 2",
             "production": true,
             "interval": 40320,
             "restricted": false,
