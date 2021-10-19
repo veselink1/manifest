@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org" />
+  <remote name="couchbase" fetch="git://github.com/couchbase" review="review.couchbase.org" />
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/" review="review.couchbase.org" />
+  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org" />
+  <remote name="apache" fetch="git://github.com/apache/" />
+  <remote name="tableau" fetch="git://github.com/tableau/" />
+
+  <default remote="couchbase" revision="master"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Main source: Supported by Couchbase Analytics team -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="couchbase-tableau-connector" remote="couchbase-priv" revision="master" path="cbtaco"/>
+
+  <!-- Apache AsterixDB Clients -->
+  <project name="asterixdb-clients" remote="apache" revision="master" path="cbtaco/asterixdb-clients" />
+
+  <!-- Couchbase JDBC Driver -->
+  <project name="couchbase-jdbc-driver" remote="couchbaselabs" revision="main" path="cbtaco/couchbase-jdbc-driver" />
+
+  <!-- Couchbase JVM Clients -->
+  <project name="couchbase-jvm-clients" remote="couchbase" revision="master" path="cbtaco/couchbase-jvm-clients" />
+
+  <!-- Tableau Connector SDK (tag: "tableau-2021.2") -->
+  <project name="connector-plugin-sdk" remote="tableau" revision="08992ee39d6c12a4d85f305b0d760cc1c6c2187c" path="cbtaco/connector-plugin-sdk" groups="notdefault"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - build scripts, etc.                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="build" revision="c1b485bbf14aa1176be5ea26b7982f4002188429" remote="couchbase">
+    <annotation name="VERSION" value="1.0.0" keep="true"/>
+  </project>
+</manifest>
+
