@@ -79,12 +79,12 @@
         },
         "couchbase-server/mad-hatter/6.6.3.xml": {
             "release": "mad-hatter",
-            "release_name": "Mad-Hatter 6.6.3-MP2",
+            "release_name": "Mad-Hatter 6.6.3-MP3",
             "parent": "couchbase-server/mad-hatter.xml",
-            "interval": 1443,
+            "interval": 120,
             "trigger_blackduck": false,
             "restricted": true,
-            "approval_ticket": "MB-48400"
+            "approval_ticket": "MB-49023"
         },
         "couchbase-server/mad-hatter/6.6.2.xml": {
             "release": "mad-hatter",
