@@ -22,9 +22,21 @@
             "release_name": "Cheshire-Cat (mainline)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 6500,
+            "start_build": 7000,
             "trigger_blackduck": true,
-            "interval": 60,
+            "interval": 728,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-48997"
+        },
+        "couchbase-server/cheshire-cat/7.0.2.xml": {
+            "release": "cheshire-cat",
+            "release_name": "Cheshire-Cat 7.0.2",
+            "parent": "couchbase-server/cheshire-cat.xml",
+            "production": true,
+            "start_build": 6100,
+            "trigger_blackduck": false,
+            "interval": 1443,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-46308"
