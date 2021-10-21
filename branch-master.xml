@@ -37,6 +37,7 @@
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server"/>
   <project name="chronicle" path="ns_server/deps/chronicle"/>
+  <project name="vbmap"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="product-texts"/>
