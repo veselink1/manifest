@@ -74,7 +74,7 @@
   <project name="clog"           revision="refs/tags/v0.1.0"                         path="godeps/src/github.com/couchbase/clog" groups="bsl"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb" groups="bsl"/>
-  <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance" groups="bsl"/>
+  <project name="blance"         revision="cheshire-cat"                             path="godeps/src/github.com/couchbase/blance" groups="bsl"/>
   <project name="gocb"           revision="refs/tags/v2.1.5"                         path="godeps/src/github.com/couchbase/gocb/v2"/>
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/gopkg.in/couchbase/gocb.v1"/>
   <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
