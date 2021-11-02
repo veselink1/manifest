@@ -70,7 +70,7 @@
   <project name="cbauth"         revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/cbauth" groups="backup,bsl"/>
   <project name="go-couchbase"   revision="cheshire-cat"                             path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
 
-  <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
+  <project name="retriever"      revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" path="godeps/src/github.com/couchbase/retriever"/>
   <project name="clog"           revision="refs/tags/v0.1.0"                         path="godeps/src/github.com/couchbase/clog" groups="bsl"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb" groups="bsl"/>
@@ -167,7 +167,7 @@
     <annotation name="BSL_VERSION" value="7.0" keep="true"/>
     <annotation name="BSL_CHANGE_DATE" value="July 1, 2025" keep="true"/>
   </project>
-  <project name="voltron"  revision="cheshire-cat"  remote="couchbase-priv"  groups="notdefault,packaging" />
-  <project name="couchdbx-app" groups="notdefault,packaging" />
+  <project name="voltron"          revision="cheshire-cat"    remote="couchbase-priv"  groups="notdefault,packaging" />
+  <project name="couchdbx-app"     revision="d6cd6456c20d340016b767cf1b3017f4f35f95c0" groups="notdefault,packaging" />
   <project name="product-metadata" groups="notdefault,packaging" />
 </manifest>
