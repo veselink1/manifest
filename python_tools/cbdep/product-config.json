@@ -1,13 +1,14 @@
 {
     "manifests": {
         "python_tools/cbdep/master.xml": {
-            "release": "1.1.1",
-            "release_name": "cbdep 1.1.1",
+            "release": "1.1.2",
+            "release_name": "cbdep 1.1.2",
             "production": true,
             "restricted": false,
             "start_build": 1,
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "python-tool-build",
+            "platforms": [ "linux", "linux:aarch64", "alpine", "darwin", "darwin:arm64", "windows_msvc2017" ],
             "do-build": false,
             "keep_git": true
         }
