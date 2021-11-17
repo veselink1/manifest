@@ -1,8 +1,8 @@
 {
     "manifests": {
         "cbdeps/prometheus/master.xml": {
-            "release": "2.22",
-            "release_name": "prometheus 2.22",
+            "release": "2.23",
+            "release_name": "prometheus 2.23",
             "production": true,
             "restricted": false,
             "start_build": 1,
