@@ -31,7 +31,7 @@
         },
         "couchbase-server/cheshire-cat/7.0.2.xml": {
             "release": "cheshire-cat",
-            "release_name": "Cheshire-Cat 7.0.2",
+            "release_name": "Cheshire-Cat 7.0.2 (Analytics CVEs)",
             "parent": "couchbase-server/cheshire-cat.xml",
             "production": true,
             "start_build": 6100,
@@ -39,7 +39,7 @@
             "interval": 1443,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-46308"
+            "approval_ticket": "MB-43894"
         },
         "couchbase-server/cheshire-cat/7.0.1.xml": {
             "release": "cheshire-cat",
@@ -79,12 +79,12 @@
         },
         "couchbase-server/mad-hatter/6.6.3.xml": {
             "release": "mad-hatter",
-            "release_name": "Mad-Hatter 6.6.3-MP5",
+            "release_name": "Mad-Hatter 6.6.3 (Analytics CVEs)",
             "parent": "couchbase-server/mad-hatter.xml",
             "interval": 120,
             "trigger_blackduck": false,
             "restricted": true,
-            "approval_ticket": "MB-49253"
+            "approval_ticket": "MB-43894"
         },
         "couchbase-server/mad-hatter/6.6.2.xml": {
             "release": "mad-hatter",
