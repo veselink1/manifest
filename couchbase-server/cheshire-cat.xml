@@ -73,7 +73,7 @@
   <project name="retriever"      revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" path="godeps/src/github.com/couchbase/retriever"/>
   <project name="clog"           revision="refs/tags/v0.1.0"                         path="godeps/src/github.com/couchbase/clog" groups="bsl"/>
   <project name="go-slab"        revision="1f5f7f282713ccfab3f46b1610cb8da34bcf676f" path="godeps/src/github.com/couchbase/go-slab"/>
-  <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb" groups="bsl"/>
+  <project name="goforestdb"     revision="0b501227de0e8c55d99ed14e900eea1a1dbaf899" path="godeps/src/github.com/couchbase/goforestdb" groups="bsl"/>
   <project name="blance"         revision="cheshire-cat"                             path="godeps/src/github.com/couchbase/blance" groups="bsl"/>
   <project name="gocb"           revision="refs/tags/v2.1.5"                         path="godeps/src/github.com/couchbase/gocb/v2"/>
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/gopkg.in/couchbase/gocb.v1"/>
@@ -83,11 +83,11 @@
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/github.com/couchbaselabs/gocbconnstr"/>
   <project name="gojsonsm"       remote="couchbaselabs"                              path="godeps/src/github.com/couchbaselabs/gojsonsm"/>
-  <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql" groups="bsl"/>
+  <project name="go_n1ql"        revision="6cf4e348b127e21f56e53eb8c3faaea56afdc588" path="godeps/src/github.com/couchbase/go_n1ql" groups="bsl"/>
   <project name="goutils"        revision="8f4d490d0ddcf716fd55f8107db54941ba67ccfb" path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss"           revision="7a3874ec96ebec33da898a3d2ba0d786d8b75c24" path="godeps/src/github.com/couchbase/moss"/>
   <project name="mossScope"      revision="aa48ddbc0e832bc68dde56c4b69e30c5cb3983eb" path="godeps/src/github.com/couchbase/mossScope"/>
-  <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram" groups="bsl"/>
+  <project name="ghistogram"     revision="4ae3f06d0ac7b02081e33c1ec309daa22838d207" path="godeps/src/github.com/couchbase/ghistogram" groups="bsl"/>
   <project name="godbc"          revision="cheshire-cat"                             path="godeps/src/github.com/couchbase/godbc" groups="bsl"/>
   <project name="logstats"       revision="cheshire-cat"                             path="godeps/src/github.com/couchbase/logstats"/>
 
