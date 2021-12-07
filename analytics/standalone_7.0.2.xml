@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbase" fetch="git://github.com/couchbase" review="review.couchbase.org"/>
+
+  <default remote="couchbase" revision="cheshire-cat"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Main source: Supported by Couchbase Analytics team -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <!-- Apache AsterixDB -->
+  <project name="asterixdb" path="cbas/asterixdb" revision="7.0.2"/>
+
+  <!-- Couchsterix Extensions -->
+  <project name="cbas-core" path="cbas" revision="7.0.2" remote="couchbase-priv"/>
+
+  <!-- DCP Client -->
+  <project name="analytics-dcp-client" revision="dd9945475c9134042a2604865c68b2e937cedb95" path="cbas/java-dcp-client"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - build scripts, etc.                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="build" revision="master" remote="couchbase">
+    <annotation name="VERSION" value="1.0.0" keep="true"/>
+  </project>
+</manifest>
+
