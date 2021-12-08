@@ -23,7 +23,7 @@
             "keep_git": true,
             "trigger_blackduck": false,
             "do-build": false,
-            "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core-EE", "couchbase-lite-core", "product-texts" ],
+            "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/lithium.xml": {
@@ -36,7 +36,7 @@
             "keep_git": true,
             "trigger_blackduck": true,
             "do-build": true,
-            "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core-EE", "couchbase-lite-core", "product-texts" ],
+            "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/hydrogen.xml": {
