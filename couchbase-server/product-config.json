@@ -22,12 +22,25 @@
             "release_name": "Cheshire-Cat (mainline)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 7000,
-            "trigger_blackduck": true,
+            "do-build": false,
+            "start_build": 7200,
+            "trigger_blackduck": false,
             "interval": 728,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-48997"
+        },
+        "couchbase-server/cheshire-cat/7.0.3.xml": {
+            "release": "cheshire-cat",
+            "release_name": "Cheshire-Cat 7.0.3",
+            "parent": "couchbase-server/cheshire-cat.xml",
+            "production": true,
+            "start_build": 7030,
+            "trigger_blackduck": true,
+            "interval": 120,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-50032"
         },
         "couchbase-server/cheshire-cat/7.0.2.xml": {
             "release": "cheshire-cat",
@@ -70,21 +83,32 @@
             "release_name": "Mad-Hatter 6.6.4",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 9900,
-            "trigger_blackduck": true,
+            "do-build": false,
+            "start_build": 10060,
+            "trigger_blackduck": false,
             "interval": 443,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-47673"
         },
-        "couchbase-server/mad-hatter/6.6.3.xml": {
+        "couchbase-server/mad-hatter/6.6.4.xml": {
             "release": "mad-hatter",
-            "release_name": "Mad-Hatter 6.6.3 (Analytics CVEs)",
+            "release_name": "Mad-Hatter 6.6.4",
             "parent": "couchbase-server/mad-hatter.xml",
             "interval": 120,
+            "start_build": 9960,
+            "trigger_blackduck": true,
+            "restricted": true,
+            "approval_ticket": "MB-50031"
+        },
+        "couchbase-server/mad-hatter/6.6.3.xml": {
+            "release": "mad-hatter",
+            "release_name": "Mad-Hatter 6.6.3",
+            "parent": "couchbase-server/mad-hatter.xml",
+            "interval": 1530,
             "trigger_blackduck": false,
             "restricted": true,
-            "approval_ticket": "MB-43894"
+            "approval_ticket": "MB-100"
         },
         "couchbase-server/mad-hatter/6.6.2.xml": {
             "release": "mad-hatter",
