@@ -20,8 +20,8 @@
   <!-- Couchbase JDBC Driver -->
   <project name="couchbase-jdbc-driver" remote="couchbaselabs" revision="main" path="cbtaco/couchbase-jdbc-driver" />
 
-  <!-- Tableau Connector SDK -->
-  <project name="connector-plugin-sdk" remote="tableau" revision="fcf0a4cef2a3965be2cb341bd040bcffaffa5536" path="cbtaco/connector-plugin-sdk" groups="notdefault"/>
+  <!-- Tableau Connector SDK (tdvt-2.5.0) -->
+  <project name="connector-plugin-sdk" remote="tableau" revision="5277ca34678cd1b221d5addfe60df35150a0cd48" path="cbtaco/connector-plugin-sdk" groups="notdefault"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
