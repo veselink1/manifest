@@ -94,8 +94,8 @@
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="mmap-go"          remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
-  <project name="bleve_index_api" remote="toy"  path="godeps/src/github.com/blevesearch/bleve_index_api"/>
-  <project name="bleve" remote="toy"  path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve_index_api" remote="toy"  revision="66ddd37eae45db2b11e19c558b2df13f9c40e6c8" path="godeps/src/github.com/blevesearch/bleve_index_api"/>
+  <project name="bleve" remote="toy"  revision="733aaf50e6ee33e4c769e9a9ba4db8d265a2e616" path="godeps/src/github.com/blevesearch/bleve"/>
 
 
   <!-- Go support libraries - third-party -->
