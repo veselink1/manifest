@@ -83,8 +83,8 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 10060,
-            "trigger_blackduck": false,
-            "interval": 443,
+            "trigger_blackduck": true,
+            "interval": 120,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-47673"
@@ -93,11 +93,11 @@
             "release": "mad-hatter",
             "release_name": "Mad-Hatter 6.6.4",
             "parent": "couchbase-server/mad-hatter.xml",
-            "interval": 120,
+            "interval": 1530,
             "start_build": 9960,
-            "trigger_blackduck": true,
+            "trigger_blackduck": false,
             "restricted": true,
-            "approval_ticket": "MB-50031"
+            "approval_ticket": "MB-50049"
         },
         "couchbase-server/mad-hatter/6.6.3.xml": {
             "release": "mad-hatter",
