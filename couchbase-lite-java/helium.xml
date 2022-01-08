@@ -33,13 +33,13 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java"/>
   <project remote="couchbaselabs" name="couchbase-lite-java-tools" path="cbl-java/etc" revision="5a2a821925edb5c403a3d8343b1fb40e558516b2"/>
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="b33db4e575d70c5a13fd9208e88f5d075a6e1410"/>
-  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="5af93a3b2fea3036b7902a3cbb20239e1ff722a8"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="0967202d6763857790ed7cd177f523db661bb358"/>
+  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="31a4eaddc1f45e7151f897bbe03b2fbacdc9ddf4"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" path="cbl-java/core" revision="9980ccfa4be9d3c75f5e8ef978da29607adf2241"/>
+  <project name="couchbase-lite-core" path="cbl-java/core" revision="9c88c0f90a73f1ac437b9d40b93d912212340bda"/>
   <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="28a5bd114f52dfe23419e1bcf7b77b791b100950"/>
 
   <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
