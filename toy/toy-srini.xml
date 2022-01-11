@@ -4,7 +4,7 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/"/>
   <remote name="erlang" fetch="https://github.com/erlang/"/>
   <remote name="membase" fetch="https://github.com/membase/"/>
-  <remote name="srini" fetch="ssh://git@github.com/srinivasv/"/>
+  <remote name="srini" fetch="https://github.com/srinivasv/"/>
 
   <default remote="couchbase" revision="master"/>
 

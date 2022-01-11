@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase"     fetch="ssh://git@github.com/couchbase/"         review="review.couchbase.org" />
+  <remote name="couchbase"     fetch="https://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
-  <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/"     review="review.couchbase.org" />
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="membase-priv"  fetch="ssh://git@github.com/membase/"       review="review.couchbase.org" />
-  <remote name="prataprc"      fetch="ssh://git@github.com/prataprc/"          />
-  <remote name="dustin"        fetch="ssh://git@github.com/dustin/"            />
-  <remote name="gorilla"       fetch="ssh://git@github.com/gorilla/"           />
-  <remote name="sbinet"        fetch="ssh://git@github.com/sbinet/"            />
-  <remote name="twinj"         fetch="ssh://git@github.com/twinj/"             />
-  <remote name="natefinch"     fetch="ssh://git@github.com/natefinch/"         />
-  <remote name="samuel"        fetch="ssh://git@github.com/samuel/"            />
-  <remote name="rcrowley"      fetch="ssh://git@github.com/rcrowley/"          />
-  <remote name="ceejatec"      fetch="ssh://git@github.com/ceejatec/"          />
-  <remote name="erlang"        fetch="ssh://git@github.com/erlang/"            />
+  <remote name="prataprc"      fetch="https://github.com/prataprc/"          />
+  <remote name="dustin"        fetch="https://github.com/dustin/"            />
+  <remote name="gorilla"       fetch="https://github.com/gorilla/"           />
+  <remote name="sbinet"        fetch="https://github.com/sbinet/"            />
+  <remote name="twinj"         fetch="https://github.com/twinj/"             />
+  <remote name="natefinch"     fetch="https://github.com/natefinch/"         />
+  <remote name="samuel"        fetch="https://github.com/samuel/"            />
+  <remote name="rcrowley"      fetch="https://github.com/rcrowley/"          />
+  <remote name="ceejatec"      fetch="https://github.com/ceejatec/"          />
+  <remote name="erlang"        fetch="https://github.com/erlang/"            />
 
   <default remote="couchbase" revision="master" />
 

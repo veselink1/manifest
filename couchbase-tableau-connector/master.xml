@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org" />
-  <remote name="couchbase" fetch="ssh://git@github.com/couchbase" review="review.couchbase.org" />
-  <remote name="couchbasedeps" fetch="ssh://git@github.com/couchbasedeps/" review="review.couchbase.org" />
-  <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org" />
-  <remote name="apache" fetch="ssh://git@github.com/apache/" />
-  <remote name="tableau" fetch="ssh://git@github.com/tableau/" />
+  <remote name="couchbase" fetch="https://github.com/couchbase" review="review.couchbase.org" />
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/" review="review.couchbase.org" />
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org" />
+  <remote name="apache" fetch="https://github.com/apache/" />
+  <remote name="tableau" fetch="https://github.com/tableau/" />
 
   <default remote="couchbase" revision="master"/>
 

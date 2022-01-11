@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="ssh://git@github.com/couchbase/"/>
-  <remote name="couchbasebuild" fetch="ssh://git@github.com/couchbasebuild/"/>
-  <remote name="couchbasedeps" fetch="ssh://git@github.com/couchbasedeps/"/>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasebuild" fetch="https://github.com/couchbasebuild/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
 
   <default remote="couchbase" revision="master"/>
 

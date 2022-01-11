@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/"/>
-  <remote name="couchbase" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
 
   <default remote="couchbaselabs-priv" revision="master"/>
 

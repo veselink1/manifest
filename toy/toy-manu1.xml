@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote fetch="ssh://git@github.com/blevesearch/" name="blevesearch"/>
-<remote fetch="ssh://git@github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
+<remote fetch="https://github.com/blevesearch/" name="blevesearch"/>
+<remote fetch="https://github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
 <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org"/>
-<remote fetch="ssh://git@github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org"/>
-<remote fetch="ssh://git@github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org"/>
-<remote fetch="ssh://git@github.com/manudhundi/" name="manudhundi"/>
+<remote fetch="https://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org"/>
+<remote fetch="https://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org"/>
+<remote fetch="https://github.com/manudhundi/" name="manudhundi"/>
 <default remote="couchbase" revision="master"/>
 <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="couchbase-priv" revision="fb08689009aeb61f6ebb18aa785bddad7ea18926" upstream="watson"/>
 <project name="bitset" path="godeps/src/github.com/willf/bitset" remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4"/>

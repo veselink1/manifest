@@ -1,13 +1,13 @@
 <manifest>
-  <remote fetch="ssh://git@github.com/ARMmbed" name="ARMmbed" />
-  <remote fetch="ssh://git@github.com/couchbase/" name="couchbase" review="review.couchbase.org" />
+  <remote fetch="https://github.com/ARMmbed" name="ARMmbed" />
+  <remote fetch="https://github.com/couchbase/" name="couchbase" review="review.couchbase.org" />
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
-  <remote fetch="ssh://git@github.com/couchbasedeps/" name="couchbasedeps" />
-  <remote fetch="ssh://git@github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
+  <remote fetch="https://github.com/couchbasedeps/" name="couchbasedeps" />
+  <remote fetch="https://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
   <remote fetch="ssh://git@github.com/couchbaselabs/" name="couchbaselabs-priv" review="review.couchbase.org" />
-  <remote fetch="ssh://git@github.com/google/" name="google" />
-  <remote fetch="ssh://git@github.com/leetal" name="leetal" />
-  <remote fetch="ssh://git@github.com/snej/" name="snej" />
+  <remote fetch="https://github.com/google/" name="google" />
+  <remote fetch="https://github.com/leetal" name="leetal" />
+  <remote fetch="https://github.com/snej/" name="snej" />
   
   <default remote="couchbase" revision="master" />
   

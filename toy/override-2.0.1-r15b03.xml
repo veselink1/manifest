@@ -7,9 +7,9 @@
           fetch="git://10.1.1.210/"
           review="review.membase.org" />
   <remote name="apache"
-          fetch="ssh://git@github.com/apache/" />
+          fetch="https://github.com/apache/" />
   <remote name="erlang"
-          fetch="ssh://git@github.com/erlang/" />
+          fetch="https://github.com/erlang/" />
 
   <project path="otp" name="otp" remote="erlang"
            revision="refs/tags/OTP_R15B03-1" />

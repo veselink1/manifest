@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
+  <remote fetch="https://github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org"/>
-  <remote fetch="ssh://git@github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org"/>
+  <remote fetch="https://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org"/>
 
-  <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/"     review="review.couchbase.org" />
-  <remote name="blevesearch"   fetch="ssh://git@github.com/blevesearch/" />
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/"     review="review.couchbase.org" />
+  <remote name="blevesearch"   fetch="https://github.com/blevesearch/" />
 
-  <remote name="boltdb"   fetch="ssh://git@github.com/boltdb"/>
-  <remote name="cznic"    fetch="ssh://git@github.com/cznic"/>
-  <remote name="elazarl"  fetch="ssh://git@github.com/elazarl"/>
-  <remote name="golang"   fetch="ssh://git@github.com/golang"/>
-  <remote name="jmhodges" fetch="ssh://git@github.com/jmhodges"/>
-  <remote name="ryszard"  fetch="ssh://git@github.com/ryszard"/>
-  <remote name="steveyen" fetch="ssh://git@github.com/steveyen"/>
-  <remote name="mschoch" fetch="ssh://git@github.com/mschoch"/>
-  <remote name="syndtr"   fetch="ssh://git@github.com/syndtr"/>
-  <remote name="willf"    fetch="ssh://git@github.com/willf"/>
+  <remote name="boltdb"   fetch="https://github.com/boltdb"/>
+  <remote name="cznic"    fetch="https://github.com/cznic"/>
+  <remote name="elazarl"  fetch="https://github.com/elazarl"/>
+  <remote name="golang"   fetch="https://github.com/golang"/>
+  <remote name="jmhodges" fetch="https://github.com/jmhodges"/>
+  <remote name="ryszard"  fetch="https://github.com/ryszard"/>
+  <remote name="steveyen" fetch="https://github.com/steveyen"/>
+  <remote name="mschoch" fetch="https://github.com/mschoch"/>
+  <remote name="syndtr"   fetch="https://github.com/syndtr"/>
+  <remote name="willf"    fetch="https://github.com/willf"/>
 
   
   <default remote="couchbase" revision="master"/>

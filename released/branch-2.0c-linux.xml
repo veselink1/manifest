@@ -2,8 +2,8 @@
 <manifest>
   <remote name="couchbase" fetch="git://10.1.1.210/"/>
   <remote name="membase" fetch="git://10.1.1.210/"/>
-  <remote name="apache" fetch="ssh://git@github.com/apache/"/>
-  <remote name="erlang" fetch="ssh://git@github.com/erlang/"/>
+  <remote name="apache" fetch="https://github.com/apache/"/>
+  <remote name="erlang" fetch="https://github.com/erlang/"/>
 
   <default remote="couchbase" revision="master"/>
 

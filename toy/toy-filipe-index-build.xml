@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="ssh://git@github.com/couchbase/"
+  <remote name="couchbase" fetch="https://github.com/couchbase/"
           review="review.couchbase.org" />
-  <remote name="membase" fetch="ssh://git@github.com/membase/"
+  <remote name="membase" fetch="https://github.com/membase/"
           review="review.couchbase.org" />
-  <remote name="filipe" fetch="ssh://git@github.com/fdmanana/"
+  <remote name="filipe" fetch="https://github.com/fdmanana/"
           review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master"/>

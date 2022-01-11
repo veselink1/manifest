@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="couchbase" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
-  <remote name="couchbasedeps" fetch="ssh://git@github.com/couchbasedeps/" review="review.couchbase.org"/>
-  <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
-  <remote name="blevesearch" fetch="ssh://git@github.com/blevesearch/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="blevesearch" fetch="https://github.com/blevesearch/"/>
 
   <default remote="couchbase" revision="master"/>
-  <remote name="toy" fetch="ssh://git@github.com/Thejas-bhat/" />
+  <remote name="toy" fetch="https://github.com/Thejas-bhat/" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" revision="39e1425ec7411bf3384c327c70329b5976321da7" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>

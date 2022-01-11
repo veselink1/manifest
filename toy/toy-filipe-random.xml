@@ -2,11 +2,11 @@
 
 <!-- based on 2.0.1 build 170 -->
 <manifest>
-	<remote name="couchbase" fetch="ssh://git@github.com/couchbase/"/>
-	<remote name="membase" fetch="ssh://git@github.com/membase/"/>
-	<remote name="apache" fetch="ssh://git@github.com/apache/"/>
-	<remote name="erlang" fetch="ssh://git@github.com/erlang/"/>
-	<remote name="filipe" fetch="ssh://git@github.com/fdmanana/"/>
+	<remote name="couchbase" fetch="https://github.com/couchbase/"/>
+	<remote name="membase" fetch="https://github.com/membase/"/>
+	<remote name="apache" fetch="https://github.com/apache/"/>
+	<remote name="erlang" fetch="https://github.com/erlang/"/>
+	<remote name="filipe" fetch="https://github.com/fdmanana/"/>
 
 	<default remote="couchbase" revision="master"/>
 	<project name="tlm" path="tlm" revision="12abea946eafd7411273d18a10ae1f84390db3d4">

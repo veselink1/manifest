@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="couchbase" fetch="ssh://git@github.com/couchbase/"
+	<remote name="couchbase" fetch="https://github.com/couchbase/"
 		review="review.couchbase.org" />
 	<remote name="couchbase-priv"
 		fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org" />
 	<remote name="couchbasedeps"
-		fetch="ssh://git@github.com/couchbasedeps/" review="review.couchbase.org" />
+		fetch="https://github.com/couchbasedeps/" review="review.couchbase.org" />
 	<remote name="couchbaselabs"
-		fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org" />
-	<remote name="blevesearch" fetch="ssh://git@github.com/blevesearch/" />
-	<remote name="ysui6888" fetch="ssh://git@github.com/ysui6888/" />
+		fetch="https://github.com/couchbaselabs/" review="review.couchbase.org" />
+	<remote name="blevesearch" fetch="https://github.com/blevesearch/" />
+	<remote name="ysui6888" fetch="https://github.com/ysui6888/" />
 
 	<default remote="couchbase" revision="master" />
 
