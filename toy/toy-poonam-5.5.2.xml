@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbase" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
-  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/" review="review.couchbase.org"/>
-  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
-  <remote name="blevesearch" fetch="git://github.com/blevesearch/"/>
+  <remote name="couchbasedeps" fetch="ssh://git@github.com/couchbasedeps/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="blevesearch" fetch="ssh://git@github.com/blevesearch/"/>
   <remote fetch="ssh://review.couchbase.org:29418/" name="gerrit" />
   <default remote="couchbase" revision="master"/>
 

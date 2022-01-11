@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase"     fetch="git://github.com/couchbase/"         review="review.couchbase.org" />
+  <remote name="couchbase"     fetch="ssh://git@github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
-  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
-  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
-  <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote name="couchbasedeps" fetch="ssh://git@github.com/couchbasedeps/"     review="review.couchbase.org" />
+  <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/"     review="review.couchbase.org" />
+  <remote name="blevesearch"   fetch="ssh://git@github.com/blevesearch/" />
 
-  <remote name="boltdb"   fetch="git://github.com/boltdb"/>
-  <remote name="cznic"    fetch="git://github.com/cznic"/>
-  <remote name="elazarl"  fetch="git://github.com/elazarl"/>
-  <remote name="golang"   fetch="git://github.com/golang"/>
-  <remote name="jmhodges" fetch="git://github.com/jmhodges"/>
-  <remote name="ryszard"  fetch="git://github.com/ryszard"/>
-  <remote name="steveyen" fetch="git://github.com/steveyen"/>
-  <remote name="syndtr"   fetch="git://github.com/syndtr"/>
-  <remote name="willf"    fetch="git://github.com/willf"/>
+  <remote name="boltdb"   fetch="ssh://git@github.com/boltdb"/>
+  <remote name="cznic"    fetch="ssh://git@github.com/cznic"/>
+  <remote name="elazarl"  fetch="ssh://git@github.com/elazarl"/>
+  <remote name="golang"   fetch="ssh://git@github.com/golang"/>
+  <remote name="jmhodges" fetch="ssh://git@github.com/jmhodges"/>
+  <remote name="ryszard"  fetch="ssh://git@github.com/ryszard"/>
+  <remote name="steveyen" fetch="ssh://git@github.com/steveyen"/>
+  <remote name="syndtr"   fetch="ssh://git@github.com/syndtr"/>
+  <remote name="willf"    fetch="ssh://git@github.com/willf"/>
 
   <default remote="couchbase" revision="master" />
 

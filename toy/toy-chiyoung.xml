@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org" />
-  <remote name="membase"   fetch="git://github.com/membase/"   review="review.couchbase.org" />
+  <remote name="couchbase" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org" />
+  <remote name="membase"   fetch="ssh://git@github.com/membase/"   review="review.couchbase.org" />
 
   <default remote="couchbase" revision="master"/>
 
@@ -32,8 +32,8 @@
        in libraries the Microsoft linker fail to open, so we'll have
        to build them with MSVC (which provides better binaries anyway)
   -->
-  <remote name="libevent" fetch="git://github.com/libevent/"/>
-  <remote name="curl" fetch="git://github.com/bagder/"/>
+  <remote name="libevent" fetch="ssh://git@github.com/libevent/"/>
+  <remote name="curl" fetch="ssh://git@github.com/bagder/"/>
 
   <project name="libevent"
            path="dependencies/libevent"

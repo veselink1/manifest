@@ -1,9 +1,9 @@
 <manifest>
-  <remote fetch="git://github.com/blevesearch/" name="blevesearch" />
-  <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org" />
+  <remote fetch="ssh://git@github.com/blevesearch/" name="blevesearch" />
+  <remote fetch="ssh://git@github.com/couchbase/" name="couchbase" review="review.couchbase.org" />
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
-  <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org" />
-  <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
+  <remote fetch="ssh://git@github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org" />
+  <remote fetch="ssh://git@github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
   
   <default remote="couchbase" revision="master" />
   

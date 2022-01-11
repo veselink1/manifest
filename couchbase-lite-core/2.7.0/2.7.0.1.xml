@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
+  <remote fetch="ssh://git@github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org"/>
-  <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org"/>
-  <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps"/>
-  <remote fetch="git://github.com/arangodb/" name="arangodb"/>
-  <remote fetch="git://github.com/snej/" name="snej"/>
-  <remote fetch="git://github.com/rudi-cilibrasi/" name="rudi-cilibrasi"/>
-  <remote fetch="git://github.com/google/" name="google"/>
-  <remote fetch="git://github.com/ARMmbed" name="ARMmbed"/>
-  <remote fetch="git://github.com/ceejatec/" name="ceejatec"/>
+  <remote fetch="ssh://git@github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org"/>
+  <remote fetch="ssh://git@github.com/couchbasedeps/" name="couchbasedeps"/>
+  <remote fetch="ssh://git@github.com/arangodb/" name="arangodb"/>
+  <remote fetch="ssh://git@github.com/snej/" name="snej"/>
+  <remote fetch="ssh://git@github.com/rudi-cilibrasi/" name="rudi-cilibrasi"/>
+  <remote fetch="ssh://git@github.com/google/" name="google"/>
+  <remote fetch="ssh://git@github.com/ARMmbed" name="ARMmbed"/>
+  <remote fetch="ssh://git@github.com/ceejatec/" name="ceejatec"/>
 
   <default remote="couchbase" revision="hotfix/2.7.0.1"/>
 

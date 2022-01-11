@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
-  <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" />
+  <remote fetch="ssh://git@github.com/couchbasedeps/" name="couchbasedeps" />
   
   <default remote="couchbase-priv" revision="master" />
   

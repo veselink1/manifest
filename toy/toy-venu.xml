@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://github.com/ceejatec/" name="ceejatec"/>
-  <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
+  <remote fetch="ssh://git@github.com/ceejatec/" name="ceejatec"/>
+  <remote fetch="ssh://git@github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org"/>
-  <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org"/>
-  <remote fetch="git://github.com/dustin/" name="dustin"/>
-  <remote fetch="git://github.com/erlang/" name="erlang"/>
-  <remote fetch="git://github.com/gorilla/" name="gorilla"/>
+  <remote fetch="ssh://git@github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org"/>
+  <remote fetch="ssh://git@github.com/dustin/" name="dustin"/>
+  <remote fetch="ssh://git@github.com/erlang/" name="erlang"/>
+  <remote fetch="ssh://git@github.com/gorilla/" name="gorilla"/>
   <remote fetch="ssh://git@github.com/membase/" name="membase-priv" review="review.couchbase.org"/>
-  <remote fetch="git://github.com/natefinch/" name="natefinch"/>
-  <remote fetch="git://github.com/prataprc/" name="prataprc"/>
-  <remote fetch="git://github.com/rcrowley/" name="rcrowley"/>
-  <remote fetch="git://github.com/samuel/" name="samuel"/>
-  <remote fetch="git://github.com/sbinet/" name="sbinet"/>
-  <remote fetch="git://github.com/twinj/" name="twinj"/>
+  <remote fetch="ssh://git@github.com/natefinch/" name="natefinch"/>
+  <remote fetch="ssh://git@github.com/prataprc/" name="prataprc"/>
+  <remote fetch="ssh://git@github.com/rcrowley/" name="rcrowley"/>
+  <remote fetch="ssh://git@github.com/samuel/" name="samuel"/>
+  <remote fetch="ssh://git@github.com/sbinet/" name="sbinet"/>
+  <remote fetch="ssh://git@github.com/twinj/" name="twinj"/>
   
   <default remote="couchbase" revision="master"/>
   

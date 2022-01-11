@@ -1,5 +1,5 @@
 <manifest>
-  <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org" />
+  <remote fetch="ssh://git@github.com/couchbase/" name="couchbase" review="review.couchbase.org" />
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
   <remote fetch="ssh://git@github.com/couchbaselabs/" name="couchbaselabs-priv" review="review.couchbase.org" />
   
