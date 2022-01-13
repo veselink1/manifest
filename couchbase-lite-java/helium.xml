@@ -7,7 +7,6 @@
   <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
   <remote name="google" fetch="https://github.com/google/"/>
   <remote name="snej" fetch="https://github.com/snej/"/>
-  <remote name="ARMmbed" fetch="https://github.com/ARMmbed"/>
   <remote name="leetal" fetch="https://github.com/leetal"/>
 
   <!--
