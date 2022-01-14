@@ -13,7 +13,7 @@
   <project name="asterixdb" revision="neo" path="cbas/asterixdb"/>
 
   <!-- Couchsterix Extensions -->
-  <project name="cbas-core" path="cbas" remote="couchbase-priv"/>
+  <project name="cbas-core" revision="neo" path="cbas" remote="couchbase-priv"/>
 
   <!-- DCP Client -->
   <project name="analytics-dcp-client" path="cbas/java-dcp-client"/>
