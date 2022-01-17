@@ -1,12 +1,23 @@
 {
     "manifests": {
         "couchbase-observability-stack/master.xml": {
-            "release": "1.0.0",
-            "release_name": "Couchbase Observability Stack 1.0.0",
+            "release": "0.2.0",
+            "release_name": "Couchbase Observability Stack 0.2.0",
             "production": true,
             "interval": 240,
             "restricted": false,
-            "start_build": 100,
+            "start_build": 250,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "jenkins_job": "couchbase-k8s-microservice-build"
+        },
+        "couchbase-observability-stack/0.1.x.xml": {
+            "release": "0.1.0",
+            "release_name": "Couchbase Observability Stack 0.1.0",
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "start_build": 199,
             "keep_git": true,
             "trigger_blackduck": true,
             "jenkins_job": "couchbase-k8s-microservice-build"
