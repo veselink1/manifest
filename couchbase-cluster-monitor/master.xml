@@ -2,6 +2,7 @@
 <manifest>
   <remote name="couchbaselabspriv" fetch="ssh://git@github.com/couchbaselabs/"/>
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="fluent" fetch="https://github.com/fluent/" />
 
   <default remote="couchbaselabspriv" revision="master"/>
 
@@ -9,6 +10,18 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="cbmultimanager" path="couchbase-cluster-monitor"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned components                         -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <project name="couchbase-fluent-bit" remote="couchbase" path="couchbase-cluster-monitor/upstream/couchbase-fluent-bit" revision="c1a47bbf1d518d68456687342e54416bc7d8bedb" />
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Third-party components                             -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <project name="fluent-bit" remote="fluent" path="couchbase-cluster-monitor/upstream/fluent-bit" clone-depth="1" revision="2c4ccb5f67cf20a2b348d9057b73c7dd18b4a33f" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
