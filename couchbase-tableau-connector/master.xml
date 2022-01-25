@@ -29,5 +29,7 @@
   <project name="build" revision="c1b485bbf14aa1176be5ea26b7982f4002188429" remote="couchbase">
     <annotation name="VERSION" value="1.0.0" keep="true"/>
   </project>
+
+  <project name="product-texts" revision="ea4fa7b0bfc100a0aec8f4d094c2cb378cddd9e0" upstream="master" dest-branch="master" />
 </manifest>
 
