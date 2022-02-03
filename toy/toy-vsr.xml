@@ -122,7 +122,7 @@
 <project name="product-metadata" revision="cb9ef35ba49bf025fb4a76ead1e3f03d22e61349" upstream="master" dest-branch="master" groups="notdefault,packaging"/>
 <project name="product-texts" revision="ea4fa7b0bfc100a0aec8f4d094c2cb378cddd9e0" upstream="master" dest-branch="master"/>
 <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="ddf22928ea3c56eb4292a0adbbf5001b1e8e7d0d"/>
-<project name="query" path="goproj/src/github.com/couchbase/query" revision="f0109b241dd084d8e52ad4f53bcdba8a339492c0" upstream="master" dest-branch="master" groups="bsl"/>
+<project name="query" path="goproj/src/github.com/couchbase/query" revision="fbb422f107e1062813170ab68a679fe36ea40991" upstream="master" dest-branch="master" groups="bsl"/>
 <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" revision="64ea7d5555c58d02ad15215d4584906ca49fefbc" upstream="master" dest-branch="master" groups="notdefault,enterprise"/>
 <project name="query-ui" revision="e6e6dffd64d41c38d05a8dd787a09d1d2c983a70" upstream="master" dest-branch="master" groups="bsl"/>
 <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="41c119406e0213a980939df5ff5b4c27fb9015fc" upstream="master" dest-branch="master" groups="bsl"/>
