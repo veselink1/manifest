@@ -44,7 +44,7 @@
   <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl"/>
   <project name="query-ui" groups="bsl"/>
   <project name="sigar" revision="neo" groups="kv"/>
-  <project name="subjson" groups="bsl,kv"/>
+  <project name="subjson" revision="neo" groups="bsl,kv"/>
   <project name="testrunner"/>
   <project name="tlm" groups="bsl,kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
