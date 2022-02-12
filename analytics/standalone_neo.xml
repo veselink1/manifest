@@ -16,7 +16,7 @@
   <project name="cbas-core" revision="neo" path="cbas" remote="couchbase-priv"/>
 
   <!-- DCP Client -->
-  <project name="analytics-dcp-client" path="cbas/java-dcp-client"/>
+  <project name="analytics-dcp-client" revision="neo" path="cbas/java-dcp-client"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
