@@ -16,15 +16,30 @@
             ]
         },
         "couchbase-lite-ios/lithium.xml": {
-            "release": "3.0.0",
-            "release_name": "Couchbase Lite iOS - Lithium 3.0.0",
+            "release": "3.0.1",
+            "release_name": "Couchbase Lite iOS - Lithium 3.0.1",
             "production": true,
-            "interval": 240,
+            "interval": 1440,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true,
             "do-build": true,
+            "module_projects": [
+                "couchbase-lite-ios-ee",
+                "couchbase-lite-ios"
+            ]
+        },
+        "couchbase-lite-ios/lithium/3.0.0.xml": {
+            "release": "3.0.0",
+            "release_name": "Couchbase Lite iOS - Lithium 3.0.0",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": false,
+            "do-build": false,
             "module_projects": [
                 "couchbase-lite-ios-ee",
                 "couchbase-lite-ios"
