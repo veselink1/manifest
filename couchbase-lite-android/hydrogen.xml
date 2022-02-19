@@ -16,7 +16,7 @@
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" groups="notdefault" revision="fa5df77677945a629aeb82aeaa3d43218df2a88d">
-    <annotation name="VERSION" value="2.8.6" keep="true"/>
+    <annotation name="VERSION" value="2.8.8" keep="true"/>
   </project>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -42,8 +42,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" path="cbl-java/core"/>
-  <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE"/>
+  <project name="couchbase-lite-core" path="cbl-java/core" revision="0bac7335d5d3eaf1d4e63e4635129119eec7140a"/>
+  <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="0bac7335d5d3eaf1d4e63e4635129119eec7140a"/>
 
   <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
 

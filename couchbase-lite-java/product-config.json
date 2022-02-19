@@ -40,8 +40,8 @@
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/hydrogen.xml": {
-            "release": "2.8.4",
-            "release_name": "Couchbase Lite Java - Hydrogen 2.8.4",
+            "release": "2.8.5",
+            "release_name": "Couchbase Lite Java - Hydrogen 2.8.5",
             "production": true,
             "interval": 40320,
             "restricted": false,
@@ -49,7 +49,7 @@
             "keep_git": true,
             "trigger_blackduck": true,
             "do-build": true,
-            "module_projects": [ "couchbase-lite-java-ee-root", "couchbase-lite-core-EE", "couchbase-lite-core", "product-texts" ],
+            "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/mercury.xml": {
