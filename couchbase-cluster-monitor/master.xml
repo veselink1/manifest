@@ -15,7 +15,7 @@
   <!-- Couchbase-owned components                         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-fluent-bit" remote="couchbase" path="couchbase-cluster-monitor/upstream/couchbase-fluent-bit" revision="c1a47bbf1d518d68456687342e54416bc7d8bedb" />
+  <project name="couchbase-fluent-bit" remote="couchbase" path="couchbase-cluster-monitor/upstream/couchbase-fluent-bit" revision="a542e28db8925e282f044d4f05dcb0babfac6288" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party components                             -->
