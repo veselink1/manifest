@@ -157,8 +157,8 @@
   <project name="build"      path="cbbuild"           groups="notdefault,build">
     <annotation name="VERSION" value="7.1.0"     keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server" keep="true"/>
-    <annotation name="BSL_VERSION" value="Neo" keep="true"/>
-    <annotation name="BSL_CHANGE_DATE" value="March 31st, 2026" keep="true"/>
+    <annotation name="BSL_VERSION" value="7.1" keep="true"/>
+    <annotation name="BSL_CHANGE_DATE" value="April 1, 2026" keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
