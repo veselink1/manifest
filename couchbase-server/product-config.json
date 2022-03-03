@@ -26,7 +26,7 @@
             "trigger_blackduck": true,
             "interval": 125,
             "keep_git": true,
-            "restricted": true,
+            "restricted": false,
             "approval_ticket": "MB-49889"
         },
         "couchbase-server/cheshire-cat.xml": {
