@@ -8,7 +8,7 @@
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
-             "trigger_blackduck": false,
+             "trigger_blackduck": true,
              "module_projects": [
                  "couchbase-lite-c",
                  "couchbase-lite-c-ee"
