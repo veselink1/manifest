@@ -17,7 +17,7 @@
   <project name="cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli" revision="neo" groups="kv"/>
-  <project name="couchdb" dest-branch="unstable"/>
+  <project name="couchdb" revision="neo" dest-branch="unstable"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
@@ -25,12 +25,12 @@
   <project name="forestdb" revision="cb-master" groups="backup"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" groups="bsl"/>
-  <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" dest-branch="unstable" groups="bsl"/>
-  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" dest-branch="unstable" groups="bsl"/>
+  <project name="gometa"    revision="neo" path="goproj/src/github.com/couchbase/gometa"/>
+  <project name="nitro"     revision="neo" path="goproj/src/github.com/couchbase/nitro" dest-branch="unstable" groups="bsl"/>
+  <project name="indexing"  revision="neo" path="goproj/src/github.com/couchbase/indexing" dest-branch="unstable" groups="bsl"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
-  <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
-  <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
+  <project name="eventing"  revision="neo" path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
+  <project name="eventing-ee" revision="neo" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="neo" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.2.5"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
@@ -88,7 +88,7 @@
   <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss" groups="bsl"/>
   <project name="mossScope"                                                          path="godeps/src/github.com/couchbase/mossScope" groups="bsl"/>
   <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
-  <project name="logstats"                                                           path="godeps/src/github.com/couchbase/logstats" groups="bsl"/>
+  <project name="logstats"       revision="neo"                                      path="godeps/src/github.com/couchbase/logstats" groups="bsl"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="mmap-go"          remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
