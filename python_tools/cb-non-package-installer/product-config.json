@@ -1,8 +1,8 @@
 {
     "manifests": {
         "python_tools/cb-non-package-installer/master.xml": {
-            "release": "7.0.2",
-            "release_name": "cb-non-package-installer 7.0.2",
+            "release": "7.1.0",
+            "release_name": "cb-non-package-installer 7.1.0",
             "production": true,
             "restricted": false,
             "start_build": 1,
