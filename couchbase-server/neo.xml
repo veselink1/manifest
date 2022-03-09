@@ -28,7 +28,7 @@
   <project name="gometa"    revision="neo" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     revision="neo" path="goproj/src/github.com/couchbase/nitro" dest-branch="unstable" groups="bsl"/>
   <project name="indexing"  revision="neo" path="goproj/src/github.com/couchbase/indexing" dest-branch="unstable" groups="bsl"/>
-  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
+  <project name="plasma"    revision="neo" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="eventing"  revision="neo" path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="neo" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="neo" groups="kv,bsl"/>
