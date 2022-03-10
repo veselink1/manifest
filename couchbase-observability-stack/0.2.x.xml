@@ -8,7 +8,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="observability" path="couchbase-observability-stack"/>
+  <project name="observability" revision="0.2.x" path="couchbase-observability-stack"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- License text                                       -->
@@ -19,6 +19,6 @@
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" remote="couchbase" revision="dee6c7d470e9a21e350a65bda8374d2ba9bc00a6">
-    <annotation name="VERSION" value="0.3.0" keep="true"/>
+    <annotation name="VERSION" value="0.2.0" keep="true"/>
   </project>
 </manifest>

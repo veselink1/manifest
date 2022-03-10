@@ -1,12 +1,24 @@
 {
     "manifests": {
         "couchbase-cluster-monitor/master.xml": {
+            "release": "0.3.0",
+            "release_name": "Couchbase Observability Stack (Cluster Monitor component) 0.3.0",
+            "production": true,
+            "interval": 480,
+            "restricted": false,
+            "start_build": 300,
+            "do-build": true,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "jenkins_job": "no-op-build"
+        },
+        "couchbase-cluster-monitor/0.2.x.xml": {
             "release": "0.2.0",
             "release_name": "Couchbase Observability Stack (Cluster Monitor component) 0.2.0",
             "production": true,
             "interval": 480,
             "restricted": false,
-            "start_build": 200,
+            "start_build": 147,
             "do-build": true,
             "keep_git": true,
             "trigger_blackduck": true,
