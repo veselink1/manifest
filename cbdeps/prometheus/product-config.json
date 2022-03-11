@@ -1,22 +1,17 @@
 {
     "manifests": {
         "cbdeps/prometheus/master.xml": {
-            "release": "2.23",
-            "release_name": "prometheus 2.23",
+            "release": "2.33.3",
+            "release_name": "prometheus 2.33.3",
             "production": true,
             "restricted": false,
             "start_build": 1,
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "cbdeps-build",
-            "platforms": [ "amzn2",
-                           "centos7",
-                           "debian9",
-                           "debian10",
+            "platforms": [ "linux",
+                           "linux:aarch64",
                            "macos",
-                           "suse12",
-                           "suse15",
-                           "ubuntu18.04",
-                           "ubuntu20.04",
+                           "macos:arm64",
                            "ubuntu18.04-windowscrosscompile" ],
             "do-build": false,
             "keep_git": true
