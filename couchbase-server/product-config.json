@@ -35,7 +35,7 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 7200,
-            "trigger_blackduck": false,
+            "trigger_blackduck": true,
             "interval": 728,
             "keep_git": true,
             "restricted": true,
