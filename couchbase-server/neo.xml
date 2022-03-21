@@ -18,7 +18,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli" revision="neo" groups="kv"/>
   <project name="couchdb" revision="neo" dest-branch="unstable"/>
-  <project name="couchstore" groups="kv"/>
+  <project name="couchstore" revision="neo" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
