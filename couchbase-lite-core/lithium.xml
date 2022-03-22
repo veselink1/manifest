@@ -39,7 +39,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="tlm" revision="2d46e032cf08727e8e5fab67d05c4f1b051989e4"/>
   <project name="build" path="cbbuild" revision="e8e0a7c59f24926729c3c2eba611467a321ce048">
-    <annotation name="VERSION" value="3.0.1" keep="true"/>
+    <annotation name="VERSION" value="3.0.2" keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Lite" keep="true"/>
     <annotation name="BSL_VERSION" value="3.0" keep="true"/>
     <annotation name="BSL_CHANGE_DATE" value="November 1, 2025" keep="true"/>
