@@ -37,7 +37,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" path="cbl-java/core" revision="e4ef41ba4d5b6348b8ab5d58bd5df3ca0d3b1b14"/>
+  <project name="couchbase-lite-core" path="cbl-java/core" revision="c9c67c4dcf35f6dfcd8421544ca3e71f709ba3f2"/>
   <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="d632cb3bf17da889e185e3516b702ab06a7f22cb"/>
 
   <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
@@ -45,7 +45,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbase" name="fleece" path="cbl-java/core/vendor/fleece" revision="b11812cbe7d31daee467125bd64a9b3fb0a5337f"/>
+  <project remote="couchbase" name="fleece" path="cbl-java/core/vendor/fleece" revision="831747c537ec64234a3dbe95fc79f948ab84f31c"/>
   <project remote="snej" name="jsonsl" path="cbl-java/core/vendor/fleece/vendor/jsonsl" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c"/>
   <project remote="couchbasedeps" name="sqlite3-unicodesn" path="cbl-java/core/vendor/sqlite3-unicodesn" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597"/>
   <project remote="couchbasedeps" name="ios-cmake" path="cbl-java/core/vendor/ios-cmake" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6"/>
