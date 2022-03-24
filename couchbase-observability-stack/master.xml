@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/"/>
+  <remote name="couchbaselabspriv" fetch="git@github.com:couchbaselabs/" review="review.couchbase.org"/>
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="fluent" fetch="https://github.com/fluent/" />
 
   <default remote="couchbaselabs" revision="main"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="observability" path="couchbase-observability-stack"/>
+  <project name="observability" path="couchbase-observability-stack" groups="default,oss" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- License text                                       -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts" revision="master" remote="couchbase"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned components                         -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="cbmultimanager" remote="couchbaselabspriv" path="couchbase-observability-stack/upstream/cbmultimanager" revision="master" />
+
+  <project name="couchbase-fluent-bit" remote="couchbase" path="couchbase-observability-stack/upstream/couchbase-fluent-bit" revision="a542e28db8925e282f044d4f05dcb0babfac6288" />
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Third-party components                             -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <project name="fluent-bit" remote="fluent" path="couchbase-observability-stack/upstream/fluent-bit" clone-depth="1" revision="2c4ccb5f67cf20a2b348d9057b73c7dd18b4a33f" />
+
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
