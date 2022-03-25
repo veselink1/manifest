@@ -14,7 +14,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": false,
-            "interval": 1448,
+            "interval": 483,
             "keep_git": true
         },
         "couchbase-server/neo.xml": {
@@ -24,7 +24,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": true,
-            "interval": 125,
+            "interval": 65,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-49889"
@@ -36,7 +36,7 @@
             "production": true,
             "start_build": 7200,
             "trigger_blackduck": true,
-            "interval": 728,
+            "interval": 125,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-48997"
