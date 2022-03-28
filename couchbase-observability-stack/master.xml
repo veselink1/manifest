@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/"/>
-  <remote name="couchbaselabspriv" fetch="git@github.com:couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="couchbaselabspriv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="fluent" fetch="https://github.com/fluent/" />
 
