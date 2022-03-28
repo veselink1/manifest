@@ -4,7 +4,7 @@
             "release": "0.3.0",
             "release_name": "Couchbase Observability Stack (Cluster Monitor component) 0.3.0",
             "production": true,
-            "interval": 480,
+            "interval": 120,
             "restricted": false,
             "start_build": 300,
             "do-build": true,

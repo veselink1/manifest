@@ -4,7 +4,7 @@
             "release": "0.3.0",
             "release_name": "Couchbase Observability Stack 0.3.0",
             "production": true,
-            "interval": 240,
+            "interval": 120,
             "restricted": false,
             "start_build": 350,
             "keep_git": true,
