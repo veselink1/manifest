@@ -8,7 +8,6 @@
             "start_build": 1,
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "python-tool-build",
-            "platforms": [ "linux", "linux:aarch64", "linux:x64-musl", "darwin", "darwin:arm64", "windows_msvc2017" ],
             "do-build": false,
             "keep_git": true
         }
