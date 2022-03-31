@@ -22,6 +22,18 @@
             "release_name": "Neo",
             "parent": "branch-master.xml",
             "production": true,
+            "start_build": 3000,
+            "trigger_blackduck": false,
+            "interval": 245,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-51648"
+        },
+        "couchbase-server/neo/7.1.0.xml": {
+            "release": "neo",
+            "release_name": "Neo",
+            "parent": "cocuhbase-server/neo.xml",
+            "production": true,
             "start_build": 1000,
             "trigger_blackduck": true,
             "interval": 65,
