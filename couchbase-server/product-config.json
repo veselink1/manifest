@@ -32,7 +32,7 @@
         "couchbase-server/neo/7.1.0.xml": {
             "release": "neo",
             "release_name": "Neo",
-            "parent": "cocuhbase-server/neo.xml",
+            "parent": "couchbase-server/neo.xml",
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": true,
