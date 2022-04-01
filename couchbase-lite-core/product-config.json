@@ -5,7 +5,6 @@
              "release_name": "Couchbase Lite Core - Helium",
              "production": true,
              "interval": 90,
-             "do-build": false,
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
