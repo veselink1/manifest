@@ -31,6 +31,7 @@
   <project name="fleece" remote="couchbase" revision="b31a7ba23a66fc81cdcff9a0e902ded5b9d06415" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="couchbasedeps" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
+  <project name="litecore-download-script" remote="couchbaselabs" revision="12d7ecf70644e1760ea05cd705290f174f0d00b0" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/tools"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
