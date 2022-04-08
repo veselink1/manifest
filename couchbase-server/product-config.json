@@ -4,7 +4,7 @@
             "release": "master",
             "release_name": "Branch Master",
             "production": true,
-            "interval": 883,
+            "interval": 251,
             "keep_git": true
         },
         "couchbase-server/morpheus.xml": {
