@@ -22,7 +22,7 @@
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="couchbasedeps" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597" path="couchbase-lite-core/vendor/sqlite3-unicodesn"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-core/wiki"/>
-  <project name="litecore-download-script" remote="couchbaselabs" revision="12d7ecf70644e1760ea05cd705290f174f0d00b0" path="couchbase-lite-core/tools"/>
+  <project name="litecore-download-script" remote="couchbaselabs" revision="d889428f9e623d3a4ea07d818b0d96cdfa9c7766" path="couchbase-lite-core/tools"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
