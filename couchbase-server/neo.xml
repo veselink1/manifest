@@ -12,9 +12,9 @@
   <project name="backup" remote="couchbase-priv" path="backup" revision="neo" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" revision="neo" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" revision="ff501cb859623d66e5e177bc67c33c05310d18b1"/>
+  <project name="cbft" revision="neo"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="64469e336f363ed4d7b0fd51c6f54d0cd804752a"/>
-  <project name="cbgt" revision="b7cd3e62474ad834adb44d9c4f0758cec77cd6d7"/>
+  <project name="cbgt" revision="neo"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="a06a2da763a2ce8f3b0184c8ae8fd89d9f15c0fa"/>
   <project name="couchbase-cli" revision="neo" groups="kv"/>
   <project name="couchdb" revision="neo" dest-branch="unstable"/>
@@ -64,7 +64,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="e282205c693fbe112f8574f2880c8638266da854"/>
+  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="neo"/>
   <project name="go_json" path="goproj/src/github.com/couchbase/go_json" revision="neo"/>
   <project name="gomemcached" path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="neo"/>
   <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="090d271edb1a2dc2c5c78ef7c786bee0a7c5519a"/>
