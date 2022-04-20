@@ -17,7 +17,7 @@
   <project name="cbgt" revision="b7cd3e62474ad834adb44d9c4f0758cec77cd6d7"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="a06a2da763a2ce8f3b0184c8ae8fd89d9f15c0fa"/>
   <project name="couchbase-cli" revision="neo" groups="kv"/>
-  <project name="couchdb" revision="neo" dest-branch="unstable"/>
+  <project name="couchdb" revision="27d1470742daa7829209763389f7d3ab1d1c8443" dest-branch="unstable"/>
   <project name="couchstore" revision="neo" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="2e6af0c097c8bb98a596cbc81cdf6e169ae5b3cc"/>
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
@@ -26,11 +26,11 @@
   <project name="geocouch" revision="68f3b9d36630682d17ca5232770f1693b9b8fa18"/>
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl" revision="703c8abf69523b4c5e9af8c3c4a7baf611dca820"/>
   <project name="gometa" revision="neo" path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="nitro" revision="neo" path="goproj/src/github.com/couchbase/nitro" dest-branch="unstable" groups="bsl"/>
-  <project name="indexing" revision="neo" path="goproj/src/github.com/couchbase/indexing" dest-branch="unstable" groups="bsl"/>
-  <project name="plasma" revision="neo" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
-  <project name="eventing" revision="neo" path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
-  <project name="eventing-ee" revision="neo" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
+  <project name="nitro" revision="2575ec52bf5cf4c7ccc2cbc161eb38e46ce7b4a8" path="goproj/src/github.com/couchbase/nitro" dest-branch="unstable" groups="bsl"/>
+  <project name="indexing" revision="a097669413339022b6908d1940dc1d965c68ea10" path="goproj/src/github.com/couchbase/indexing" dest-branch="unstable" groups="bsl"/>
+  <project name="plasma" revision="a5f4130eebe3ed17840182b1d8ea7823fd06ffe8" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
+  <project name="eventing" revision="fee9fdde2d209faae80060a1550b8cea85ab018f" path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
+  <project name="eventing-ee" revision="14fd48dd7c506efac0607f3baa7e293646ed3fd0" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="neo" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.2.5"/>
   <project name="magma" revision="neo" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
