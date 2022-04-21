@@ -13,7 +13,7 @@
   <project name="cbbs" remote="couchbase-priv" revision="neo" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
   <project name="cbft" revision="neo"/>
-  <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="64469e336f363ed4d7b0fd51c6f54d0cd804752a"/>
+  <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="neo"/>
   <project name="cbgt" revision="neo"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="a06a2da763a2ce8f3b0184c8ae8fd89d9f15c0fa"/>
   <project name="couchbase-cli" revision="neo" groups="kv"/>
