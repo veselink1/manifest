@@ -31,7 +31,7 @@
             ]
         },
         "couchbase-lite-net/hydrogen.xml": {
-            "release": "2.8.8",
+            "release": "2.8.9",
             "release_name": "Couchbase Lite Net - Hydrogen",
             "production": true,
             "interval": 1440,
