@@ -27,8 +27,8 @@
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/lithium.xml": {
-            "release": "3.0.0",
-            "release_name": "Couchbase Lite Java - Lithium 3.0.0 Beta 2",
+            "release": "3.0.2",
+            "release_name": "Couchbase Lite Java - Lithium 3.0.2",
             "production": true,
             "interval": 40320,
             "restricted": false,
@@ -40,8 +40,8 @@
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/hydrogen.xml": {
-            "release": "2.8.5",
-            "release_name": "Couchbase Lite Java - Hydrogen 2.8.5",
+            "release": "2.8.9",
+            "release_name": "Couchbase Lite Java - Hydrogen 2.8.9",
             "production": true,
             "interval": 40320,
             "restricted": false,
