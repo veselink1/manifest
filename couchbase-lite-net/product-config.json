@@ -16,7 +16,7 @@
             ]
         },
         "couchbase-lite-net/lithium.xml": {
-            "release": "3.0.0",
+            "release": "3.0.2",
             "release_name": "Couchbase Lite Net - Lithium",
             "production": true,
             "interval": 1440,
@@ -24,7 +24,7 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [
                 "couchbase-lite-net-ee",
                 "couchbase-lite-net"
