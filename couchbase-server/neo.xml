@@ -155,7 +155,7 @@
   <project name="HdrHistogram_c" remote="couchbasedeps" revision="caed837aa163421a637222157b3f6353b4ca831a" path="third_party/HdrHistogram_c" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build" revision="3ad28674c608c4060944d79136bf1d94ee221992" path="cbbuild" groups="notdefault,build">
+  <project name="build" revision="neo" path="cbbuild" groups="notdefault,build">
     <annotation name="VERSION" value="7.1.1" keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server" keep="true"/>
     <annotation name="BSL_VERSION" value="7.1" keep="true"/>
