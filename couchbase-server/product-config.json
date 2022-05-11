@@ -24,7 +24,7 @@
             "production": true,
             "start_build": 3000,
             "trigger_blackduck": false,
-            "interval": 245,
+            "interval": 65,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-51648"
@@ -36,7 +36,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": true,
-            "interval": 65,
+            "interval": 1489,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-49889"
