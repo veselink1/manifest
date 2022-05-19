@@ -4,7 +4,7 @@
             "release": "master",
             "release_name": "Branch Master",
             "production": true,
-            "interval": 251,
+            "interval": 10100,
             "keep_git": true
         },
         "couchbase-server/morpheus.xml": {
@@ -14,7 +14,17 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": false,
-            "interval": 483,
+            "interval": 1480,
+            "keep_git": true
+        },
+        "couchbase-server/elixir.xml": {
+            "release": "elixir",
+            "release_name": "Elixir",
+            "parent": "branch-master.xml",
+            "production": true,
+            "start_build": 1200,
+            "trigger_blackduck": false,
+            "interval": 65,
             "keep_git": true
         },
         "couchbase-server/neo.xml": {
