@@ -132,7 +132,6 @@
   <project name="common"         remote="couchbasedeps" revision="refs/tags/v0.33.0"                        path="godeps/src/github.com/prometheus/common"/>
   <project name="procfs"         remote="couchbasedeps" revision="76fc8b844e3a18c31bf689e4fe7efdd5a2f41298" path="godeps/src/github.com/prometheus/procfs"/>
   <project name="xxhash"         remote="couchbasedeps" revision="refs/tags/v2.1.2"                         path="goproj/src/github.com/cespare/xxhash"/>
-  <project name="hashmap"        remote="couchbasedeps" revision="c93d96ce6b8aa530423b5e10d4a56194284b47f6" path="godeps/src/github.com/cornelk/hashmap"/>
   <project name="siphash"        remote="couchbasedeps" revision="refs/tags/v1.2.3"                         path="godeps/src/github.com/dchest/siphash"/>
   <project name="perks"          remote="couchbasedeps" revision="refs/tags/v1.0.1"                         path="godeps/src/github.com/beorn7/perks"/>
   <project name="protobuf-go"    remote="couchbasedeps" revision="refs/tags/v1.28.0"                        path="godeps/src/google.golang.org/protobuf"/>
