@@ -61,7 +61,7 @@
   <project name="asterixdb" revision="neo" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="neo" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" revision="neo" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-ui" groups="notdefault,enterprise,analytics" revision="62c912839aa5a72e7f4914edf3dbfb01617ba53e"/>
+  <project name="cbas-ui" groups="notdefault,enterprise,analytics" revision="master"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
