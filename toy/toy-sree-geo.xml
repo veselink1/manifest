@@ -95,7 +95,7 @@
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="mmap-go" remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
-  <project name="bleve" remote="toy"  revision="cdc84218fada50d1077d7c709d7360c3110bbf38" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve" remote="toy"  revision="ed7fe6bd15cebf702007c59a38a9c77eb205288a" path="godeps/src/github.com/blevesearch/bleve"/>
 
   <!-- Go support libraries - third-party -->
   <project name="uuid" remote="couchbasedeps" revision="dec09d789f3dba190787f8b4454c7d3c936fed9e" path="godeps/src/github.com/google/uuid"/>
