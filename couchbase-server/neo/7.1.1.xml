@@ -68,7 +68,7 @@
   <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="neo"/>
   <project name="go_json" path="goproj/src/github.com/couchbase/go_json" revision="39c6c3c3e21c5c0a0be9f696bdb9e496fde773f1"/>
   <project name="gomemcached" path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="9ae3e1a53ee2393526383f0d37dab16cd936d92f"/>
-  <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="090d271edb1a2dc2c5c78ef7c786bee0a7c5519a"/>
+  <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="neo"/>
   <project name="go-couchbase" path="goproj/src/github.com/couchbase/go-couchbase" groups="backup" revision="959eaf944140a6c660990f38b1db310ddd6d8e42"/>
   <project name="goutils" path="goproj/src/github.com/couchbase/goutils" groups="bsl" revision="73dda2bf44424b5c588579948399e86e5de4be6c"/>
   <project name="godbc" path="goproj/src/github.com/couchbase/godbc" revision="938b768d5e33f7b70c183db527b460d1648f5c52"/>
