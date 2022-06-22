@@ -42,7 +42,7 @@
   <project name="product-texts" revision="neo"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="c2b9cb8158152211c30cca6511db9eb0cb5cf8e3"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="7.1.1"/>
-  <project name="query-ui" groups="bsl" revision="neo"/>
+  <project name="query-ui" groups="bsl" revision="96b9be252e5068a19f10ae5e956ea4c707a71b4b"/>
   <project name="sigar" revision="neo" groups="kv"/>
   <project name="subjson" revision="neo" groups="bsl,kv"/>
   <project name="testrunner"/>
@@ -60,7 +60,7 @@
   <project name="asterixdb" revision="neo" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="neo" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" revision="neo" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-ui" groups="notdefault,enterprise,analytics" revision="master"/>
+  <project name="cbas-ui" groups="notdefault,enterprise,analytics" revision="96b9be252e5068a19f10ae5e956ea4c707a71b4b"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
