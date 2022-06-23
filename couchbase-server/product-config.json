@@ -133,7 +133,7 @@
             "interval": 120,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-51129"
+            "approval_ticket": "MB-43894"
         },
         "couchbase-server/mad-hatter/6.6.4.xml": {
             "release": "mad-hatter",
