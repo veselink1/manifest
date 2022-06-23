@@ -73,7 +73,7 @@
             "interval": 125,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-48997"
+            "approval_ticket": "MB-43894"
         },
         "couchbase-server/cheshire-cat/7.0.3.xml": {
             "release": "cheshire-cat",
