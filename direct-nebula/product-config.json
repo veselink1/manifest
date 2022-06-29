@@ -1,0 +1,16 @@
+{
+    "manifests": {
+        "direct-nebula/master.xml": {
+            "release": "0.1",
+            "release_name": "direct-nebula 0.1",
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "go_version": "1.18.2",
+            "start_build": 1,
+            "trigger_blackduck": false,
+            "do-build": false,
+            "keep_git": true
+        }
+    }
+}
