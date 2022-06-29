@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs" review="review.couchbase.org" />
+  <remote name="couchbase" fetch="https://github.com/couchbase" review="review.couchbase.org" />
+
+  <default remote="couchbase" revision="master"/>
+
+  <project name="data-api" remote="couchbaselabs" revision="main"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - build scripts, etc.                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="build" remote="couchbase" revision="4c88139fd4810c8bfd99c6bb91a936c827e065e1">
+    <annotation name="VERSION" value="0.1" keep="true"/>
+  </project>
+
+</manifest>
