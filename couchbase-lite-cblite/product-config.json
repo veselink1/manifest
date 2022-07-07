@@ -14,14 +14,13 @@
              ]
         },
         "couchbase-lite-cblite/lithium.xml": {
-             "release": "3.0.0",
+             "release": "3.0.2",
              "release_name": "cblite tool - Lithium",
              "production": true,
-             "interval": 240,
+             "interval": 1440,
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
-             "do-build": false,
              "module_projects": [
                  "couchbase-mobile-tools",
                  "couchbase-lite-core"

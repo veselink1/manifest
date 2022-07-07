@@ -14,14 +14,13 @@
              ]
         },
         "couchbase-lite-log/lithium.xml": {
-             "release": "3.0.0",
+             "release": "3.0.2",
              "release_name": "Couchbase Lite Log - Lithium",
              "production": true,
-             "interval": 240,
+             "interval": 1440,
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
-             "do-build": false,
              "module_projects": [
                  "couchbase-mobile-tools",
                  "couchbase-lite-core"
@@ -31,7 +30,7 @@
             "release": "2.8.4",
             "release_name": "Couchbase Lite Log - Hydrogen",
             "production": true,
-            "interval": 90,
+            "interval": 1440,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
