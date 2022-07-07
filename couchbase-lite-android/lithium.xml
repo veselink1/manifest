@@ -34,7 +34,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language common repository    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="22c797833ca251d4b068a22520952ad3f72d98bd"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="b701e008c03fcf4a0f555af71fa8871ee6f466eb"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language Community Edition    -->
