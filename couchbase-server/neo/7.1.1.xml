@@ -38,7 +38,7 @@
   <project name="chronicle" revision="f53f803d409988d1bf3cdd2d7a5e9f55fb9dc2df" path="ns_server/deps/chronicle"/>
   <project name="vbmap" revision="neo"/>
   <project name="phosphor" groups="bsl,kv" revision="2eb6c244d6910baf2834513ece579ba88e4f9b9d"/>
-  <project name="platform" revision="neo" groups="bsl,kv"/>
+  <project name="platform" revision="ebae7a1442bec210dddab6a2c98722476f669a50" groups="bsl,kv"/>
   <project name="product-texts" revision="neo"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="7.1.1"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="7.1.1"/>
