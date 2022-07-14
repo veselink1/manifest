@@ -4,7 +4,7 @@
             "release": "0.1",
             "release_name": "couchbase-data-api 0.1",
             "production": true,
-            "interval": 240,
+            "interval": 60,
             "restricted": false,
             "go_version": "1.17",
             "start_build": 1,
