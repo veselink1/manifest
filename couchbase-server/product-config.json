@@ -68,7 +68,7 @@
             "release_name": "Cheshire-Cat (mainline)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 7500,
+            "start_build": 7600,
             "trigger_blackduck": true,
             "interval": 485,
             "keep_git": true,
