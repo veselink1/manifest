@@ -119,7 +119,7 @@
   <project name="golang-tools" remote="couchbasedeps" revision="a28dfb48e06b2296b66678872c2cb638f0304f20" path="godeps/src/golang.org/x/tools"/>
   <project name="crypto" remote="couchbasedeps" revision="630584e8d5aaa1472863b49679b2d5548d80dcba" path="godeps/src/golang.org/x/crypto"/>
   <project name="net" remote="couchbasedeps" revision="44b7c21cbf19450f38b337eb6b6fe4f6496fb5b3" path="godeps/src/golang.org/x/net"/>
-  <project name="sys" remote="couchbasedeps" revision="12a6c2dcc1e4cb348b57847c73987099e261714b" path="godeps/src/golang.org/x/sys"/>
+  <project name="sys" remote="couchbasedeps" revision="d36c6a25d886e7c9975d5bf247ac24887ba6da37" path="godeps/src/golang.org/x/sys"/>
   <project name="mmap-go" remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" path="godeps/src/github.com/edsrzf/mmap-go"/>
   <project name="cuckoofilter" remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974" path="godeps/src/github.com/seiflotfy/cuckoofilter"/>
   <project name="gofarmhash" remote="couchbasedeps" revision="0a055c5b87a8c55ce83459cbf2776b563822a942" path="godeps/src/github.com/leemcloughlin/gofarmhash"/>
