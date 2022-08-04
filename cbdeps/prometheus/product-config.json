@@ -12,7 +12,7 @@
                            "linux:aarch64",
                            "macos",
                            "macos:arm64",
-                           "ubuntu18.04-windowscrosscompile" ],
+                           "linux-windowscrosscompile" ],
             "do-build": false,
             "keep_git": true
         }
