@@ -37,7 +37,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="tlm" revision="2d46e032cf08727e8e5fab67d05c4f1b051989e4"/>
+  <project name="tlm" revision="87f64d4653b7a00a885b031ed91fa808427165ef" />
   <project name="build" path="cbbuild" revision="e8e0a7c59f24926729c3c2eba611467a321ce048">
     <annotation name="VERSION" value="3.1.0" keep="true"/>
     <copyfile src="scripts/jenkins/lite-core/CMakeLists.txt" dest="CMakeLists.txt"/>
