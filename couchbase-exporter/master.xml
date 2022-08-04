@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master"/>
 
@@ -14,6 +15,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" revision="f2a16b53bb74146f20d18ba2c0443d5f10a9a550">
     <annotation name="VERSION" value="1.0.7" keep="true"/>
-    <annotation name="GOVERSION" value="1.18.4" keep="true"/>
+    <annotation name="GOVERSION" value="1.18" keep="true"/>
   </project>
+  <project name="golang" revision="main" remote="couchbaselabs"/>
 </manifest>

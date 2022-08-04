@@ -36,5 +36,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" remote="couchbase" revision="dee6c7d470e9a21e350a65bda8374d2ba9bc00a6">
     <annotation name="VERSION" value="0.4.0" keep="true"/>
+    <annotation name="GOVERSION" value="1.18" keep="true"/>
   </project>
+  <project name="golang" revision="main" remote="couchbaselabs"/>
 </manifest>
