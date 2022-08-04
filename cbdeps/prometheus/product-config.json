@@ -15,6 +15,22 @@
                            "linux-windowscrosscompile" ],
             "do-build": false,
             "keep_git": true
+        },
+        "cbdeps/prometheus/2.23.xml": {
+            "release": "2.23",
+            "release_name": "prometheus 2.23.0",
+            "production": true,
+            "restricted": false,
+            "start_build": 4,
+            "jenkins_server": "server.jenkins.couchbase.com",
+            "jenkins_job": "cbdeps-build",
+            "platforms": [ "linux",
+                           "linux:aarch64",
+                           "macos",
+                           "macos:arm64",
+                           "linux-windowscrosscompile" ],
+            "do-build": false,
+            "keep_git": true
         }
     }
 }
