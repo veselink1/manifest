@@ -24,12 +24,12 @@
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="couchbasedeps" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597" path="couchbase-lite-core/vendor/sqlite3-unicodesn"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-core/wiki"/>
-  <project name="litecore-download-script" remote="couchbaselabs" revision="d889428f9e623d3a4ea07d818b0d96cdfa9c7766" path="couchbase-lite-core/tools"/>
+  <project name="litecore-download-script" remote="couchbaselabs" revision="37b89649a2df6e29e2d18dea174cb0f8b3e2a030" path="couchbase-lite-core/tools"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="couchbasedeps" revision="23c05c107c51cec7f298e6fbb9945957716cf356" path="couchbase-lite-core/vendor/mbedtls"/>
+  <project name="mbedtls" remote="couchbasedeps" revision="95d4a19c8dd9144de85b8bcd8e72f01cc1e8cfee" path="couchbase-lite-core/vendor/mbedtls"/>
   <project name="ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-lite-core/vendor/ios-cmake"/>
   <project name="sockpp" remote="couchbasedeps" revision="c2edfd83d9d2afd834dc83521606f77a921a106a" path="couchbase-lite-core/vendor/sockpp"/>
   <project name="zlib" remote="couchbasedeps" revision="21767c654d31d2dccdde4330529775c6c5fd5389" path="couchbase-lite-core/vendor/zlib"/>
