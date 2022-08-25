@@ -1,8 +1,8 @@
 {
     "manifests": {
         "cbdeps/v8/master.xml": {
-            "release": "9.7.37",
-            "release_name": "v8 9.7.37",
+            "release": "10.7.21",
+            "release_name": "v8 10.7.21",
             "production": true,
             "restricted": false,
             "start_build": 1,
