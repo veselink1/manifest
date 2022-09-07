@@ -12,7 +12,7 @@
                            "linux:aarch64",
                            "macos",
                            "macos:arm64",
-                           "linux:cross-windows_msvc2017" ],
+                           "linux:cross-windows" ],
             "do-build": false,
             "keep_git": true
         },
@@ -28,7 +28,7 @@
                            "linux:aarch64",
                            "macos",
                            "macos:arm64",
-                           "linux:cross-windows_msvc2017" ],
+                           "linux:cross-windows" ],
             "do-build": false,
             "keep_git": true
         }
