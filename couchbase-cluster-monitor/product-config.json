@@ -7,7 +7,7 @@
             "interval": 1447,
             "restricted": false,
             "start_build": 147,
-            "do-build": true,
+            "do-build": false,
             "keep_git": true,
             "trigger_blackduck": true,
             "jenkins_job": "no-op-build"
@@ -19,7 +19,7 @@
             "interval": 1452,
             "restricted": false,
             "start_build": 147,
-            "do-build": true,
+            "do-build": false,
             "keep_git": true,
             "trigger_blackduck": true,
             "jenkins_job": "no-op-build"

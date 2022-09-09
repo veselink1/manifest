@@ -6,7 +6,7 @@
             "production": true,
             "restricted": false,
             "start_build": 1,
-            "interval": 480,
+            "interval": 780,
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "python-tool-build",
             "platforms": [ "linux", "linux:aarch64" ],

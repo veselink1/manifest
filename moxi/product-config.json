@@ -5,8 +5,8 @@
             "production": true,
             "interval": 1440,
             "restricted": false,
-            "start_build": 100
+            "start_build": 100,
+            "do-build": false
         }
     }
 }
-

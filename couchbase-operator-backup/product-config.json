@@ -15,7 +15,7 @@
             "release": "1.1.2",
             "release_name": "Couchbase Operator Backup 1.1.2",
             "production": true,
-            "interval": 120,
+            "interval": 240,
             "do-build": false,
             "restricted": false,
             "start_build": 100,

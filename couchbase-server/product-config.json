@@ -46,7 +46,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": true,
-            "interval": 65,
+            "interval": 1501,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-52510"
@@ -59,6 +59,7 @@
             "start_build": 1000,
             "trigger_blackduck": true,
             "interval": 1489,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-49889"
@@ -95,6 +96,7 @@
             "start_build": 7030,
             "trigger_blackduck": true,
             "interval": 1445,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-51858"
@@ -107,6 +109,7 @@
             "start_build": 6100,
             "trigger_blackduck": false,
             "interval": 1443,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-43894"
@@ -119,6 +122,7 @@
             "start_build": 6100,
             "trigger_blackduck": false,
             "interval": 1443,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-47469"
@@ -131,6 +135,7 @@
             "start_build": 5202,
             "trigger_blackduck": false,
             "interval": 1443,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-100"
@@ -142,7 +147,7 @@
             "production": true,
             "start_build": 10083,
             "trigger_blackduck": true,
-            "interval": 120,
+            "interval": 1493,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-53520"
@@ -152,6 +157,7 @@
             "release_name": "Mad-Hatter 6.6.4",
             "parent": "couchbase-server/mad-hatter.xml",
             "interval": 1530,
+            "do-build": false,
             "start_build": 9960,
             "trigger_blackduck": false,
             "restricted": true,
@@ -162,6 +168,7 @@
             "release_name": "Mad-Hatter 6.6.3 (Analytics CVEs)",
             "parent": "couchbase-server/mad-hatter.xml",
             "interval": 1530,
+            "do-build": false,
             "trigger_blackduck": false,
             "restricted": true,
             "approval_ticket": "MB-43894"
@@ -171,6 +178,7 @@
             "release_name": "Mad-Hatter 6.6.2-MP3",
             "parent": "couchbase-server/mad-hatter.xml",
             "interval": 1843,
+            "do-build": false,
             "trigger_blackduck": false,
             "restricted": true,
             "approval_ticket": "MB-47627"
@@ -180,6 +188,7 @@
             "release_name": "Mad-Hatter 6.6.1-MP2",
             "parent": "couchbase-server/mad-hatter.xml",
             "interval": 1640,
+            "do-build": false,
             "trigger_blackduck": false,
             "restricted": true,
             "approval_ticket": "MB-44188"
@@ -189,6 +198,7 @@
             "release_name": "Mad-Hatter 6.6.0-MP4",
             "parent": "couchbase-server/mad-hatter.xml",
             "interval": 1740,
+            "do-build": false,
             "restricted": true,
             "approval_ticket": "MB-42126"
         },
@@ -198,6 +208,7 @@
             "parent": "couchbase-server/mad-hatter.xml",
             "start_build": 6600,
             "interval": 1440,
+            "do-build": false,
             "restricted": true,
             "approval_ticket": "MB-43894"
         },
@@ -207,6 +218,7 @@
             "parent": "couchbase-server/mad-hatter.xml",
             "start_build": 4927,
             "interval": 1440,
+            "do-build": false,
             "restricted": true,
             "approval_ticket": "MB-42749"
         },
@@ -216,6 +228,7 @@
             "parent": "couchbase-server/mad-hatter.xml",
             "start_build": 4927,
             "interval": 1440,
+            "do-build": false,
             "restricted": true,
             "approval_ticket": "MB-38184"
         },
@@ -239,6 +252,7 @@
             "production": true,
             "start_build": 2800,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-41310"
@@ -251,6 +265,7 @@
             "production": true,
             "start_build": 2800,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-37114"
@@ -263,6 +278,7 @@
             "production": true,
             "start_build": 2414,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-32630"
@@ -275,6 +291,7 @@
             "production": true,
             "start_build": 2039,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-33744"
@@ -287,6 +304,7 @@
             "production": true,
             "start_build": 1000,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-30692"
@@ -298,6 +316,7 @@
             "production": true,
             "start_build": 4700,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-35058"

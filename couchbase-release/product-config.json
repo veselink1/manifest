@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "couchbase-operator/master.xml": {
+        "couchbase-release/master.xml": {
             "release": "1.0",
             "release_name": "Couchbase Release 1.0 - master",
             "production": true,
