@@ -35,7 +35,7 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": false,
-            "do_build": false,
+            "do-build": false,
             "module_projects": [
                 "couchbase-lite-core"
             ]
