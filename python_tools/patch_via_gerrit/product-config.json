@@ -1,8 +1,7 @@
 {
     "manifests": {
         "python_tools/patch_via_gerrit/master.xml": {
-            "release": "1.1.0",
-            "release_name": "patch_via_gerrit 1.1.0",
+            "release_name": "patch_via_gerrit (mainline)",
             "production": true,
             "restricted": false,
             "start_build": 1,

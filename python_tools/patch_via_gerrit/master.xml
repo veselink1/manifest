@@ -17,6 +17,6 @@
   <project name="pyinstaller" remote="couchbasedeps" revision="couchbase-develop"/>
 
   <project name="build" path="cbbuild" revision="89467fdea78ec6c84fa423756a1210056ac5c199">
-    <annotation name="VERSION" value="1.1.0" keep="true"/>
+    <annotation name="VERSION" value="1.1.1" keep="true"/>
   </project>
 </manifest>
