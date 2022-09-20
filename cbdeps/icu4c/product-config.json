@@ -1,0 +1,14 @@
+{
+    "manifests": {
+        "cbdeps/icu4c/master.xml": {
+            "release_name": "icu4c (main)",
+            "production": true,
+            "restricted": false,
+            "start_build": 1,
+            "jenkins_server": "server.jenkins.couchbase.com",
+            "jenkins_job": "no-op-build",
+            "do-build": false,
+            "keep_git": true
+        }
+    }
+}
