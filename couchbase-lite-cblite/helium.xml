@@ -43,11 +43,10 @@
   <project name="zlib" remote="couchbasedeps" revision="21767c654d31d2dccdde4330529775c6c5fd5389" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/zlib"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="cb7660f61a15ffdba6c88e6f42549c11f10d5acb" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
-  
+
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="tlm" revision="2d46e032cf08727e8e5fab67d05c4f1b051989e4"/>
   <project name="build" path="cbbuild" revision="a8ba0a9d6058381edc320648cafaf696a611908c">
     <annotation name="VERSION" value="3.1.0" keep="true"/>
   </project>
