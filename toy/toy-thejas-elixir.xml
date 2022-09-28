@@ -96,12 +96,12 @@
   <!-- Go support libraries - Bleve-supported -->
   <project name="mmap-go"          remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
   <project name="zapx"          remote="toy" revision="286bef1641393e7930975b9e93f506794db50032" path="godeps/src/github.com/blevesearch/zapx"/>
-  <project name="bleve"          remote="toy" revision="b3ebd7bc8bf5f6ac2d6ae8429f60379e12374d0b" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="zapx"          remote="toy" revision="2bd5182a09d00ee6fd6f871a825b91b5827046fe" path="godeps/src/github.com/blevesearch/zapx14"/>
-  <project name="zapx"          remote="toy" revision="839c2efdb61053b45f6ed751af1820614db6c303" path="godeps/src/github.com/blevesearch/zapx13"/>
- <project name="zapx"          remote="toy" revision="81f4bddf6afd80ac3c0469748f2ca80aefd9911f" path="godeps/src/github.com/blevesearch/zapx12"/>
- <project name="zapx"          remote="toy" revision="1ff9da2f92e314200ecfc04359a33b5cf7108ec7" path="godeps/src/github.com/blevesearch/zapx11"/>
- <project name="scorch_segment_api"          remote="toy" revision="8416b12358a307cf8f80a2a1dfdf3ab9c51d2fea" path="godeps/src/github.com/blevesearch/scorch_segment_api"/>
+  <project name="bleve"          remote="toy" revision="6af0953bf87c80e9aaace73ffebff15a363eaccb" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="zapx"          remote="toy" revision="63050c6a81dae36aade388a122076f2996c80f47" path="godeps/src/github.com/blevesearch/zapx14"/>
+  <project name="zapx"          remote="toy" revision="687c4520ba855826b8a9fbc8c326359a9f7c3082" path="godeps/src/github.com/blevesearch/zapx13"/>
+ <project name="zapx"          remote="toy" revision="e2144e1b9b90db3cf2dd1ce29199d9fd93f0359c" path="godeps/src/github.com/blevesearch/zapx12"/>
+ <project name="zapx"          remote="toy" revision="2a2ae24103ead56f95ff7ccb80ec5490460ccd9d" path="godeps/src/github.com/blevesearch/zapx11"/>
+ <project name="scorch_segment_api"          remote="toy" revision="cfa9241cc6c6f1c0531e47efce6b6fbdb17159cd" path="godeps/src/github.com/blevesearch/scorch_segment_api"/>
 
   <!-- Go support libraries - third-party -->
   <project name="uuid"           remote="couchbasedeps" revision="dec09d789f3dba190787f8b4454c7d3c936fed9e" path="godeps/src/github.com/google/uuid"/>
