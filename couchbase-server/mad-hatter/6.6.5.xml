@@ -23,18 +23,18 @@
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
   <project name="forestdb" revision="5836cfc682e9d90036b8fc780d6a28b033e6b34c" groups="backup,kv"/>
   <project name="geocouch" revision="92def13f6b049553da1aa1488ce0bde6b7d0f459"/>
-  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="57208a2fbf9c6937abae0239f83f8a28e481ef17"/>
+  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="mad-hatter"/>
   <project name="gometa" revision="54d271aa26c1f5126d4f0eb32a241a6512cc7545" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro" revision="1cc0c3058bef77ef4b87d623e1024b0cd048d015" path="goproj/src/github.com/couchbase/nitro"/>
   <project name="indexing" revision="37d293f79157689da7b7add82494d821bd137104" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma" revision="9cc39e00d8d39f0dacfe944264a865c571b1dbb9" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="4e68eca143fe1414f9dfaed7eda8af1bd8b94fd8" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="f7d38a6ddb62aa8a5ffeac80bfa68f6b9392b9d6" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="kv_engine" groups="kv" revision="dec107512bc9e9a1522ac21b66603620e7ba7578"/>
+  <project name="kv_engine" groups="kv" revision="6.6.5"/>
   <!-- libcouchbase is tag 2.10.6 + one build-script change for MB-37768 -->
   <project name="libcouchbase" revision="a77874d1379bd1896b8a507b9d70420fa918a5f8" groups="notdefault,enterprise"/>
   <project name="magma" revision="c8e91e0af8b46d0a0e026d23ebbfab4048f670b6" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
-  <project name="ns_server" revision="5d07b4b872da6fb52a496a4a9190844ac583e93c"/>
+  <project name="ns_server" revision="mad-hatter"/>
   <project name="phosphor" groups="kv" revision="53ca1eeae7bd3deea5b7bf48b3d4188b47e530d1"/>
   <project name="platform" groups="kv" revision="3c3da324d27421284e4564aba255a6cd73ec4edf"/>
   <project name="product-texts" groups="kv" revision="53c8232b2da832e34a4b36adbd151691a447d632"/>
