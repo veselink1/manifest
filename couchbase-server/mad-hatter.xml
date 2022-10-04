@@ -119,7 +119,7 @@
   <project name="gosnappy" remote="couchbasedeps" revision="156a073208e131d7d2e212cb749feae7c339e846" path="godeps/src/github.com/syndtr/gosnappy"/>
   <project name="bitset" remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4" path="godeps/src/github.com/willf/bitset"/>
   <project name="ts" remote="couchbasedeps" revision="ecf753e7c962639ab5a1fb46f7da627d4c0a04b8" path="godeps/src/github.com/olekukonko/ts" groups="backup"/>
-  <project name="text" remote="couchbasedeps" revision="88f656faf3f37f690df1a32515b479415e1a6769" path="godeps/src/golang.org/x/text" groups="backup"/>
+  <project name="text" remote="couchbasedeps" revision="refs/tags/v0.3.7" path="godeps/src/golang.org/x/text" groups="backup"/>
   <project name="golang-tools" remote="couchbasedeps" revision="a28dfb48e06b2296b66678872c2cb638f0304f20" path="godeps/src/golang.org/x/tools"/>
   <project name="crypto" remote="couchbasedeps" revision="bd6f299fb381e4c3393d1c4b1f0b94f5e77650c8" path="godeps/src/golang.org/x/crypto" groups="backup"/>
   <project name="net" remote="couchbasedeps" revision="d8887717615a059821345a5c23649351b52a1c0b" path="godeps/src/golang.org/x/net" groups="backup"/>
