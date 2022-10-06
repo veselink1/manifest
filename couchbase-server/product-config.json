@@ -147,7 +147,7 @@
             "production": true,
             "start_build": 10500,
             "trigger_blackduck": true,
-            "interval": 750,
+            "interval": 180,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-53812"
@@ -157,7 +157,7 @@
             "release_name": "Mad-Hatter 6.6.5-MP8",
             "parent": "couchbase-server/mad-hatter.xml",
             "interval": 240,
-            "do-build": false,
+            "do-build": true,
             "start_build": 9960,
             "trigger_blackduck": false,
             "restricted": true,
