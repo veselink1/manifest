@@ -166,7 +166,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="7.2.0"     keep="true"/>
+    <annotation name="VERSION" value="7.5.0"     keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server" keep="true"/>
     <annotation name="BSL_VERSION" value="Elixir" keep="true"/>
     <annotation name="BSL_CHANGE_DATE" value="October 1, 2027" keep="true"/>
