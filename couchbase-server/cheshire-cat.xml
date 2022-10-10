@@ -15,7 +15,7 @@
   <project name="cbft" revision="cheshire-cat" groups="bsl"/>
   <project name="cbftx" remote="couchbase-priv" revision="cheshire-cat" groups="notdefault,enterprise"/>
   <project name="cbgt" revision="cheshire-cat" groups="bsl"/>
-  <project name="cbsummary" revision="d65738f74dad4d052812caced063da1a95db8567" path="goproj/src/github.com/couchbase/cbsummary" groups="bsl"/>
+  <project name="cbsummary" revision="083dc4dd2fd992caaaf3c9f1412ca3a8e87d0183" path="goproj/src/github.com/couchbase/cbsummary" groups="bsl"/>
   <project name="couchbase-cli" revision="cheshire-cat" groups="kv"/>
   <project name="couchdb" revision="cheshire-cat"/>
   <project name="couchstore" revision="cheshire-cat" groups="kv"/>
