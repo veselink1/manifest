@@ -99,9 +99,9 @@
   <project name="bleve"          remote="toy" revision="950fbaa44225084ee2610eeebfd5cdebb57be083" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="zapx"          remote="toy" revision="63050c6a81dae36aade388a122076f2996c80f47" path="godeps/src/github.com/blevesearch/zapx14"/>
   <project name="zapx"          remote="toy" revision="687c4520ba855826b8a9fbc8c326359a9f7c3082" path="godeps/src/github.com/blevesearch/zapx13"/>
- <project name="zapx"          remote="toy" revision="e2144e1b9b90db3cf2dd1ce29199d9fd93f0359c" path="godeps/src/github.com/blevesearch/zapx12"/>
- <project name="zapx"          remote="toy" revision="2a2ae24103ead56f95ff7ccb80ec5490460ccd9d" path="godeps/src/github.com/blevesearch/zapx11"/>
- <project name="scorch_segment_api"          remote="toy" revision="cfa9241cc6c6f1c0531e47efce6b6fbdb17159cd" path="godeps/src/github.com/blevesearch/scorch_segment_api"/>
+  <project name="zapx"          remote="toy" revision="e2144e1b9b90db3cf2dd1ce29199d9fd93f0359c" path="godeps/src/github.com/blevesearch/zapx12"/>
+  <project name="zapx"          remote="toy" revision="2a2ae24103ead56f95ff7ccb80ec5490460ccd9d" path="godeps/src/github.com/blevesearch/zapx11"/>
+  <project name="scorch_segment_api"          remote="toy" revision="cfa9241cc6c6f1c0531e47efce6b6fbdb17159cd" path="godeps/src/github.com/blevesearch/scorch_segment_api"/>
 
   <!-- Go support libraries - third-party -->
   <project name="uuid"           remote="couchbasedeps" revision="dec09d789f3dba190787f8b4454c7d3c936fed9e" path="godeps/src/github.com/google/uuid"/>
@@ -174,7 +174,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="7.2.0"     keep="true"/>
+    <annotation name="VERSION" value="7.5.0"     keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server" keep="true"/>
     <annotation name="BSL_VERSION" value="Elixir" keep="true"/>
     <annotation name="BSL_CHANGE_DATE" value="October 1, 2027" keep="true"/>
