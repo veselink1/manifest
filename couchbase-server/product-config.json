@@ -42,7 +42,7 @@
         "couchbase-server/neo/7.1.2.xml": {
             "release": "neo",
             "release_name": "Neo (7.1.2)",
-            "parent": "neo.xml",
+            "parent": "couchbase-server/neo.xml",
             "production": true,
             "start_build": 3300,
             "trigger_blackduck": true,
