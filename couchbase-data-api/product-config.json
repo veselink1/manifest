@@ -6,7 +6,7 @@
             "production": true,
             "interval": 60,
             "restricted": false,
-            "go_version": "1.17",
+            "go_version": "1.18.2",
             "start_build": 1,
             "trigger_blackduck": false,
             "do-build": true,
