@@ -46,7 +46,7 @@
   <project name="query-ui" groups="bsl" revision="neo"/>
   <project name="sigar" revision="neo" groups="kv"/>
   <project name="subjson" revision="neo" groups="bsl,kv"/>
-  <project name="testrunner"/>
+  <project name="testrunner" revision="neo"/>
   <project name="tlm" revision="neo" groups="bsl,kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
     <copyfile src="Makefile" dest="Makefile"/>
