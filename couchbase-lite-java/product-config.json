@@ -27,8 +27,8 @@
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/lithium.xml": {
-            "release": "3.0.2",
-            "release_name": "Couchbase Lite Java - Lithium 3.0.2",
+            "release": "3.0.5",
+            "release_name": "Couchbase Lite Java - Lithium 3.0.5",
             "production": true,
             "interval": 40320,
             "restricted": false,
