@@ -8,13 +8,13 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="erlang" remote="couchbasedeps" revision="couchbase-neo"/>
+  <project name="erlang" remote="couchbasedeps" revision="couchbase-24.3.4.4"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build-tools" path="build-tools"/>
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
-    <annotation name="VERSION" value="neo" keep="true"/>
+    <annotation name="VERSION" value="24.3.4.4" keep="true"/>
   </project>
 </manifest>
