@@ -161,6 +161,7 @@
   <project name="go-sysconf" remote="couchbasedeps" revision="refs/tags/v0.3.10" path="godeps/src/github.com/tklauser/go-sysconf" groups="backup"/>
   <project name="numcpus" remote="couchbasedeps" revision="refs/tags/v0.5.0" path="godeps/src/github.com/tklauser/numcpus" groups="backup"/>
   <project name="wmi" remote="couchbasedeps" revision="cbe66965904dbe8a6cd589e2298e5d8b986bd7dd" path="godeps/src/github.com/StackExchange/wmi" groups="backup"/>
+  <project name="yusufpapurcu-wmi" remote="couchbasedeps" revision="refs/tags/v1.2.2" path="godeps/src/github.com/yusufpapurcu/wmi" groups="backup"/>
   <project name="go-ole" remote="couchbasedeps" revision="14974a1cf6477f616180232977d8ab4791ea8820" path="godeps/src/github.com/go-ole/go-ole" groups="backup"/>
 
   <!-- C/C++ support libraries -->
