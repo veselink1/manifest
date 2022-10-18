@@ -1,8 +1,8 @@
 {
     "manifests": {
-        "cbdeps/erlang/neo.xml": {
-            "release": "neo",
-            "release_name": "erlang neo",
+        "cbdeps/erlang/24.3.4.4.xml": {
+            "release": "24.3.4.4",
+            "release_name": "erlang 24.3.4.4",
             "production": true,
             "restricted": false,
             "start_build": 1,
