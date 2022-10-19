@@ -12,11 +12,6 @@
   <project name="build" path="cbbuild" groups="notdefault" revision="fa5df77677945a629aeb82aeaa3d43218df2a88d">
     <annotation name="VERSION" value="3.1.0" keep="true"/>
   </project>
- 
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Couchbase Licensing and Legal                      -->
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts" path="cbl-java/legal" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language repositories         -->
@@ -30,4 +25,9 @@
   <!-- Couchbase-owned Couchbase Lite Core Tools          -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project remote="couchbaselabs" name="litecore-download-script" path="cbl-java/core_tools" revision="d889428f9e623d3a4ea07d818b0d96cdfa9c7766"/>
+ 
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase Licensing and Legal                      -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="product-texts" path="cbl-java/legal" revision="master"/>
 </manifest>

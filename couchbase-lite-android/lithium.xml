@@ -20,11 +20,6 @@
   <project name="build" path="cbbuild" groups="notdefault" revision="fa5df77677945a629aeb82aeaa3d43218df2a88d">
     <annotation name="VERSION" value="3.0.5" keep="true"/>
   </project>
- 
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Couchbase Licensing and Legal                      -->
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts" path="cbl-java/legal" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
@@ -65,4 +60,9 @@
   <project remote="couchbasedeps" name="mbedtls" path="cbl-java/core/vendor/mbedtls" revision="23c05c107c51cec7f298e6fbb9945957716cf356"/>
   <project remote="couchbasedeps" name="sockpp" path="cbl-java/core/vendor/sockpp" revision="aa7c52855630fe4b65ab7a7ebace10f1a15df030"/>
   <project remote="couchbasedeps" name="zlib" path="cbl-java/core/vendor/zlib" revision="21767c654d31d2dccdde4330529775c6c5fd5389"/>
+ 
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase Licensing and Legal                      -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="product-texts" path="cbl-java/legal" revision="master"/>
 </manifest>
