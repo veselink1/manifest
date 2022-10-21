@@ -44,7 +44,7 @@
   <project name="sigar" groups="kv" revision="aa768481dd958aaf3b1479c8a7a87fbe5632f5df"/>
   <project name="subjson" groups="kv" revision="ae63ab4b653870e400855f8563da40dda49f0eb3"/>
   <project name="testrunner" revision="mad-hatter"/>
-  <project name="tlm" revision="22340814f9b31fb93be60f0def9633d2802b525e" groups="kv">
+  <project name="tlm" revision="6.6.5" groups="kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
     <copyfile src="Makefile" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
