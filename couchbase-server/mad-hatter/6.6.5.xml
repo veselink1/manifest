@@ -34,7 +34,7 @@
   <!-- libcouchbase is tag 2.10.6 + one build-script change for MB-37768 -->
   <project name="libcouchbase" revision="a77874d1379bd1896b8a507b9d70420fa918a5f8" groups="notdefault,enterprise"/>
   <project name="magma" revision="c8e91e0af8b46d0a0e026d23ebbfab4048f670b6" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
-  <project name="ns_server" revision="6c52c5bca270a025fbe9d8c54c1be7d7c5fbb1c0"/>
+  <project name="ns_server" revision="6.6.5"/>
   <project name="phosphor" groups="kv" revision="53ca1eeae7bd3deea5b7bf48b3d4188b47e530d1"/>
   <project name="platform" groups="kv" revision="3c3da324d27421284e4564aba255a6cd73ec4edf"/>
   <project name="product-texts" groups="kv" revision="53c8232b2da832e34a4b36adbd151691a447d632"/>
