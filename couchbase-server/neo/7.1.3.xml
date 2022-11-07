@@ -12,7 +12,7 @@
   <project name="backup" remote="couchbase-priv" path="backup" revision="0a936746f0ff36ab3ff7ad5f389c7454a5382e8a" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" revision="a8f8d74111bf81d9f49c8f6bf0df714b783849d7" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" revision="d55ad69bd3889e1c618be3847a55a1b673c14fc8"/>
+  <project name="cbft" revision="b190fad2f266092c8118efac248fe06019bdc3f0"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="43902bacc62d5fedd335277ccd5ef894e355fc13"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise" revision="fd6a0a1013434e4ba8cae73f6c80d2433d72ed0b"/>
   <project name="cbgt" revision="f7e914eb5c8282bb47b48103c906389be38cb512"/>
@@ -35,14 +35,14 @@
   <project name="kv_engine" revision="e093b2430c0679eeaf5d1d8da7eafebedad7b5a7" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.2.5"/>
   <project name="magma" revision="edf5c5c35b5206b3b815d2e47ae2ad23096d0133" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
-  <project name="ns_server" revision="b3125af86948fc7d1a07e2b0bd48d9d4641a3217" groups="bsl"/>
+  <project name="ns_server" revision="7.1.3" groups="bsl"/>
   <project name="chronicle" revision="f53f803d409988d1bf3cdd2d7a5e9f55fb9dc2df" path="ns_server/deps/chronicle"/>
   <project name="vbmap" revision="e92dbb787ab72e1f50c30a54957d4a6be9e1de3d"/>
   <project name="phosphor" groups="bsl,kv" revision="2eb6c244d6910baf2834513ece579ba88e4f9b9d"/>
   <project name="platform" revision="neo" groups="bsl,kv"/>
   <project name="product-texts" revision="7ca232481faa1a9240564da4907b6d51ef8d7883"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="0ba419507d27dce83273c7aa515d4fca69da374c"/>
-  <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="331aa8c9f3d3523424291fe110a484571539e8e9"/>
+  <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="543e50d18d7f1ada52f675b19188c23ec9272033"/>
   <project name="query-ui" groups="bsl" revision="be9b18842316d1b55ec8730ca33f002cbea5538d"/>
   <project name="sigar" revision="410b89097cd635af112c9a21953a9e518f7aa13a" groups="kv"/>
   <project name="subjson" revision="0820f83427d69c6eb737876eb2f2cf6aefa45802" groups="bsl,kv"/>
@@ -65,7 +65,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="86f2375ef5b60dc97cd67d542fcc467da7771b83"/>
+  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="1a61e248c6a5a5448251e08f847619697f26dfd2"/>
   <project name="go_json" path="goproj/src/github.com/couchbase/go_json" revision="39c6c3c3e21c5c0a0be9f696bdb9e496fde773f1"/>
   <project name="gomemcached" path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="9ae3e1a53ee2393526383f0d37dab16cd936d92f"/>
   <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="694763b234d64faaac75fbec427fc13132ccbcfe"/>
