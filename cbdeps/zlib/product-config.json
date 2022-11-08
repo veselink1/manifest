@@ -1,7 +1,7 @@
 {
     "manifests": {
         "cbdeps/zlib/master.xml": {
-            "release": "1.2.12",
+            "release": "1.2.13",
             "release_name": "zlib 1.2.13",
             "production": true,
             "restricted": false,
