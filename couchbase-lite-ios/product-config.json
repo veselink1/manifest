@@ -16,8 +16,8 @@
             ]
         },
         "couchbase-lite-ios/lithium.xml": {
-            "release": "3.0.2",
-            "release_name": "Couchbase Lite iOS - Lithium 3.0.2",
+            "release": "3.0.7",
+            "release_name": "Couchbase Lite iOS - Lithium 3.0.7",
             "production": true,
             "interval": 1440,
             "restricted": false,
