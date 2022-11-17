@@ -39,19 +39,6 @@
             "restricted": true,
             "approval_ticket": "MB-53974"
         },
-        "couchbase-server/neo/7.1.2.xml": {
-            "release": "neo",
-            "release_name": "Neo (7.1.2-MP1)",
-            "parent": "couchbase-server/neo.xml",
-            "production": true,
-            "start_build": 3300,
-            "trigger_blackduck": true,
-            "interval": 252,
-            "do-build": false,
-            "keep_git": true,
-            "restricted": true,
-            "approval_ticket": "MB-54344"
-        },
         "couchbase-server/neo/7.1.3.xml": {
             "release": "neo",
             "release_name": "Neo (7.1.3)",
@@ -64,6 +51,19 @@
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-53973"
+        },
+        "couchbase-server/neo/7.1.2.xml": {
+            "release": "neo",
+            "release_name": "Neo (7.1.2-MP1)",
+            "parent": "couchbase-server/neo.xml",
+            "production": true,
+            "start_build": 3300,
+            "trigger_blackduck": true,
+            "interval": 252,
+            "do-build": false,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-54344"
         },
         "couchbase-server/neo/7.1.1.xml": {
             "release": "neo",
@@ -180,14 +180,14 @@
         },
         "couchbase-server/mad-hatter/6.6.5.xml": {
             "release": "mad-hatter",
-            "release_name": "Mad-Hatter 6.6.5-MP10",
+            "release_name": "Mad-Hatter 6.6.5-MP11",
             "parent": "couchbase-server/mad-hatter.xml",
             "interval": 240,
             "do-build": true,
             "start_build": 9960,
             "trigger_blackduck": false,
             "restricted": true,
-            "approval_ticket": "MB-54444"
+            "approval_ticket": "MB-54588"
         },
         "couchbase-server/mad-hatter/6.6.4.xml": {
             "release": "mad-hatter",
