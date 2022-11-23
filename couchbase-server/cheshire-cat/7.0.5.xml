@@ -54,10 +54,10 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt"/>
   </project>
   <!-- Analytics additions -->
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="48490a608126f146fbfd24583dfbe39a8b374dc3" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="cheshire-cat" groups="notdefault,enterprise,analytics"/>
   <project name="asterixdb" revision="023e28c15d6d856419d7c595105818a76d3e3511" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" revision="39ce0931077ea75b1171083b1f95885f4842b897" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics,bsl"/>
-  <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" revision="cheshire-cat" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" revision="04248b05b615ae1cf3aed44100f450326f48120c" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" revision="5c9f762d5e002e9de2da7aec5bbb1cce309a2b35" groups="notdefault,enterprise,analytics,bsl"/>
   <!-- Mobile -->
   <project name="mobile-service" revision="57b35666b27b658543f19b0de9b58404f22ec39f" path="goproj/src/github.com/couchbase/mobile-service"/>
