@@ -23,7 +23,7 @@
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
-  <project name="forestdb" revision="cb-master" groups="backup"/>
+  <project name="forestdb" revision="cb-master"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
@@ -68,9 +68,9 @@
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
   <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty"/>
   <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json"/>
-  <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup"/>
+  <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached"/>
   <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth" groups="backup"/>
-  <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
+  <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase"/>
   <project name="goutils"                                                            path="goproj/src/github.com/couchbase/goutils"/>
   <project name="godbc"                                                              path="goproj/src/github.com/couchbase/godbc"/>
 
