@@ -20,7 +20,7 @@
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="554ec51c9988bf755a1d4cb7dcb3c9098fff800f" path="couchbase-lite-ios-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-core" revision="3b1fe0d6fe46a5a4e1655dbe6f42e89154a189dd" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="3e2d634633fc2b1334d3b969bde04ad211c46fa1" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -28,7 +28,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="MYUtilities" remote="snej" revision="81aad002f183fe8b0987195dc6294d3f55584fcf" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/MYUtilities"/>
   <project name="BLIP-Cpp" remote="couchbaselabs" revision="96dd437a898aa70e8a28d361c32a10d809e70110" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbase" revision="bf2757db8e1d13091b59474b206f0241362bd933" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbase" revision="dcaa54943e6fcf05a610476912299873b5328bf7" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="couchbasedeps" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
   <project name="litecore-download-script" remote="couchbaselabs" revision="37b89649a2df6e29e2d18dea174cb0f8b3e2a030" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/tools"/>
