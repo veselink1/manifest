@@ -87,9 +87,6 @@
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
   <project name="gojsonsm"       remote="couchbaselabs"                              path="godeps/src/github.com/couchbaselabs/gojsonsm" groups="bsl"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql" groups="bsl"/>
-  <project name="moss"                                                               path="godeps/src/github.com/couchbase/moss" groups="bsl"/>
-  <project name="mossScope"                                                          path="godeps/src/github.com/couchbase/mossScope" groups="bsl"/>
-  <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="logstats"                                                           path="godeps/src/github.com/couchbase/logstats" groups="bsl"/>
 
   <!-- Go support libraries - Bleve-supported -->
