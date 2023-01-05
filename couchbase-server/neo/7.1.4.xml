@@ -19,27 +19,27 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="083dc4dd2fd992caaaf3c9f1412ca3a8e87d0183"/>
   <project name="couchbase-cli" revision="dcbb1bb1a62bf6a355526f50dd4aa22251771242" groups="kv"/>
   <project name="couchdb" revision="090852f6c9a7b1b9bb017a7d5e29f194669860bb"/>
-  <project name="couchstore" revision="19f191dd6d250b5e367238d638fcd50ad746a145" groups="kv"/>
+  <project name="couchstore" revision="neo" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="2e6af0c097c8bb98a596cbc81cdf6e169ae5b3cc"/>
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
   <project name="forestdb" revision="48c31dcb979ca7e152c2db570af49149c6d3e2a7" groups="backup"/>
   <project name="geocouch" revision="68f3b9d36630682d17ca5232770f1693b9b8fa18"/>
-  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl" revision="4a5ae58d462439fa6fa570f09971f029b180cbaf"/>
+  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl" revision="neo"/>
   <project name="gometa" revision="f26942c60986380e757967002c365d6f2b7fb219" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro" revision="2575ec52bf5cf4c7ccc2cbc161eb38e46ce7b4a8" path="goproj/src/github.com/couchbase/nitro" groups="bsl"/>
-  <project name="indexing" revision="d7013edd8bb51446aa5f05e8e6482f9861996555" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
+  <project name="indexing" revision="neo" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
   <project name="plasma" revision="6d411be4bb5df573b47c143d94fb3673bd788f34" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="8a3712b1701f622d90a4c2f0cdcd7dd1d10ad812" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="5bb35cf9c0d2b13cc4e202fbb0a2fa438ed00b37" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="kv_engine" revision="7.1.3" groups="kv,bsl"/>
+  <project name="kv_engine" revision="f04a588cb9d3fa867f0ab5913d30ca70ef39c73a" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.2.5"/>
   <project name="magma" revision="edf5c5c35b5206b3b815d2e47ae2ad23096d0133" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
-  <project name="ns_server" revision="7.1.3" groups="bsl"/>
+  <project name="ns_server" revision="5d92f10d197a667378baf92663310f51a8790522" groups="bsl"/>
   <project name="chronicle" revision="f53f803d409988d1bf3cdd2d7a5e9f55fb9dc2df" path="ns_server/deps/chronicle"/>
   <project name="vbmap" revision="e92dbb787ab72e1f50c30a54957d4a6be9e1de3d"/>
   <project name="phosphor" groups="bsl,kv" revision="2eb6c244d6910baf2834513ece579ba88e4f9b9d"/>
-  <project name="platform" revision="70cc192dbbf325b6ba531184298dab369f012aa1" groups="bsl,kv"/>
+  <project name="platform" revision="neo" groups="bsl,kv"/>
   <project name="product-texts" revision="7ca232481faa1a9240564da4907b6d51ef8d7883"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="0ba419507d27dce83273c7aa515d4fca69da374c"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="2f9068bd13cf80a53d4152eb9b468894bc5e3436"/>
@@ -47,7 +47,7 @@
   <project name="sigar" revision="410b89097cd635af112c9a21953a9e518f7aa13a" groups="kv"/>
   <project name="subjson" revision="0820f83427d69c6eb737876eb2f2cf6aefa45802" groups="bsl,kv"/>
   <project name="testrunner"/>
-  <project name="tlm" revision="07608d7a364d3fe13573dfccc50e1336f7639feb" groups="bsl,kv">
+  <project name="tlm" revision="neo" groups="bsl,kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
     <copyfile src="Makefile" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
@@ -156,7 +156,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build" revision="b70f9539dd9538d9c65f1ef584f85e28f7245c71" path="cbbuild" groups="notdefault,build">
-    <annotation name="VERSION" value="7.1.3" keep="true"/>
+    <annotation name="VERSION" value="7.1.4" keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server" keep="true"/>
     <annotation name="BSL_VERSION" value="7.1" keep="true"/>
     <annotation name="BSL_CHANGE_DATE" value="April 1, 2026" keep="true"/>
