@@ -9,7 +9,7 @@
   <project name="service-broker" path="couchbase-service-broker/service-broker" revision="refs/tags/0.0.11"/>
 
   <project name="build" path="cbbuild" revision="8ba9841f5fd3b60f22203be47bc6e81f7b9b6b2e">
-    <annotation name="VERSION" value="1.2.1" keep="true"/>
+    <annotation name="VERSION" value="1.2.2" keep="true"/>
     <annotation name="GOVERSION" value="1.17.1" keep="true"/>
   </project>
 </manifest>

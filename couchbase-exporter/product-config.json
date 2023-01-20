@@ -1,8 +1,6 @@
 {
     "manifests": {
         "couchbase-exporter/master.xml": {
-            "release": "1.0.8",
-            "release_name": "Couchbase Exporter 1.0.8 - master",
             "production": true,
             "interval": 240,
             "restricted": false,

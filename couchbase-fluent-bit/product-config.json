@@ -1,8 +1,6 @@
 {
     "manifests": {
         "couchbase-fluent-bit/main.xml": {
-            "release": "1.2.2",
-            "release_name": "Couchbase Fluent Bit 1.2.2 - main",
             "production": true,
             "interval": 90,
             "restricted": false,
