@@ -26,10 +26,10 @@
   <project name="forestdb" revision="48c31dcb979ca7e152c2db570af49149c6d3e2a7" groups="backup"/>
   <project name="geocouch" revision="68f3b9d36630682d17ca5232770f1693b9b8fa18"/>
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl" revision="7.1.4"/>
-  <project name="gometa" revision="f26942c60986380e757967002c365d6f2b7fb219" path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="nitro" revision="2575ec52bf5cf4c7ccc2cbc161eb38e46ce7b4a8" path="goproj/src/github.com/couchbase/nitro" groups="bsl"/>
-  <project name="indexing" revision="neo" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
-  <project name="plasma" revision="6d411be4bb5df573b47c143d94fb3673bd788f34" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="gometa" revision="7.1.4" path="goproj/src/github.com/couchbase/gometa"/>
+  <project name="nitro" revision="7.1.4" path="goproj/src/github.com/couchbase/nitro" groups="bsl"/>
+  <project name="indexing" revision="7.1.4" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
+  <project name="plasma" revision="7.1.4" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="8a3712b1701f622d90a4c2f0cdcd7dd1d10ad812" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="5bb35cf9c0d2b13cc4e202fbb0a2fa438ed00b37" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="f04a588cb9d3fa867f0ab5913d30ca70ef39c73a" groups="kv,bsl"/>
@@ -90,7 +90,7 @@
   <project name="moss" path="godeps/src/github.com/couchbase/moss" groups="bsl" revision="4fae7b31078a3e2bd5848a7029754885cdc495e0"/>
   <project name="mossScope" path="godeps/src/github.com/couchbase/mossScope" groups="bsl" revision="9e34f3688e0abd1b057ea2196f02e45f830506f8"/>
   <project name="ghistogram" path="godeps/src/github.com/couchbase/ghistogram" revision="4ae3f06d0ac7b02081e33c1ec309daa22838d207"/>
-  <project name="logstats" revision="24ba9753289f155ab6d43a9a2585b9248da79791" path="godeps/src/github.com/couchbase/logstats" groups="bsl"/>
+  <project name="logstats" revision="7.1.4" path="godeps/src/github.com/couchbase/logstats" groups="bsl"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="mmap-go" remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
