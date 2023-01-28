@@ -16,7 +16,7 @@
             ]
         },
         "couchbase-lite-net/lithium.xml": {
-            "release": "3.0.4",
+            "release": "3.0.8",
             "release_name": "Couchbase Lite Net - Lithium",
             "production": true,
             "interval": 1440,
