@@ -5,7 +5,8 @@
   <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="blevesearch" fetch="https://github.com/blevesearch/"/>
-  <remote name="gerrit" fetch="ssh://review.couchbase.org:29418/" />
+  <remote name="gerrit_https" fetch="https://review.couchbase.org/" />
+  <remote name="gerrit_ssh" fetch="ssh://review.couchbase.org:29418/" />
 
   <default remote="couchbase" revision="master"/>
 
@@ -33,9 +34,9 @@
   <project name="plasma" revision="neo" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="neo" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="neo" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project groups="kv,bsl" name="kv_engine" revision="refs/changes/45/185845/1" remote="gerrit"/>
+  <project groups="kv,bsl" name="kv_engine" revision="refs/changes/45/185845/1" remote="gerrit_https"/>
   <project name="libcouchbase" revision="refs/tags/3.2.5"/>
-  <project name="magma" revision="refs/changes/68/185768/3" groups="notdefault,enterprise,kv_ee" remote="gerrit"/>
+  <project name="magma" revision="refs/changes/68/185768/3" groups="notdefault,enterprise,kv_ee" remote="gerrit_ssh"/>
   <project name="ns_server" revision="neo" groups="bsl"/>
   <project name="chronicle" revision="f53f803d409988d1bf3cdd2d7a5e9f55fb9dc2df" path="ns_server/deps/chronicle"/>
   <project name="vbmap" revision="neo"/>
