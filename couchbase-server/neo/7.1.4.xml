@@ -9,15 +9,15 @@
   <default remote="couchbase" revision="master"/>
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" remote="couchbase-priv" path="backup" revision="0a936746f0ff36ab3ff7ad5f389c7454a5382e8a" groups="backup,notdefault,enterprise"/>
-  <project name="cbbs" remote="couchbase-priv" revision="a8f8d74111bf81d9f49c8f6bf0df714b783849d7" groups="backup,notdefault,enterprise"/>
+  <project name="backup" remote="couchbase-priv" path="backup" revision="7.1.4" groups="backup,notdefault,enterprise"/>
+  <project name="cbbs" remote="couchbase-priv" revision="7.1.4" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
   <project name="cbft" revision="27a574235760fca10fda53289669e43a5f7ea9e9"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="43902bacc62d5fedd335277ccd5ef894e355fc13"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise" revision="fd6a0a1013434e4ba8cae73f6c80d2433d72ed0b"/>
   <project name="cbgt" revision="cf888c75f43a50db2ae7be657f94671ac3aa37d5"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="083dc4dd2fd992caaaf3c9f1412ca3a8e87d0183"/>
-  <project name="couchbase-cli" revision="dcbb1bb1a62bf6a355526f50dd4aa22251771242" groups="kv"/>
+  <project name="couchbase-cli" revision="7.1.4" groups="kv"/>
   <project name="couchdb" revision="7.1.4"/>
   <project name="couchstore" revision="neo" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="2e6af0c097c8bb98a596cbc81cdf6e169ae5b3cc"/>
