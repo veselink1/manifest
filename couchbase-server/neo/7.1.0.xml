@@ -39,7 +39,7 @@
   <project name="vbmap" revision="b608a3c4ce5f511c3066c7269e8a89b21c03ec83"/>
   <project name="phosphor" groups="bsl,kv" revision="2eb6c244d6910baf2834513ece579ba88e4f9b9d"/>
   <project name="platform" revision="f15100b16f482a9531bdf71e652bcacb262bf55a" groups="bsl,kv"/>
-  <project name="product-texts" revision="eadf993131aced4b8df717198b3b057bbc4fd81a"/>
+  <project name="product-texts"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="e297799837b35989a5d251886a78e19f8d98fd7f"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="620947343062324283ad4db0cea049de33a12c21"/>
   <project name="query-ui" groups="bsl" revision="a97378c5da29ff723ea81311b6d05c59ba4c8967"/>

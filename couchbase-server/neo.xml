@@ -40,7 +40,7 @@
   <project name="vbmap" revision="neo"/>
   <project name="phosphor" groups="bsl,kv" revision="2eb6c244d6910baf2834513ece579ba88e4f9b9d"/>
   <project name="platform" revision="neo" groups="bsl,kv"/>
-  <project name="product-texts" revision="neo"/>
+  <project name="product-texts"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="neo"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="neo"/>
   <project name="query-ui" groups="bsl" revision="neo"/>
