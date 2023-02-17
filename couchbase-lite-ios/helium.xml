@@ -19,8 +19,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="e17e984022b581c172642c5cd74285cc4ecaf632" path="couchbase-lite-ios-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-core" revision="45e29526f7914072d20862ff7d18b7cb628b08a4" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="7570126f0a7799a20dd3405eec31c328f31942ee" path="couchbase-lite-ios-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-core" revision="023cb5fbd353dfd38f49ebc05aeb8d7076b4c6ba" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -31,7 +31,7 @@
   <project name="fleece" remote="couchbase" revision="dcaa54943e6fcf05a610476912299873b5328bf7" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="couchbasedeps" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
-  <project name="litecore-download-script" remote="couchbaselabs" revision="37b89649a2df6e29e2d18dea174cb0f8b3e2a030" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/tools"/>
+  <project name="litecore-download-script" remote="couchbaselabs" revision="93274f9fb0936af0b754a408154a2a24d2dd0041" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/tools"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
