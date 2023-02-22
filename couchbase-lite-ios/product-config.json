@@ -1,8 +1,21 @@
 {
     "manifests": {
+        "couchbase-lite-ios/beryllium.xml": {
+            "release_name": "Couchbase Lite iOS - Beryllium",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "do-build": true,
+            "module_projects": [
+                "couchbase-lite-ios-ee",
+                "couchbase-lite-ios"
+            ]
+        },
         "couchbase-lite-ios/helium.xml": {
-            "release": "3.1.0",
-            "release_name": "Couchbase Lite iOS - Helium 3.1.0",
+            "release_name": "Couchbase Lite iOS - 3.1.0",
             "production": true,
             "interval": 240,
             "restricted": false,
