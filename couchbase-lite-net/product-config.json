@@ -1,5 +1,20 @@
 {
     "manifests": {
+        "couchbase-lite-net/berrylium.xml": {
+            "release": "3.2.0",
+            "release_name": "Couchbase Lite Net - Helium",
+            "production": true,
+            "interval": 120,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "do-build": true,
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
+        },
         "couchbase-lite-net/helium.xml": {
             "release": "3.1.0",
             "release_name": "Couchbase Lite Net - Helium",
