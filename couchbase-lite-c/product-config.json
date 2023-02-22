@@ -1,10 +1,19 @@
 {
     "manifests": {
-      "couchbase-lite-c/helium.xml": {
-        "release": "3.1.0",
-        "release_name": "Couchbase Lite C - Helium",
+      "couchbase-lite-c/beryllium.xml": {
+        "release_name": "Couchbase Lite C - Beryllium",
         "production": true,
         "interval": 90,
+        "restricted": false,
+        "start_build": 1,
+        "keep_git": true,
+        "trigger_blackduck": true,
+        "module_projects": ["couchbase-lite-c", "couchbase-lite-c-ee"]
+      },
+      "couchbase-lite-c/helium.xml": {
+        "release_name": "Couchbase Lite C - 3.1.0",
+        "production": true,
+        "interval": 240,
         "restricted": false,
         "start_build": 1,
         "keep_git": true,
@@ -14,7 +23,7 @@
       "couchbase-lite-c/lithium.xml": {
         "release_name": "Couchbase Lite C - Lithium",
         "production": true,
-        "interval": 90,
+        "interval": 240,
         "restricted": false,
         "start_build": 1,
         "keep_git": true,
