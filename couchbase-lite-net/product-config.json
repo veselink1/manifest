@@ -1,8 +1,8 @@
 {
     "manifests": {
-        "couchbase-lite-net/berrylium.xml": {
+        "couchbase-lite-net/beryllium.xml": {
             "release": "3.2.0",
-            "release_name": "Couchbase Lite Net - Helium",
+            "release_name": "Couchbase Lite Net - Beryllium",
             "production": true,
             "interval": 120,
             "restricted": false,
