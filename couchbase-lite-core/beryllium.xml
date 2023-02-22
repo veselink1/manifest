@@ -7,7 +7,7 @@
   <remote name="snej" fetch="https://github.com/snej/"/>
   <remote name="google" fetch="https://github.com/google/"/>
 
-  <default remote="couchbase" revision="release/3.1"/>
+  <default remote="couchbase" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
@@ -40,6 +40,6 @@
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
-    <annotation name="VERSION" value="3.1.0" keep="true"/>
+    <annotation name="VERSION" value="3.2.0" keep="true"/>
   </project>
 </manifest>

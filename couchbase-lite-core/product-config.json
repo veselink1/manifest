@@ -1,7 +1,18 @@
 {
     "manifests": {
+         "couchbase-lite-core/beryllium.xml": {
+             "release_name": "Couchbase Lite Core - Beryllium",
+             "production": true,
+             "interval": 90,
+             "restricted": false,
+             "start_build": 1,
+             "keep_git": true,
+             "trigger_blackduck": true,
+             "module_projects": [
+                 "couchbase-lite-core"
+             ]
+         },
          "couchbase-lite-core/helium.xml": {
-             "release": "3.1.0",
              "release_name": "Couchbase Lite Core - Helium",
              "production": true,
              "interval": 90,
