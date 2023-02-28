@@ -31,7 +31,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="mbedtls" remote="couchbasedeps" revision="e60e09de73933aadf7a400a15ae3fbdf75cfd15e" path="couchbase-lite-core/vendor/mbedtls"/>
   <project name="ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-lite-core/vendor/ios-cmake"/>
-  <project name="sockpp" remote="couchbasedeps" revision="c2edfd83d9d2afd834dc83521606f77a921a106a" path="couchbase-lite-core/vendor/sockpp"/>
+  <project name="sockpp" remote="couchbasedeps" revision="620f57112caf733a02016bd7159bacd2d82d21a0" path="couchbase-lite-core/vendor/sockpp"/>
   <project name="zlib" remote="couchbasedeps" revision="04f42ceca40f73e2978b50e93806c2a18c1281fc" path="couchbase-lite-core/vendor/zlib"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="703aefabca4a3381201395a53176a7c5eba78f5e" path="couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
