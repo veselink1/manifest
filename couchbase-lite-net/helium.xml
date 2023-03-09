@@ -32,6 +32,9 @@
   <project name="sqlite3-unicodesn" remote="couchbasedeps" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
   <project name="litecore-download-script" remote="couchbaselabs" revision="93274f9fb0936af0b754a408154a2a24d2dd0041" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/tools"/>
   
+  <!-- Yes this is a duplicate, but the above cannot be removed without a Core PR later -->
+  <project name="litecore-download-script" remote="couchbaselabs" revision="93274f9fb0936af0b754a408154a2a24d2dd0041" path="couchbase-lite-net-ee/couchbase-lite-net/src/LiteCore/tools"/>
+
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
