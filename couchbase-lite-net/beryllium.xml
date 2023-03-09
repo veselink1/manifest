@@ -33,7 +33,7 @@
   <project name="litecore-download-script" remote="couchbaselabs" revision="93274f9fb0936af0b754a408154a2a24d2dd0041" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/tools"/>
   
     <!-- Yes this is a duplicate, but the above cannot be removed without a Core PR later -->
-  <project name="litecore-download-script" remote="couchbaselabs" revision="93274f9fb0936af0b754a408154a2a24d2dd0041" path="couchbase-lite-net-ee/couchbase-lite-net/src/LiteCore/tools"/>
+  <project name="litecore-download-script" remote="couchbaselabs" revision="a25b27b50baed58a7b05f8b8151a3269b5007044" path="couchbase-lite-net-ee/couchbase-lite-net/src/LiteCore/tools"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
