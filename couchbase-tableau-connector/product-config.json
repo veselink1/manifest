@@ -1,12 +1,12 @@
 {
     "manifests": {
         "couchbase-tableau-connector/master.xml": {
-            "release": "1.1.0",
-            "release_name": "Couchbase Tableau Connector  - 1.1.0",
+            "release": "master",
+            "release_name": "Couchbase Tableau Connector - 1.1.0",
             "production": true,
             "interval": 1452,
             "restricted": false,
-            "start_build": 1,
+            "start_build": 100,
             "trigger_blackduck": true,
             "do-build": true,
             "keep_git": true
