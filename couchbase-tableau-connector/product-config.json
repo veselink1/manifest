@@ -1,8 +1,7 @@
 {
     "manifests": {
         "couchbase-tableau-connector/master.xml": {
-            "release": "master",
-            "release_name": "Couchbase Tableau Connector - 1.1.0",
+            "release_name": "Couchbase Tableau Connector (master branch)",
             "production": true,
             "interval": 1452,
             "restricted": false,
