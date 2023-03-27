@@ -2,7 +2,7 @@
     "manifests": {
         "couchbase-stellar-gateway/master.xml": {
             "production": true,
-            "interval": 90,
+            "interval": 1500,
             "restricted": false,
             "start_build": 100,
             "trigger_blackduck": true,
