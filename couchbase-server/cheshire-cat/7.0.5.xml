@@ -27,8 +27,8 @@
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="23bd3e9dd88552159a7246ad7ca69f8082512d49" groups="bsl"/>
   <project name="gometa" revision="11bbcf416d73e18fe10fda844920b59c1dd88ac4" path="goproj/src/github.com/couchbase/gometa" groups="bsl"/>
   <project name="nitro" revision="89c78ce461c1e1d24e34b5027618104aeb8ecf01" path="goproj/src/github.com/couchbase/nitro"/>
-  <project name="indexing" revision="cheshire-cat" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
-  <project name="plasma" revision="cheshire-cat" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="indexing" revision="ff429fc14466aad49c9fad08e4d5a57e43d62524" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
+  <project name="plasma" revision="fa6d010b8206d59828293ce0e216cd00d710e958" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="d1b8cd1fc5a023faef8cd7709ae9806f13f8c37d" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="1c6691413d096bec21453094001bafa920fad1f3" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="206fd0132e3fb88cc35b032fd97f431bd619ca65" groups="kv,bsl"/>
@@ -54,7 +54,7 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt"/>
   </project>
   <!-- Analytics additions -->
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="cheshire-cat" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="9e6865056e9fcd104920ebc770a1a4a86b2b04d6" groups="notdefault,enterprise,analytics"/>
   <project name="asterixdb" revision="023e28c15d6d856419d7c595105818a76d3e3511" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" revision="39ce0931077ea75b1171083b1f95885f4842b897" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics,bsl"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" revision="04248b05b615ae1cf3aed44100f450326f48120c" groups="notdefault,enterprise,analytics"/>
@@ -68,7 +68,7 @@
   <project name="go_json" revision="1d2f74e0ecac20f0cc62ff1ac660bcb4d1fefaaf" path="goproj/src/github.com/couchbase/go_json" groups="bsl"/>
   <project name="gomemcached" revision="216ad51366e5d6d28ce25c749a108dbc97721f15" path="goproj/src/github.com/couchbase/gomemcached" groups="backup"/>
   <project name="cbauth" revision="47a704eab25048eb6712bc13d359145fa449e7d8" path="goproj/src/github.com/couchbase/cbauth" groups="backup,bsl"/>
-  <project name="go-couchbase" revision="cheshire-cat" path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
+  <project name="go-couchbase" revision="fb66b757f0b7dbed2e57b066c32050655c2bff38" path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
 
   <project name="retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" path="godeps/src/github.com/couchbase/retriever"/>
   <project name="clog" revision="refs/tags/v0.1.0" path="godeps/src/github.com/couchbase/clog" groups="bsl"/>
