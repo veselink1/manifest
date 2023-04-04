@@ -1,5 +1,19 @@
 {
     "manifests": {
+        "cbdeps/erlang/25.3.xml": {
+            "production": true,
+            "restricted": false,
+            "start_build": 1,
+            "jenkins_server": "server.jenkins.couchbase.com",
+            "do-build": false,
+            "keep_git": true,
+            "jenkins_job": "cbdeps-build",
+            "platforms": [ "linux",
+                        "linux:aarch64",
+                        "macos",
+                        "macos:arm64",
+                        "windows_msvc2019:erlang" ]
+        },
         "cbdeps/erlang/25.1.2.xml": {
             "production": true,
             "restricted": false,
