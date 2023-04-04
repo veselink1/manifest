@@ -117,15 +117,15 @@
         },
         "couchbase-server/cheshire-cat/7.0.5.xml": {
             "release": "cheshire-cat",
-            "release_name": "Cheshire-Cat 7.0.5",
+            "release_name": "Cheshire-Cat 7.0.5-MP1",
             "parent": "couchbase-server/cheshire-cat.xml",
             "production": true,
             "start_build": 7649,
             "trigger_blackduck": true,
-            "interval": 485,
+            "interval": 125,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-53109"
+            "approval_ticket": "MB-56304"
         },
         "couchbase-server/cheshire-cat/7.0.4.xml": {
             "release": "cheshire-cat",
