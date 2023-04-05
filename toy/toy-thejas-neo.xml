@@ -94,7 +94,7 @@
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="mmap-go" remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
-  <project name="zapx" remote="toy" revision="308148fac55b961b85655a1891cd3a737e9f6e32" path="godeps/src/github.com/blevesearch/zapx"/>
+  <project name="zapx" remote="toy" revision="16cc2784c7cc6235a1ae99a4f88d7796a1c15979" path="godeps/src/github.com/blevesearch/zapx"/>
   <project name="vellum" remote="toy" revision="a1141d63c0661630e001def33a25ff4f7d6ab25e" path="godeps/src/github.com/blevesearch/vellum"/>
 
   <!-- Go support libraries - third-party -->
