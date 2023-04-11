@@ -39,7 +39,7 @@
   <project name="chronicle" revision="f53f803d409988d1bf3cdd2d7a5e9f55fb9dc2df" path="ns_server/deps/chronicle"/>
   <project name="vbmap" revision="7.1.4"/>
   <project name="phosphor" groups="bsl,kv" revision="2eb6c244d6910baf2834513ece579ba88e4f9b9d"/>
-  <project name="platform" revision="70cc192dbbf325b6ba531184298dab369f012aa1" groups="bsl,kv"/>
+  <project name="platform" revision="7.1.4" groups="bsl,kv"/>
   <project name="product-texts"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="0ba419507d27dce83273c7aa515d4fca69da374c"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="7.1.4"/>
@@ -47,7 +47,7 @@
   <project name="sigar" revision="410b89097cd635af112c9a21953a9e518f7aa13a" groups="kv"/>
   <project name="subjson" revision="0820f83427d69c6eb737876eb2f2cf6aefa45802" groups="bsl,kv"/>
   <project name="testrunner"/>
-  <project name="tlm" revision="07608d7a364d3fe13573dfccc50e1336f7639feb" groups="bsl,kv">
+  <project name="tlm" revision="7.1.4" groups="bsl,kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
     <copyfile src="Makefile" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
