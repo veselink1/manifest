@@ -1,55 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
-  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
-  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
-  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
-  <remote name="snej" fetch="https://github.com/snej/"/>
-  <remote name="google" fetch="https://github.com/google/"/>
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net"/>
+
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" />
+  <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Couchbase-owned Couchbase Lite Core                -->
+  <!-- Developer side build support                       -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="7570126f0a7799a20dd3405eec31c328f31942ee" path="couchbase-lite-net-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-core" revision="610a37e06a1a67903e7289866dfcfd69386716d5" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core"/>
-  <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/wiki"/>
 
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Couchbase-owned utility libraries                  -->
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="BLIP-Cpp" remote="couchbaselabs" revision="8bbba50dcb3d023eb07df0f0649389e7c8c003a9" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbase" revision="dcaa54943e6fcf05a610476912299873b5328bf7" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/fleece"/>
-  <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
-  <project name="sqlite3-unicodesn" remote="couchbasedeps" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
-  <project name="litecore-download-script" remote="couchbaselabs" revision="93274f9fb0936af0b754a408154a2a24d2dd0041" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/tools"/>
-  
-    <!-- Yes this is a duplicate, but the above cannot be removed without a Core PR later -->
-  <project name="litecore-download-script" remote="couchbaselabs" revision="a25b27b50baed58a7b05f8b8151a3269b5007044" path="couchbase-lite-net-ee/couchbase-lite-net/src/LiteCore/tools"/>
-  
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Third-party utility libraries                      -->
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="couchbasedeps" revision="e60e09de73933aadf7a400a15ae3fbdf75cfd15e" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/mbedtls"/>
-  <project name="zlib" remote="couchbasedeps" revision="04f42ceca40f73e2978b50e93806c2a18c1281fc" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/zlib"/>
-  <project name="SQLiteCpp" remote="couchbasedeps" revision="703aefabca4a3381201395a53176a7c5eba78f5e" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
-  <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
-  <project name="ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/ios-cmake"/>
-  <project name="sockpp" remote="couchbasedeps" revision="6fde3088edd41fa549dced003ba01a41fe0697cc" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/sockpp"/>
+  <project name="litecore-download-script" path="couchbase-lite-net-ee/jenkins/litecore_tools" remote="couchbaselabs" revision="main" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts" revision="master"/>
-  <project name="build" path="cbbuild" revision="5547da1aeb276479ba3adc9cd25bf9795640d976">
+  <project name="product-texts" path="product-texts" revision="master"/>
+  <project name="build" path="cbbuild" revision="master">
     <annotation name="VERSION" value="3.2.0" keep="true"/>
   </project>
 </manifest>
