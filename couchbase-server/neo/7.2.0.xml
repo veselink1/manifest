@@ -35,7 +35,7 @@
   <project name="kv_engine" revision="neo" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.3.5"/>
   <project name="magma" revision="neo" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
-  <project name="ns_server" revision="b5d56f9a2e22bec9845667149a80c7393276f821" groups="bsl"/>
+  <project name="ns_server" revision="0874c45314b51b010a16c80872e78eff39a1eff9" groups="bsl"/>
   <project name="chronicle" revision="67d2c3a847d8feeedd2c76ab383b508f1c29549c" path="ns_server/deps/chronicle"/>
   <project name="vbmap" revision="76ac2b92a3edbec1602d7e060d4d7d86dcb47887"/>
   <project name="phosphor" groups="bsl,kv" revision="2eb6c244d6910baf2834513ece579ba88e4f9b9d"/>
