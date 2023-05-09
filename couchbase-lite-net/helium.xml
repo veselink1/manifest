@@ -50,6 +50,6 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts" revision="master"/>
   <project name="build" path="cbbuild" revision="5547da1aeb276479ba3adc9cd25bf9795640d976">
-    <annotation name="VERSION" value="3.1.0" keep="true"/>
+    <annotation name="VERSION" value="3.1.1" keep="true"/>
   </project>
 </manifest>
