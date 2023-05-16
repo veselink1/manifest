@@ -47,7 +47,7 @@
   <project name="sigar" revision="410b89097cd635af112c9a21953a9e518f7aa13a" groups="kv"/>
   <project name="subjson" revision="0820f83427d69c6eb737876eb2f2cf6aefa45802" groups="bsl,kv"/>
   <project name="testrunner"/>
-  <project name="tlm" revision="5eb2d7c14c4516006bf6d48b653585d6e9826ccb" groups="bsl,kv">
+  <project name="tlm" revision="7.1.x" groups="bsl,kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
     <copyfile src="Makefile" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
