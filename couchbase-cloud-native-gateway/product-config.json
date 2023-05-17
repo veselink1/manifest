@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "couchbase-stellar-gateway/master.xml": {
+        "couchbase-cloud-native-gateway/master.xml": {
             "production": true,
             "interval": 1500,
             "restricted": false,
