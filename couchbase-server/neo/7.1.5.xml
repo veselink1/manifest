@@ -12,10 +12,10 @@
   <project name="backup" remote="couchbase-priv" path="backup" revision="93caa35b584d29f82ad2ff898826c044aca80f9a" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" revision="e84bdf887d73ec9aed186416239afb1a4a5c0c29" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" revision="27a574235760fca10fda53289669e43a5f7ea9e9"/>
-  <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="43902bacc62d5fedd335277ccd5ef894e355fc13"/>
+  <project name="cbft" revision="7.1.x"/>
+  <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="7.1.x"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise" revision="fd6a0a1013434e4ba8cae73f6c80d2433d72ed0b"/>
-  <project name="cbgt" revision="cf888c75f43a50db2ae7be657f94671ac3aa37d5"/>
+  <project name="cbgt" revision="7.1.x"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="083dc4dd2fd992caaaf3c9f1412ca3a8e87d0183"/>
   <project name="couchbase-cli" revision="dcbb1bb1a62bf6a355526f50dd4aa22251771242" groups="kv"/>
   <project name="couchdb" revision="03033a06e475186c4fcd8770b1f0e0ac367f0806"/>
@@ -66,7 +66,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="1a61e248c6a5a5448251e08f847619697f26dfd2"/>
+  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="7.1.x"/>
   <project name="go_json" path="goproj/src/github.com/couchbase/go_json" revision="39c6c3c3e21c5c0a0be9f696bdb9e496fde773f1"/>
   <project name="gomemcached" path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="7.1.x"/>
   <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="694763b234d64faaac75fbec427fc13132ccbcfe"/>
