@@ -1,13 +1,16 @@
 {
     "manifests": {
         "cbdeps/curl/master.xml": {
-            "release": "7.84.0",
-            "release_name": "curl 7.84.0",
             "production": true,
             "restricted": false,
             "start_build": 1,
             "jenkins_server": "server.jenkins.couchbase.com",
-            "jenkins_job": "no-op-build",
+            "jenkins_job": "cbdeps-build",
+            "platforms": [ "linux",
+                        "linux:aarch64",
+                        "macos",
+                        "macos:arm64",
+                        "windows_msvc2017" ],
             "do-build": false,
             "keep_git": true
         }
