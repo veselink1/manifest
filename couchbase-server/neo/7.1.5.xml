@@ -16,7 +16,7 @@
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="7.1.x"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise" revision="fd6a0a1013434e4ba8cae73f6c80d2433d72ed0b"/>
   <project name="cbgt" revision="7.1.x"/>
-  <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="083dc4dd2fd992caaaf3c9f1412ca3a8e87d0183"/>
+  <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="neo"/>
   <project name="couchbase-cli" revision="dcbb1bb1a62bf6a355526f50dd4aa22251771242" groups="kv"/>
   <project name="couchdb" revision="03033a06e475186c4fcd8770b1f0e0ac367f0806"/>
   <project name="couchstore" revision="19f191dd6d250b5e367238d638fcd50ad746a145" groups="kv"/>
