@@ -26,10 +26,10 @@
   <project name="forestdb" revision="48c31dcb979ca7e152c2db570af49149c6d3e2a7" groups="backup"/>
   <project name="geocouch" revision="68f3b9d36630682d17ca5232770f1693b9b8fa18"/>
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl" revision="7.1.x"/>
-  <project name="gometa" revision="288382d7f984c8226d673a136b8173dceddd9b80" path="goproj/src/github.com/couchbase/gometa"/>
+  <project name="gometa" revision="7.1.x" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro" revision="2575ec52bf5cf4c7ccc2cbc161eb38e46ce7b4a8" path="goproj/src/github.com/couchbase/nitro" groups="bsl"/>
   <project name="indexing" revision="7.1.x" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
-  <project name="plasma" revision="3336779722eb4a097d37ebbe118441ddaf64f3f2" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="plasma" revision="7.1.x" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="7.1.x" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="7.1.x" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="7.1.x" groups="kv,bsl"/>
@@ -37,7 +37,7 @@
   <project name="magma" revision="edf5c5c35b5206b3b815d2e47ae2ad23096d0133" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
   <project name="ns_server" revision="7.1.x" groups="bsl"/>
   <project name="chronicle" revision="f53f803d409988d1bf3cdd2d7a5e9f55fb9dc2df" path="ns_server/deps/chronicle"/>
-  <project name="vbmap" revision="bdaa65ace31b36bc26555004f3a6d22251070b7d"/>
+  <project name="vbmap" revision="7.1.x"/>
   <project name="phosphor" groups="bsl,kv" revision="2eb6c244d6910baf2834513ece579ba88e4f9b9d"/>
   <project name="platform" revision="37ae5f1c08bf87e79168f3b59dd195f61a3108a4" groups="bsl,kv"/>
   <project name="product-texts"/>
@@ -69,7 +69,7 @@
   <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="7.1.x"/>
   <project name="go_json" path="goproj/src/github.com/couchbase/go_json" revision="39c6c3c3e21c5c0a0be9f696bdb9e496fde773f1"/>
   <project name="gomemcached" path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="7.1.x"/>
-  <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="694763b234d64faaac75fbec427fc13132ccbcfe"/>
+  <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="7.1.x"/>
   <project name="go-couchbase" path="goproj/src/github.com/couchbase/go-couchbase" groups="backup" revision="959eaf944140a6c660990f38b1db310ddd6d8e42"/>
   <project name="goutils" path="goproj/src/github.com/couchbase/goutils" groups="bsl" revision="73dda2bf44424b5c588579948399e86e5de4be6c"/>
   <project name="godbc" path="goproj/src/github.com/couchbase/godbc" revision="c4f5a4b362d1213ab5fd8f19c631b824c1c8b46f"/>
@@ -90,7 +90,7 @@
   <project name="moss" path="godeps/src/github.com/couchbase/moss" groups="bsl" revision="4fae7b31078a3e2bd5848a7029754885cdc495e0"/>
   <project name="mossScope" path="godeps/src/github.com/couchbase/mossScope" groups="bsl" revision="9e34f3688e0abd1b057ea2196f02e45f830506f8"/>
   <project name="ghistogram" path="godeps/src/github.com/couchbase/ghistogram" revision="4ae3f06d0ac7b02081e33c1ec309daa22838d207"/>
-  <project name="logstats" revision="24ba9753289f155ab6d43a9a2585b9248da79791" path="godeps/src/github.com/couchbase/logstats" groups="bsl"/>
+  <project name="logstats" revision="7.1.x" path="godeps/src/github.com/couchbase/logstats" groups="bsl"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="mmap-go" remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
