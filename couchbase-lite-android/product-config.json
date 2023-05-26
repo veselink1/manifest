@@ -40,8 +40,8 @@
             "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/lithium.xml": {
-            "release": "3.0.5",
-            "release_name": "Couchbase Lite Android - Lithium 3.0.5",
+            "release": "3.0.12",
+            "release_name": "Couchbase Lite Android - Lithium 3.0.12",
             "production": true,
             "interval": 40320,
             "restricted": false,
