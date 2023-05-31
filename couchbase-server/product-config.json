@@ -14,7 +14,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": false,
-            "interval": 2500,
+            "interval": 10071,
             "keep_git": true
         },
         "couchbase-server/trinity.xml": {
@@ -34,7 +34,7 @@
             "production": true,
             "start_build": 3000,
             "trigger_blackduck": true,
-            "interval": 65,
+            "interval": 119,
             "keep_git": true
         },
         "couchbase-server/neo.xml": {
