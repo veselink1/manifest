@@ -8,7 +8,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="openssl" remote="couchbasedeps" revision="refs/tags/OpenSSL_1_1_1t"/>
+  <project name="openssl" remote="couchbasedeps" revision="refs/tags/OpenSSL_1_1_1u"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
