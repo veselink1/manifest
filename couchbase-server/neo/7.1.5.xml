@@ -62,7 +62,7 @@
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="7.1.x" groups="notdefault,enterprise,analytics"/>
   <project name="couchbase-jvm-core" path="analytics/couchbase-jvm-core" revision="refs/tags/1.7.24" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" revision="7.1.x" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-ui" groups="notdefault,enterprise,analytics" revision="1f97d13590c9e783c095812e45235817e9724fe6"/>
+  <project name="cbas-ui" groups="notdefault,enterprise,analytics" revision="7.1.x"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
