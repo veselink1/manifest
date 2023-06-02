@@ -29,25 +29,25 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language common repository    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="0b355ef6a3a9468956f815928859bf65a17d7411"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="dcdc4481f9951e24fc7d88cb15dfbaa1472511c7"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language Community Edition    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="21a435e6aab8fbb88e4d0c98c32dda3c826839c8"/>
+  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="0749b75322c459aba51f0e584d9335bcfab509a1"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" path="cbl-java/core" revision="20791809de62a2f09291d32cae3192911d2c4b0a"/>
-  <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="008d44b99eb7bd31655bc5d2343780125c19626c"/>
+  <project name="couchbase-lite-core" path="cbl-java/core" revision="cb2ba247358289b0e728c18ca40a10a8a2168935"/>
+  <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="156754ffda07da2065353d710b380b6b457d4d23"/>
 
   <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbase" name="fleece" path="cbl-java/core/vendor/fleece" revision="d9ad8314b0c1dc424a9b7d1ec9e88f154ac5923d"/>
+  <project remote="couchbase" name="fleece" path="cbl-java/core/vendor/fleece" revision="6364f7a0ff7fdcd9936e6dd26ef54ff935ac46ab"/>
   <project remote="snej" name="jsonsl" path="cbl-java/core/vendor/fleece/vendor/jsonsl" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c"/>
   <project remote="couchbasedeps" name="sqlite3-unicodesn" path="cbl-java/core/vendor/sqlite3-unicodesn" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597"/>
   <project remote="couchbasedeps" name="ios-cmake" path="cbl-java/core/vendor/ios-cmake" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6"/>
@@ -55,11 +55,11 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbasedeps" name="SQLiteCpp" path="cbl-java/core/vendor/SQLiteCpp" revision="2e7a9555bdb1a29501ebf9aafc0dc5059951b4a6"/>
+  <project remote="couchbasedeps" name="SQLiteCpp" path="cbl-java/core/vendor/SQLiteCpp" revision="4727e1c9f1cc07e1384031663cdad90fe3be7a6c"/>
   <project remote="google" name="googletest" path="cbl-java/core/vendor/SQLiteCpp/googletest" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
-  <project remote="couchbasedeps" name="mbedtls" path="cbl-java/core/vendor/mbedtls" revision="23c05c107c51cec7f298e6fbb9945957716cf356"/>
-  <project remote="couchbasedeps" name="sockpp" path="cbl-java/core/vendor/sockpp" revision="aa7c52855630fe4b65ab7a7ebace10f1a15df030"/>
-  <project remote="couchbasedeps" name="zlib" path="cbl-java/core/vendor/zlib" revision="21767c654d31d2dccdde4330529775c6c5fd5389"/>
+  <project remote="couchbasedeps" name="mbedtls" path="cbl-java/core/vendor/mbedtls" revision="e60e09de73933aadf7a400a15ae3fbdf75cfd15e"/>
+  <project remote="couchbasedeps" name="sockpp" path="cbl-java/core/vendor/sockpp" revision="6fde3088edd41fa549dced003ba01a41fe0697cc"/>
+  <project remote="couchbasedeps" name="zlib" path="cbl-java/core/vendor/zlib" revision="04f42ceca40f73e2978b50e93806c2a18c1281fc"/>
  
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase Licensing and Legal                      -->
