@@ -162,7 +162,7 @@
     <annotation name="BSL_VERSION" value="7.1" keep="true"/>
     <annotation name="BSL_CHANGE_DATE" value="April 1, 2026" keep="true"/>
   </project>
-  <project name="voltron" remote="couchbase-priv" revision="43a9e30bc8371f6904a7d944120a403270fe53a6" groups="notdefault,packaging"/>
+  <project name="voltron" remote="couchbase-priv" revision="7.1.x" groups="notdefault,packaging"/>
   <project name="couchdbx-app" groups="notdefault,packaging" revision="64bdc899ba72d021a3c1dde1a1aa5b698f42ee06"/>
   <project name="product-metadata" groups="notdefault,packaging" revision="ff7c24047435e393698847ec5147716017048636"/>
   <project name="golang" revision="main" remote="couchbaselabs"/>
