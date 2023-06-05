@@ -1,13 +1,11 @@
 {
     "manifests": {
         "couchbase-release/master.xml": {
-            "release": "1.0",
-            "release_name": "Couchbase Release 1.0 - master",
             "production": true,
             "interval": 10000,
             "do-build": false,
             "restricted": false,
-            "start_build": 11,
+            "start_build": 12,
             "keep_git": true
         }
     }
