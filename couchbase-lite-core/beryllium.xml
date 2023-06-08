@@ -29,7 +29,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="couchbasedeps" revision="e60e09de73933aadf7a400a15ae3fbdf75cfd15e" path="couchbase-lite-core/vendor/mbedtls"/>
+  <project name="mbedtls" remote="couchbasedeps" revision="c2aae8d4cf4710ff5944d7c85abb351b035572c0" path="couchbase-lite-core/vendor/mbedtls"/>
   <project name="ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-lite-core/vendor/ios-cmake"/>
   <project name="sockpp" remote="couchbasedeps" revision="6fde3088edd41fa549dced003ba01a41fe0697cc" path="couchbase-lite-core/vendor/sockpp"/>
   <project name="zlib" remote="couchbasedeps" revision="04f42ceca40f73e2978b50e93806c2a18c1281fc" path="couchbase-lite-core/vendor/zlib"/>
