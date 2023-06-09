@@ -1,8 +1,6 @@
 {
     "manifests": {
         "cbdeps/v8/master.xml": {
-            "release": "11.4.127",
-            "release_name": "v8 11.4.127",
             "production": true,
             "restricted": false,
             "start_build": 1,
