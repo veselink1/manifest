@@ -24,7 +24,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": false,
-            "interval": 247,
+            "interval": 188,
             "keep_git": true
         },
         "couchbase-server/elixir.xml": {
@@ -34,7 +34,7 @@
             "production": true,
             "start_build": 3000,
             "trigger_blackduck": true,
-            "interval": 119,
+            "interval": 366,
             "keep_git": true
         },
         "couchbase-server/neo.xml": {
@@ -44,7 +44,7 @@
             "production": true,
             "start_build": 5700,
             "trigger_blackduck": true,
-            "interval": 252,
+            "interval": 188,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-56561"
@@ -56,7 +56,7 @@
             "production": true,
             "start_build": 5000,
             "trigger_blackduck": true,
-            "interval": 252,
+            "interval": 366,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-57070"
@@ -68,7 +68,7 @@
             "production": true,
             "start_build": 3800,
             "trigger_blackduck": true,
-            "interval": 899,
+            "interval": 121,
             "do-build": true,
             "keep_git": true,
             "restricted": true,
@@ -81,7 +81,7 @@
             "production": true,
             "start_build": 3630,
             "trigger_blackduck": true,
-            "interval": 241,
+            "interval": 482,
             "do-build": true,
             "keep_git": true,
             "restricted": true,
@@ -94,7 +94,7 @@
             "production": true,
             "start_build": 3470,
             "trigger_blackduck": true,
-            "interval": 243,
+            "interval": 482,
             "do-build": true,
             "keep_git": true,
             "restricted": true,
@@ -107,7 +107,7 @@
             "production": true,
             "start_build": 3300,
             "trigger_blackduck": true,
-            "interval": 252,
+            "interval": 1502,
             "do-build": true,
             "keep_git": true,
             "restricted": true,
