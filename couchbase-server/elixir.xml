@@ -58,11 +58,11 @@
   </project>
   <project name="udf-api"     path="goproj/src/github.com/couchbase/udf-api"/>
   <!-- Analytics additions -->
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
-  <project name="analytics-dcp-client" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" revision="ff8edbfc2f014b26b4574f26168a66ae5bbd5390" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" path="analytics/asterixdb" revision="92297c7d875c6373da3200f1097a3018fdd828ba" groups="notdefault,enterprise,analytics"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="c646eea82225d1c4ffc73c2de94a6fc6afa2a910" groups="notdefault,enterprise,analytics"/>
   <project name="couchbase-jvm-core" path="analytics/couchbase-jvm-core" revision="refs/tags/1.7.24" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas" path="goproj/src/github.com/couchbase/cbas" revision="62d21a65adadddf7dd27e0e8417ada6d1b409eab" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="notdefault,enterprise,analytics"/>
 
   <!-- Go support libraries - Couchbase-supported -->
