@@ -48,7 +48,7 @@
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="bsl,kv"/>
   <project name="testrunner"/>
-  <project name="tlm" groups="bsl,kv">
+  <project name="tlm" revision="elixir" groups="bsl,kv">
     <copyfile src="Build.sh" dest="Build.sh" />
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
