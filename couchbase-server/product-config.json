@@ -14,7 +14,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": false,
-            "interval": 10071,
+            "interval": 1430,
             "keep_git": true
         },
         "couchbase-server/trinity.xml": {
