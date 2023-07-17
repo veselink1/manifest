@@ -1,8 +1,15 @@
 {
     "manifests": {
         "couchbase-operator/master.xml": {
-            "release": "2.5.0",
-            "release_name": "Couchbase Operator 2.5.0 - master",
+            "production": true,
+            "interval": 120,
+            "restricted": false,
+            "start_build": 100,
+            "trigger_blackduck": true,
+            "jenkins_job": "couchbase-k8s-microservice-build",
+            "keep_git": true
+        },
+        "couchbase-operator/2.5.x.xml": {
             "production": true,
             "interval": 240,
             "restricted": false,
@@ -13,7 +20,7 @@
         },
         "couchbase-operator/2.4.x.xml": {
             "production": true,
-            "interval": 120,
+            "interval": 240,
             "restricted": false,
             "start_build": 100,
             "trigger_blackduck": true,
