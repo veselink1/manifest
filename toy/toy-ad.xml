@@ -32,7 +32,7 @@
   <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" revision="694763b234d64faaac75fbec427fc13132ccbcfe" groups="backup" />
   <project name="cbbs" remote="couchbase-priv" revision="a8f8d74111bf81d9f49c8f6bf0df714b783849d7" groups="backup,notdefault,enterprise" />
   <project name="cbft" remote="abhinavdangeti" revision="temp" />
-  <project name="cbftx" remote="abhinavdangeti" revision="temp" groups="notdefault,enterprise" />
+  <project name="cbftx" remote="couchbase-priv" revision="43902bacc62d5fedd335277ccd5ef894e355fc13" groups="notdefault,enterprise" />
   <project name="cbgt" revision="f7e914eb5c8282bb47b48103c906389be38cb512" />
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="083dc4dd2fd992caaaf3c9f1412ca3a8e87d0183" />
   <project name="chronicle" path="ns_server/deps/chronicle" revision="f53f803d409988d1bf3cdd2d7a5e9f55fb9dc2df" />
