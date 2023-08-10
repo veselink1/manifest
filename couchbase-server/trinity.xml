@@ -98,7 +98,6 @@
   <project name="perks"          remote="couchbasedeps" revision="refs/tags/v1.0.1"                         path="godeps/src/github.com/beorn7/perks"/>
   <project name="protobuf-go"    remote="couchbasedeps" revision="refs/tags/v1.28.0"                        path="godeps/src/google.golang.org/protobuf"/>
   <project name="golang_protobuf_extensions" remote="couchbasedeps" revision="c182affec369e30f25d3eb8cd8a478dee585ae7d" path="godeps/src/github.com/matttproud/golang_protobuf_extensions"/>
-  <project name="go-curl"        remote="couchbasedeps" revision="20161221-couchbase"                       path="godeps/src/github.com/couchbasedeps/go-curl"/>
   <project name="flatbuffers"    remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303" path="godeps/src/github.com/google/flatbuffers"/>
   <project name="errors"          remote="couchbasedeps" revision="30136e27e2ac8d167177e8a583aa4c3fea5be833" path="godeps/src/github.com/pkg/errors"/>
   <project name="participle"      remote="couchbasedeps" revision="d638c6e1953ed899e05a34da3935146790c60e46" path="godeps/src/github.com/alecthomas/participle"/>
