@@ -1,8 +1,6 @@
 {
     "manifests": {
         "python_tools/cb-non-package-installer/master.xml": {
-            "release": "100.0.1",
-            "release_name": "cb-non-package-installer 100.0.1",
             "production": true,
             "restricted": false,
             "start_build": 1,
