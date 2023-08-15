@@ -7,6 +7,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Main source: Supported by Couchbase Analytics team -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="cbas-maven-plugins" path="."
+  <project name="cbas-maven-plugins" path="."/>
 
 </manifest>
+
