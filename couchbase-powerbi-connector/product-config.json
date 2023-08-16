@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "couchbase-powerbi-connector/main.xml": {
+            "production": true,
+            "restricted": false,
+            "start_build": 100,
+            "trigger_blackduck": true,
+            "do-build": true,
+            "interval": 720,
+            "keep_git": true
+        }
+    }
+}
