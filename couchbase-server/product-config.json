@@ -72,7 +72,7 @@
             "do-build": true,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-58307"
+            "approval_ticket": "MB-58334"
         },
         "couchbase-server/neo/7.1.4.xml": {
             "release": "neo",
