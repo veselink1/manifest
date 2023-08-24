@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="couchbase-server/trinity.xml" />
+
+  <!-- goldfish overrides -->
+  <extend-project name="cbas-core" revision="master" />
+  <extend-project name="asterixdb" revision="master" />
+  <extend-project name="analytics-dcp-client" revision="master" />
+  <extend-project name="couchbase-jvm-core" revision="master" />
+  <extend-project name="cbas" revision="master" />
+  <extend-project name="cbas-ui" revision="master" />
+
+</manifest>
