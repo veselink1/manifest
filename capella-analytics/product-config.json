@@ -1,0 +1,11 @@
+{
+    "manifests": {
+        "capella-analytics/main.xml": {
+            "production": true,
+            "start_build": 1000,
+            "trigger_blackduck": false,
+            "interval": 1430,
+            "keep_git": true
+        }
+    }
+}

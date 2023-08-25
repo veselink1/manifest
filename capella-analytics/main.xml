@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- We're a modified trinity, for now -->
+  <include name="couchbase-server/trinity.xml"/>
+
+  <!-- Pick up Analytics projects from master branches -->
+  <extend-project name="cbas-core" revision="master" />
+  <extend-project name="asterixdb" revision="master" />
+  <extend-project name="analytics-dcp-client" revision="master" />
+  <extend-project name="cbas" revision="master" />
+  <extend-project name="cbas-ui" revision="master" />
+
+  <!-- Replace build repo to provide different annotations -->
+  <!-- Don't use just extend-project as that leaves in other annotations -->
+  <!-- from the parent, such as BSL stuff -->
+  <remove-project name="build"/>
+  <project name="build" path="cbbuild" groups="notdefault,build" revision="2beb97fb2e69a8f661d27821e77282dd1426d26a">
+    <annotation name="VERSION" value="1.0.0"     keep="true"/>
+    <annotation name="SERVER_VERSION" value="7.6.100"     keep="true"/>
+  </project>
+</manifest>
