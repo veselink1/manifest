@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "couchbase-goldfish-nebula/main.xml": {
+            "production": true,
+            "interval": 244,
+            "restricted": false,
+            "start_build": 100,
+            "trigger_blackduck": true,
+            "jenkins_job": "couchbase-k8s-microservice-build",
+            "keep_git": true
+        }
+    }
+}
