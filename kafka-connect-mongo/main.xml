@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase" review="review.couchbase.org" />
+
+  <default remote="couchbase" revision="master"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Main source: Supported by Couchbase Analytics team -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="kafka-connect-mongo" revision="couchbase-main"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - build scripts, etc.                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="build" revision="c1b485bbf14aa1176be5ea26b7982f4002188429">
+    <annotation name="VERSION" value="1.0" keep="true"/>
+  </project>
+</manifest>

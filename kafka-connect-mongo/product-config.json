@@ -1,0 +1,14 @@
+{
+    "manifests": {
+        "kafka-connect-mongo/main.xml": {
+            "production": true,
+            "interval": 1452,
+            "restricted": false,
+            "start_build": 100,
+            "trigger_blackduck": true,
+            "do-build": true,
+            "keep_git": true,
+            "jenkins_job": "jar-build"
+        }
+    }
+}
