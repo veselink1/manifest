@@ -11,7 +11,7 @@
         "module_projects": ["couchbase-lite-c", "couchbase-lite-c-ee"]
       },
       "couchbase-lite-c/helium.xml": {
-        "release_name": "Couchbase Lite C - 3.1.1",
+        "release_name": "Couchbase Lite C - Helium",
         "production": true,
         "interval": 240,
         "restricted": false,
