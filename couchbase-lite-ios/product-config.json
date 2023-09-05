@@ -15,7 +15,7 @@
             ]
         },
         "couchbase-lite-ios/helium.xml": {
-            "release_name": "Couchbase Lite iOS - 3.1.1",
+            "release_name": "Couchbase Lite iOS - Helium",
             "production": true,
             "interval": 240,
             "restricted": false,
@@ -29,7 +29,7 @@
             ]
         },
         "couchbase-lite-ios/lithium.xml": {
-            "release_name": "Couchbase Lite iOS - Lithium 3.0.13",
+            "release_name": "Couchbase Lite iOS - Lithium",
             "production": true,
             "interval": 1440,
             "restricted": false,
