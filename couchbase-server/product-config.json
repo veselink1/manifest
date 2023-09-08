@@ -39,7 +39,7 @@
         },
         "couchbase-server/neo.xml": {
             "release": "neo",
-            "release_name": "Neo (7.2.1)",
+            "release_name": "Neo (7.2.2)",
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 6300,
