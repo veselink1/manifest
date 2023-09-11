@@ -41,8 +41,8 @@
   <project name="crypto" path="godeps/src/golang.org/x/crypto" remote="couchbasedeps" revision="630584e8d5aaa1472863b49679b2d5548d80dcba" />
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="2e6af0c097c8bb98a596cbc81cdf6e169ae5b3cc" upstream="master" dest-branch="master" />
   <project name="errors" path="godeps/src/github.com/pkg/errors" remote="couchbasedeps" revision="30136e27e2ac8d167177e8a583aa4c3fea5be833" />
-  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" revision="6baae6c910f68a65fd734d0158a408092e4afa95" upstream="master" dest-branch="unstable" groups="notdefault,enterprise" />
-  <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" revision="be1038bd9b48e273839d21197e0a3f1a3ee12ae0" upstream="master" dest-branch="unstable" groups="notdefault,enterprise" />
+  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" revision="4dd61b9a92e87efb22f59dcc07d83643333610b8" upstream="master" dest-branch="unstable" groups="notdefault,enterprise" />
+  <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" revision="1e4300377d9b18a631cc466003283ed810fcc055" upstream="master" dest-branch="unstable" groups="notdefault,enterprise" />
   <project name="flatbuffers" path="godeps/src/github.com/google/flatbuffers" remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303" />
   <project name="forestdb" revision="acba4587ab18218bed0c959c8d980b0de8de3a18" upstream="cb-master" dest-branch="cb-master" groups="backup" />
   <project name="geocouch" revision="68f3b9d36630682d17ca5232770f1693b9b8fa18" upstream="master" dest-branch="master" />
