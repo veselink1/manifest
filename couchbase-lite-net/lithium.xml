@@ -20,7 +20,7 @@
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="156754ffda07da2065353d710b380b6b457d4d23" path="couchbase-lite-net-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-core" revision="cb2ba247358289b0e728c18ca40a10a8a2168935" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="9e59593d029adf1d8c56a503122d1f3615b2e66c" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -39,7 +39,7 @@
   <project name="SQLiteCpp" remote="couchbasedeps" revision="4727e1c9f1cc07e1384031663cdad90fe3be7a6c" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
   <project name="ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/ios-cmake"/>
-  <project name="sockpp" remote="couchbasedeps" revision="6fde3088edd41fa549dced003ba01a41fe0697cc" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/sockpp"/>
+  <project name="sockpp" remote="couchbasedeps" revision="060fe2fcdc057643367d0623d21ce0d322e3ed74" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/sockpp"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
