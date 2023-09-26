@@ -29,7 +29,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language common repository    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="dcdc4481f9951e24fc7d88cb15dfbaa1472511c7"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="a40862a47ff4d9dadf58df28eeb7afb26bbeb349"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language Community Edition    -->
@@ -39,7 +39,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" path="cbl-java/core" revision="cb2ba247358289b0e728c18ca40a10a8a2168935"/>
+  <project name="couchbase-lite-core" path="cbl-java/core" revision="4952e845308686f7ee1b7a7cc48ab3212d987638"/>
   <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="156754ffda07da2065353d710b380b6b457d4d23"/>
 
   <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
@@ -58,7 +58,7 @@
   <project remote="couchbasedeps" name="SQLiteCpp" path="cbl-java/core/vendor/SQLiteCpp" revision="4727e1c9f1cc07e1384031663cdad90fe3be7a6c"/>
   <project remote="google" name="googletest" path="cbl-java/core/vendor/SQLiteCpp/googletest" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
   <project remote="couchbasedeps" name="mbedtls" path="cbl-java/core/vendor/mbedtls" revision="e60e09de73933aadf7a400a15ae3fbdf75cfd15e"/>
-  <project remote="couchbasedeps" name="sockpp" path="cbl-java/core/vendor/sockpp" revision="6fde3088edd41fa549dced003ba01a41fe0697cc"/>
+  <project remote="couchbasedeps" name="sockpp" path="cbl-java/core/vendor/sockpp" revision="060fe2fcdc057643367d0623d21ce0d322e3ed74"/>
   <project remote="couchbasedeps" name="zlib" path="cbl-java/core/vendor/zlib" revision="04f42ceca40f73e2978b50e93806c2a18c1281fc"/>
  
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
