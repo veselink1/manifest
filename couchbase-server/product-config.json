@@ -32,6 +32,7 @@
             "release_name": "Elixir",
             "parent": "branch-master.xml",
             "production": true,
+            "do-build": false,
             "start_build": 3000,
             "trigger_blackduck": true,
             "interval": 1446,
