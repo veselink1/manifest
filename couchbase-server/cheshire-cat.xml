@@ -170,5 +170,5 @@
   <project name="voltron"          revision="cheshire-cat"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app"     revision="64bdc899ba72d021a3c1dde1a1aa5b698f42ee06" groups="notdefault,packaging" />
   <project name="product-metadata" groups="notdefault,packaging" />
-  <project name="golang" revision="main" remote="couchbaselabs"/>
+  <project name="golang" revision="ea9c73efa045c8beada80f98e4467685ffe3d707" remote="couchbaselabs"/>
 </manifest>
