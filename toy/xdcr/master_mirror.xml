@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="nelio2k" fetch="ssh://git@github.com/nelio2k/" />
+
+  <!-- We're a modified trinity, for now -->
+  <include name="couchbase-server/trinity.xml"/>
+
+  <!-- Pick up XDCR project from mirrored branch that depends on manual upkeep (technically trinity right now) -->
+  <extend-project name="goxdcr" remote="nelio2k" revision="gerrit_master_mirror" path="goproj/src/github.com/couchbase/goxdcr"/>
+</manifest>
