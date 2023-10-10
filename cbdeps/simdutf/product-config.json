@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "cbdeps/simdutf/master.xml": {
+            "release": "v3.2.14",
+            "release_name": "simdutf v3.2.14",
+            "production": true,
+            "restricted": false,
+            "start_build": 1,
+            "jenkins_server": "server.jenkins.couchbase.com",
+            "jenkins_job": "no-op-build",
+            "do-build": false,
+            "keep_git": true
+        }
+    }
+}
